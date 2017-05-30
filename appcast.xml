@@ -11,8 +11,8 @@
 <pubDate>Wed, 05 Nov 2015 12:00:00 +0000</pubDate>
 <enclosure
  url="https://github.com/jrondorf/Blankstrap/archive/master.zip"
- sparkle:version="0.1.1"
- sparkle:shortVersionString="0.1.1"
+ sparkle:version="1"
+ sparkle:shortVersionString="0.0.1"
  length="1"
  type="application/octet-stream" />
 </item>
