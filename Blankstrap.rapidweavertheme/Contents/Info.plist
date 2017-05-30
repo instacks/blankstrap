@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>RWAddonAuthor</key>
-	<string>Jannis and Gary</string>
+	<string>inStacks Software / WEBdeerSIGN</string>
 	<key>RWAddonManagerIconAsset</key>
 	<string>icon</string>
 	<key>RWAddonSupportURL</key>
@@ -13,13 +13,13 @@
 	<key>CFBundleIdentifier</key>
 	<string>blankstrap</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.0.1</string>
+	<string>0.0.2</string>
 	<key>CFBundleVersion</key>
-	<string>0.0.1</string>
+	<string>0.0.2</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Jannis and Gary</string>
+	<string>inStacks Software / WEBdeerSIGN</string>
 	<key>author/copyright info</key>
-	<string>Jannis and Gary</string>
+	<string>inStacks Software / WEBdeerSIGN</string>
 	<key>SUFeedURL</key>
 	<string>https://raw.githubusercontent.com/jrondorf/Blankstrap/master/appcast.xml</string>
 </dict>

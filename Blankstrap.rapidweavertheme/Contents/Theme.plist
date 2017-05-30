@@ -58,9 +58,9 @@
 		<key>RWBreadCrumbSeparator</key>
 		<string>&amp;nbsp;&gt;&amp;nbsp;</string>
 		<key>RWSupportedLevels</key>
-		<integer>2</integer>
+		<integer>1</integer>
 		<key>RWToolbarItemCurrent</key>
-		<string>&lt;li role=&quot;presentation&quot; class=&quot;active&quot;&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
+		<string>&lt;li class=&quot;nav-item&quot; class=&quot;active&quot;&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;nav-link&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarItemCurrentParent</key>
 		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; id=&quot;current&quot; class=&quot;parent&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarItemCurrentAncestor</key>
@@ -68,16 +68,16 @@
 		<key>RWToolbarItemCurrentAncestorParent</key>
 		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;currentAncestor parent&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&amp;gt;</string>
 		<key>RWToolbarItemNormal</key>
-		<string>&lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
+		<string>&lt;li class=&quot;nav-item&quot;&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;nav-link&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarItemNormalParent</key>
 		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;parent&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&amp;gt;</string>
 		<key>RWToolbarList</key>
-		<string>&lt;ul class=&quot;nav nav-pills&quot;&gt;%items%&lt;/ul&gt;</string>
+		<string>&lt;ul class=&quot;navbar-nav mr-auto&quot;&gt;%items%&lt;/ul&gt;</string>
 	</dict>
 	<key>RWThemeAuthor</key>
-	<string>inStacks Software</string>
+	<string>inStacks Software / WEBdeerSIGN</string>
 	<key>RWAddonAuthor</key>
-	<string>inStacks Software</string>
+	<string>inStacks Software / WEBdeerSIGN</string>
 	<key>RWThemeCapabilities</key>
 	<dict>
 		<key>RWSupportsContentOnlySubPages</key>
