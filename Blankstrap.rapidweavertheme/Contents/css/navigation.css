@@ -1,0 +1,7 @@
+.navbar {
+	display: flex !important;
+}
+
+body {
+    padding-top: 3.5rem;
+}
