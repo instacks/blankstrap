@@ -8,7 +8,9 @@
 	</array>
 	<key>RWCopyFiles</key>
 	<array>
-		<string>styles.css</string>
+		<string>css</string>
+		<string>fonts</string>
+		<string>js</string>
 		<string>colourtag.css</string>
 		<string>javascript.js</string>
 	</array>
@@ -16,6 +18,32 @@
 	<dict>
 		<key>RWStyleGroups</key>
 		<array>
+			<dict>
+				<key>GroupDisplayName</key>
+				<dict>
+					<key>en</key>
+					<string>Tools</string>
+				</dict>
+				<key>GroupMembers</key>
+				<array>
+					<dict>
+						<key>Enabled</key>
+						<true/>
+						<key>Files</key>
+						<array>
+							<string>css/font-awesome.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>Font Awesome</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+				</array>
+				<key>GroupName</key>
+				<string>Tools</string>
+				<key>GroupSelectionLimit</key>
+				<integer>0</integer>
+			</dict>
 			<dict>
 				<key>GroupDisplayName</key>
 				<dict>
