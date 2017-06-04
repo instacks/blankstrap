@@ -60,28 +60,67 @@
 				<key>GroupDisplayName</key>
 				<dict>
 					<key>en</key>
-					<string>Colours</string>
+					<string>Colors</string>
 				</dict>
 				<key>GroupMembers</key>
 				<array>
+					<dict>
+						<key>Enabled</key>
+						<true/>
+						<key>Files</key>
+						<array>
+							<string>js/body-background-color.js</string>
+						</array>
+						<key>Name</key>
+						<string>Override Body Background Color</string>
+						<key>Type</key>
+						<string>Javascript</string>
+					</dict>
 					<dict>
 						<key>DefaultColour</key>
 						<string>#FFFFFF</string>
 						<key>DisplayName</key>
 						<dict>
 							<key>en</key>
-							<string>Body Background</string>
+							<string>Body Background Color</string>
 						</dict>
 						<key>Name</key>
-						<string>Body Background</string>
+						<string>Body Background Color</string>
 						<key>Tag</key>
-						<string>%colour_body_background%</string>
+						<string>%color_body_background%</string>
+						<key>Type</key>
+						<string>Colour</string>
+					</dict>
+					<dict>
+						<key>Enabled</key>
+						<true/>
+						<key>Files</key>
+						<array>
+							<string>js/body-color.js</string>
+						</array>
+						<key>Name</key>
+						<string>Override Text Color</string>
+						<key>Type</key>
+						<string>Javascript</string>
+					</dict>
+					<dict>
+						<key>DefaultColour</key>
+						<string>#FFFFFF</string>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Text Color</string>
+						</dict>
+						<key>Name</key>
+						<string>Text Color</string>
+						<key>Tag</key>
+						<string>%color_body_text%</string>
 						<key>Type</key>
 						<string>Colour</string>
 					</dict>
 				</array>
 				<key>GroupName</key>
-				<string>Colours</string>
+				<string>Colors</string>
 			</dict>
 		</array>
 	</dict>

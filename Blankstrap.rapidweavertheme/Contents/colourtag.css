@@ -1,3 +1,9 @@
-body {
-    background-color: %colour_body_background%;
+#blankstrap-nav {
+    display: none !important;
+}
+
+#blankstrap {
+    display: none;
+    background-color: %color_body_background%;
+    color: %color_body_text%;
 }
