@@ -1,31 +1,35 @@
 <html>
+
 <head>
     %header%
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
     <meta charset="utf-8">
     <title>%title%</title>
     <script src="%pathto(js/jquery-3.1.1.slim.min.js)%"></script>
-    <link rel="stylesheet" href="%pathto(css/bootstrap.min.css)%">
-    <link rel="stylesheet" type="text/css" media="screen" href="%pathto(colourtag.css)%" /> %style_variations% %user_styles%
-    %plugin_header% %user_header%
+    <link rel="stylesheet" type="text/css" media="screen" href="%pathto(colourtag.css)%" /> %style_variations% %user_styles% %plugin_header% %user_header%
 </head>
+
 <body>
-    <nav id="blankstrap-nav" class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="/">%site_title%</a>
-        <div class="collapse navbar-collapse" id="navbarNav">%navigation%</div>
-    </nav>
-    <div class="container">
-        <div class="row">
-            %content%
+    <div id="blankstrap-nav" class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
+        <!--<div class="navbar navbar-toggleable-md fixed-top navbar-inverse bg-primary">-->
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="../" class="navbar-brand">
+                %site_title%
+            </a>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                %navigation%
+            </div>
         </div>
     </div>
+    %content%
     <div id="blankstrap"></div>
     <script src="%pathto(js/tether.min.js)%"></script>
     <script src="%pathto(js/bootstrap.min.js)%"></script>
     <script type="text/javascript" src="%pathto(js/javascript.js)%"></script>
     %user_javascript%
 </body>
+
 </html>

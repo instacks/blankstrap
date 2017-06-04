@@ -22,6 +22,411 @@
 				<key>GroupDisplayName</key>
 				<dict>
 					<key>en</key>
+					<string>Styles</string>
+				</dict>
+				<key>GroupMembers</key>
+				<array>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Default</string>
+						</dict>
+						<key>Enabled</key>
+						<true/>
+						<key>Files</key>
+						<array>
+							<string>css/bootstrap.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>Default</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Cerulean</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/cerulean/bootstrap.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>Cerulean</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Cosmo</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/cosmo/bootstrap.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>Cosmo</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Custom</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/custom/bootstrap.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>Custom</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Cyborg</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/cyborg/bootstrap.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>Cyborg</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Darkly</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/darkly/bootstrap.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>Darkly</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Flatly</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/flatly/bootstrap.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>Flatly</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Journal</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/journal/bootstrap.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>Journal</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Litera</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/litera/bootstrap.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>Litera</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Lumen</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/lumen/bootstrap.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>Lumen</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Lux</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/lux/bootstrap.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>Lux</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Materia</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/materia/bootstrap.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>Materia</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Minty</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/minty/bootstrap.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>Minty</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Pulse</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/pulse/bootstrap.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>Pulse</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Sandstone</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/sandstone/bootstrap.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>Sandstone</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Simplex</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/simplex/bootstrap.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>Simplex</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Sketchy</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/sketchy/bootstrap.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>Sketchy</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Slate</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/slate/bootstrap.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>Slate</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Solar</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/solar/bootstrap.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>Solar</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Spacelab</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/spacelab/bootstrap.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>Spacelab</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Superhero</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/superhero/bootstrap.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>Superhero</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>United</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/united/bootstrap.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>United</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Yeti</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/yeti/bootstrap.min.css</string>
+						</array>
+						<key>Name</key>
+						<string>Yeti</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+				</array>
+				<key>GroupName</key>
+				<string>Styles</string>
+				<key>GroupSelectionLimit</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>GroupDisplayName</key>
+				<dict>
+					<key>en</key>
 					<string>Settings</string>
 				</dict>
 				<key>GroupMembers</key>
@@ -31,12 +436,12 @@
 						<true/>
 						<key>Files</key>
 						<array>
-							<string>css/navigation.css</string>
+							<string>js/navigation.js</string>
 						</array>
 						<key>Name</key>
 						<string>Display Navigation</string>
 						<key>Type</key>
-						<string>Stylesheet</string>
+						<string>Javascript</string>
 					</dict>
 					<dict>
 						<key>Enabled</key>
@@ -129,34 +534,34 @@
 	<key>RWTextToolbar</key>
 	<dict>
 		<key>RWAlwaysDisplayFullNavigation</key>
-		<false/>
+		<true/>
 		<key>RWBreadCrumb</key>
-		<string>&lt;ul&gt;%items%&lt;/ul&gt;</string>
+		<string>&lt;ul class="breadcrumb"&gt;%items%&lt;/ul&gt;</string>
 		<key>RWBreadCrumbItem</key>
 		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot;&gt;%title%&lt;/a&gt;%separator%&lt;/li&gt;</string>
 		<key>RWBreadCrumbSeparator</key>
 		<string>&amp;nbsp;&gt;&amp;nbsp;</string>
 		<key>RWSupportedLevels</key>
-		<integer>1</integer>
+		<integer>2</integer>
 		<key>RWToolbarItemCurrent</key>
 		<string>&lt;li class=&quot;nav-item&quot; class=&quot;active&quot;&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;nav-link&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarItemCurrentParent</key>
-		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; id=&quot;current&quot; class=&quot;parent&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
+		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; id=&quot;current&quot; class=&quot;nav-item&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarItemCurrentAncestor</key>
 		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;currentAncestor&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarItemCurrentAncestorParent</key>
-		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;currentAncestor parent&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&amp;gt;</string>
+		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;currentAncestor nav-item&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&amp;gt;</string>
 		<key>RWToolbarItemNormal</key>
 		<string>&lt;li class=&quot;nav-item&quot;&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;nav-link&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarItemNormalParent</key>
-		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;parent&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&amp;gt;</string>
+		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;nav-item&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&amp;gt;</string>
 		<key>RWToolbarList</key>
-		<string>&lt;ul class=&quot;navbar-nav mr-auto&quot;&gt;%items%&lt;/ul&gt;</string>
+		<string>&lt;ul class=&quot;navbar-nav&quot;&gt;%items%&lt;/ul&gt;</string>
 	</dict>
 	<key>RWThemeAuthor</key>
-	<string>inStacks Software / WEBdeerSIGN</string>
+	<string>inStacks Software feat. WEBdeerSIGN</string>
 	<key>RWAddonAuthor</key>
-	<string>inStacks Software / WEBdeerSIGN</string>
+	<string>inStacks Software feat. WEBdeerSIGN</string>
 	<key>RWThemeCapabilities</key>
 	<dict>
 		<key>RWSupportsContentOnlySubPages</key>
