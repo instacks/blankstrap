@@ -550,13 +550,13 @@
 		<key>RWToolbarItemCurrentAncestor</key>
 		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;currentAncestor&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarItemCurrentAncestorParent</key>
-		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;currentAncestor nav-item&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&amp;gt;</string>
+		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;currentAncestor nav-item&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarItemNormal</key>
 		<string>&lt;li class=&quot;nav-item&quot;&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;nav-link&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarItemNormalParent</key>
-		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;nav-item&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&amp;gt;</string>
+		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;nav-item&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarList</key>
-		<string>&lt;ul class=&quot;navbar-nav&quot;&gt;%items%&lt;/ul&gt;</string>
+		<string>%items%</string>
 	</dict>
 	<key>RWThemeAuthor</key>
 	<string>inStacks Software feat. WEBdeerSIGN</string>
