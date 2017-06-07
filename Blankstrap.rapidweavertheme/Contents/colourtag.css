@@ -2,6 +2,15 @@
     display: none;
 }
 
+#blankstrap-nav img {
+    height: auto;
+    max-width: 30px;
+    max-height: 30px;
+    vertical-align: top !important;
+    display: inline-block !important;
+    margin-right: 1rem;
+}
+
 #blankstrap {
     display: none;
     background-color: %color_body_background%;
