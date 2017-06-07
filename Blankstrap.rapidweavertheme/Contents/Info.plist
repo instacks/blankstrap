@@ -22,5 +22,7 @@
 	<string>inStacks Software feat. WEBdeerSIGN</string>
 	<key>SUFeedURL</key>
 	<string>https://raw.githubusercontent.com/jrondorf/Blankstrap/master/appcast.xml</string>
+	<key>RWThemeSDKVersion</key>
+	<string>7.0</string>
 </dict>
 </plist>
