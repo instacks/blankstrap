@@ -535,6 +535,8 @@
 	<dict>
 		<key>RWAlwaysDisplayFullNavigation</key>
 		<true/>
+		<key>RWAlwaysDisplayFullSubNavigation</key>
+		<true/>
 		<key>RWBreadCrumb</key>
 		<string>&lt;ul class="breadcrumb"&gt;%items%&lt;/ul&gt;</string>
 		<key>RWBreadCrumbItem</key>
@@ -542,9 +544,9 @@
 		<key>RWBreadCrumbSeparator</key>
 		<string>&amp;nbsp;&gt;&amp;nbsp;</string>
 		<key>RWSupportedLevels</key>
-		<integer>2</integer>
+		<integer>3</integer>
 		<key>RWToolbarItemCurrent</key>
-		<string>&lt;li class=&quot;nav-item&quot; class=&quot;active&quot;&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;nav-link&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
+		<string>&lt;li class=&quot;nav-item active&quot;&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;nav-link&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarItemCurrentParent</key>
 		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; id=&quot;current&quot; class=&quot;nav-item&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarItemCurrentAncestor</key>
@@ -595,6 +597,6 @@
 	<key>RWAddonSupportURL</key>
 	<string>https://github.com/jrondorf/Blankstrap</string>
 	<key>RWVersion</key>
-	<integer>1</integer>
+	<integer>7</integer>
 </dict>
 </plist>
