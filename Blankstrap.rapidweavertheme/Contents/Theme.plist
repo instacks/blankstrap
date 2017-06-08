@@ -427,6 +427,88 @@
                 <key>GroupDisplayName</key>
                 <dict>
                     <key>en</key>
+                    <string>Navigation Bar Colors</string>
+                </dict>
+                <key>GroupMembers</key>
+                <array>
+                    <dict>
+                        <key>DisplayName</key>
+                        <dict>
+                            <key>en</key>
+                            <string>navbar-inverse bg-inverse</string>
+                        </dict>
+                        <key>Enabled</key>
+                        <true/>
+                        <key>Files</key>
+                        <array>
+                            <string>js/navbar-inverse_bg-inverse.js</string>
+                        </array>
+                        <key>Name</key>
+                        <string>navbar-inverse bg-inverse</string>
+                        <key>Type</key>
+                        <string>Javascript</string>
+                    </dict>
+                    <dict>
+                        <key>DisplayName</key>
+                        <dict>
+                            <key>en</key>
+                            <string>navbar-inverse bg-primary</string>
+                        </dict>
+                        <key>Enabled</key>
+                        <false/>
+                        <key>Files</key>
+                        <array>
+                            <string>js/navbar-inverse_bg-primary.js</string>
+                        </array>
+                        <key>Name</key>
+                        <string>navbar-inverse bg-primary</string>
+                        <key>Type</key>
+                        <string>Javascript</string>
+                    </dict>
+                    <dict>
+                        <key>DisplayName</key>
+                        <dict>
+                            <key>en</key>
+                            <string>navbar-light bg-inverse</string>
+                        </dict>
+                        <key>Enabled</key>
+                        <false/>
+                        <key>Files</key>
+                        <array>
+                            <string>js/navbar-light_bg-inverse.js</string>
+                        </array>
+                        <key>Name</key>
+                        <string>navbar-light bg-inverse</string>
+                        <key>Type</key>
+                        <string>Javascript</string>
+                    </dict>
+                    <dict>
+                        <key>DisplayName</key>
+                        <dict>
+                            <key>en</key>
+                            <string>navbar-light bg-primary</string>
+                        </dict>
+                        <key>Enabled</key>
+                        <false/>
+                        <key>Files</key>
+                        <array>
+                            <string>js/navbar-light_bg-primary.js</string>
+                        </array>
+                        <key>Name</key>
+                        <string>navbar-light bg-primary</string>
+                        <key>Type</key>
+                        <string>Javascript</string>
+                    </dict>
+                </array>
+                <key>GroupName</key>
+                <string>Navigation Bar Colors</string>
+                <key>GroupSelectionLimit</key>
+                <integer>1</integer>
+            </dict>
+            <dict>
+                <key>GroupDisplayName</key>
+                <dict>
+                    <key>en</key>
                     <string>Content Container</string>
                 </dict>
                 <key>GroupMembers</key>
@@ -455,7 +537,7 @@
                             <string>Container</string>
                         </dict>
                         <key>Enabled</key>
-                        <true/>
+                        <false/>
                         <key>Files</key>
                         <array>
                             <string>js/content-container.js</string>
@@ -472,7 +554,7 @@
                             <string>Container Fluid</string>
                         </dict>
                         <key>Enabled</key>
-                        <true/>
+                        <false/>
                         <key>Files</key>
                         <array>
                             <string>js/content-container-fluid.js</string>
@@ -510,7 +592,7 @@
 					</dict>
 					<dict>
 						<key>Enabled</key>
-						<true/>
+						<false/>
 						<key>Files</key>
 						<array>
 							<string>css/display-logo.css</string>
@@ -548,7 +630,7 @@
 				<array>
 					<dict>
 						<key>Enabled</key>
-						<true/>
+						<false/>
 						<key>Files</key>
 						<array>
 							<string>js/content-background-color.js</string>
@@ -575,7 +657,7 @@
 					</dict>
 					<dict>
 						<key>Enabled</key>
-						<true/>
+						<false/>
 						<key>Files</key>
 						<array>
 							<string>js/content-color.js</string>
