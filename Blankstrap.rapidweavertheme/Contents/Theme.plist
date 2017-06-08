@@ -423,11 +423,76 @@
 				<key>GroupSelectionLimit</key>
 				<integer>1</integer>
 			</dict>
+            <dict>
+                <key>GroupDisplayName</key>
+                <dict>
+                    <key>en</key>
+                    <string>Content Container</string>
+                </dict>
+                <key>GroupMembers</key>
+                <array>
+                    <dict>
+                        <key>DisplayName</key>
+                        <dict>
+                            <key>en</key>
+                            <string>None</string>
+                        </dict>
+                        <key>Enabled</key>
+                        <true/>
+                        <key>Files</key>
+                        <array>
+                            <string>js/empty.js</string>
+                        </array>
+                        <key>Name</key>
+                        <string>None</string>
+                        <key>Type</key>
+                        <string>Javascript</string>
+                    </dict>
+                    <dict>
+                        <key>DisplayName</key>
+                        <dict>
+                            <key>en</key>
+                            <string>Container</string>
+                        </dict>
+                        <key>Enabled</key>
+                        <true/>
+                        <key>Files</key>
+                        <array>
+                            <string>js/content-container.js</string>
+                        </array>
+                        <key>Name</key>
+                        <string>Container</string>
+                        <key>Type</key>
+                        <string>Javascript</string>
+                    </dict>
+                    <dict>
+                        <key>DisplayName</key>
+                        <dict>
+                            <key>en</key>
+                            <string>Container Fluid</string>
+                        </dict>
+                        <key>Enabled</key>
+                        <true/>
+                        <key>Files</key>
+                        <array>
+                            <string>js/content-container-fluid.js</string>
+                        </array>
+                        <key>Name</key>
+                        <string>Content Fluid</string>
+                        <key>Type</key>
+                        <string>Javascript</string>
+                    </dict>
+                </array>
+                <key>GroupName</key>
+                <string>Content Container</string>
+                <key>GroupSelectionLimit</key>
+                <integer>1</integer>
+            </dict>
 			<dict>
 				<key>GroupDisplayName</key>
 				<dict>
 					<key>en</key>
-					<string>Settings</string>
+					<string>Other Settings</string>
 				</dict>
 				<key>GroupMembers</key>
 				<array>
@@ -439,9 +504,21 @@
 							<string>js/navigation.js</string>
 						</array>
 						<key>Name</key>
-						<string>Display Navigation</string>
+						<string>Display Navigation Bar</string>
 						<key>Type</key>
 						<string>Javascript</string>
+					</dict>
+					<dict>
+						<key>Enabled</key>
+						<true/>
+						<key>Files</key>
+						<array>
+							<string>css/display-logo.css</string>
+						</array>
+						<key>Name</key>
+						<string>Display Logo in Navigation Bar</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
 					</dict>
 					<dict>
 						<key>Enabled</key>
@@ -457,7 +534,7 @@
 					</dict>
 				</array>
 				<key>GroupName</key>
-				<string>Settings</string>
+				<string>Other Settings</string>
 				<key>GroupSelectionLimit</key>
 				<integer>0</integer>
 			</dict>
@@ -474,10 +551,10 @@
 						<true/>
 						<key>Files</key>
 						<array>
-							<string>js/body-background-color.js</string>
+							<string>js/content-background-color.js</string>
 						</array>
 						<key>Name</key>
-						<string>Override Body Background Color</string>
+						<string>Override Content Background Color</string>
 						<key>Type</key>
 						<string>Javascript</string>
 					</dict>
@@ -487,12 +564,12 @@
 						<key>DisplayName</key>
 						<dict>
 							<key>en</key>
-							<string>Body Background Color</string>
+							<string>Content Background Color</string>
 						</dict>
 						<key>Name</key>
-						<string>Body Background Color</string>
+						<string>Content Background Color</string>
 						<key>Tag</key>
-						<string>%color_body_background%</string>
+						<string>%color_content_background%</string>
 						<key>Type</key>
 						<string>Colour</string>
 					</dict>
@@ -501,7 +578,7 @@
 						<true/>
 						<key>Files</key>
 						<array>
-							<string>js/body-color.js</string>
+							<string>js/content-color.js</string>
 						</array>
 						<key>Name</key>
 						<string>Override Text Color</string>
@@ -519,7 +596,7 @@
 						<key>Name</key>
 						<string>Text Color</string>
 						<key>Tag</key>
-						<string>%color_body_text%</string>
+						<string>%color_content_text%</string>
 						<key>Type</key>
 						<string>Colour</string>
 					</dict>
