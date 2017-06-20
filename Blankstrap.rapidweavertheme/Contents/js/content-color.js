@@ -1,3 +1,3 @@
 $(function() {
-    $("#blankstrap-content").css("color", $("#blankstrap").css("color"));
+    $("body").css("color", $("#blankstrap").css("color"));
 });
