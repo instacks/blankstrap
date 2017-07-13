@@ -22,7 +22,7 @@
 				<key>GroupDisplayName</key>
 				<dict>
 					<key>en</key>
-					<string>Styles</string>
+					<string>Bootswatch Themes</string>
 				</dict>
 				<key>GroupMembers</key>
 				<array>
@@ -419,7 +419,7 @@
 					</dict>
 				</array>
 				<key>GroupName</key>
-				<string>Styles</string>
+				<string>Bootswatch Themes</string>
 				<key>GroupSelectionLimit</key>
 				<integer>1</integer>
 			</dict>
@@ -720,9 +720,9 @@
 		<string>%items%</string>
 	</dict>
 	<key>RWThemeAuthor</key>
-	<string>inStacks Software feat. WEBdeerSIGN</string>
+	<string>inStacks Software</string>
 	<key>RWAddonAuthor</key>
-	<string>inStacks Software feat. WEBdeerSIGN</string>
+	<string>inStacks Software</string>
 	<key>RWThemeCapabilities</key>
 	<dict>
 		<key>RWSupportsContentOnlySubPages</key>
