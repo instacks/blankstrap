@@ -23,7 +23,7 @@
 					<key>page0 - file:///Users/d459/Developer/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-08-10T20:37:56Z</date>
+						<date>2017-08-10T21:12:00Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -62,11 +62,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								1YBbJ4hRZQa1
-								rt/eDXNxQA==
+								CKe4m65AKGry
+								v2ExuYPO/w==
 								</data>
 								<key>Size</key>
-								<integer>7885</integer>
+								<integer>7904</integer>
 							</dict>
 							<key>rw_common/images/icon@2x.png</key>
 							<dict>
@@ -92,11 +92,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								hk632UZm7lSD
-								i7rktv6MFw==
+								6zX9BkR0tzu/
+								dv/BnXl+kg==
 								</data>
 								<key>Size</key>
-								<integer>219</integer>
+								<integer>187</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -109,7 +109,7 @@
 					<key>rw:plugin:stacks - file:///Users/d459/Developer/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-08-10T20:37:56Z</date>
+						<date>2017-08-10T21:12:00Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -145,7 +145,7 @@
 					<key>rw:theme:Blankstrap - file:///Users/d459/Developer/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-08-10T20:37:56Z</date>
+						<date>2017-08-10T21:12:00Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -988,13 +988,13 @@
 					<key>UniqueBackupName</key>
 					<string>17B6D272-1491-428B-8658-E7E045A4A9DA_rwbackup</string>
 					<key>UserAgentResizingPreset</key>
-					<integer>3</integer>
+					<integer>0</integer>
 					<key>WantsXMLSiteMap</key>
 					<true/>
 					<key>WebClipIconUsed</key>
 					<false/>
 					<key>cacheBustingString</key>
-					<string>?rwcache=524090276</string>
+					<string>?rwcache=524092320</string>
 					<key>globalBody</key>
 					<string></string>
 					<key>globalCSS</key>
