@@ -9,8 +9,6 @@
 		<dict>
 			<key>Dictionary</key>
 			<dict>
-				<key>BrowserTitle</key>
-				<string>Home</string>
 				<key>CreatedDate</key>
 				<date>2017-07-13T09:53:50Z</date>
 				<key>ID</key>
@@ -18,7 +16,7 @@
 				<key>MostRecentlySelectedStyleName</key>
 				<string>Theme Default</string>
 				<key>PageTitle</key>
-				<string>&lt;i class="fa fa-home fa-lg fa-fw"&gt;&lt;/i&gt; Home</string>
+				<string>Home</string>
 				<key>PluginClassName</key>
 				<string>YHStacksPlugin</string>
 				<key>PluginMetadata</key>
@@ -35,7 +33,7 @@
 					<key>file:///Users/d459/Developer/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-08-10T20:34:34Z</date>
+						<date>2017-08-10T20:37:56Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -74,11 +72,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								zsJnNAyY8p/K
-								/Or5Rc7Big==
+								1YBbJ4hRZQa1
+								rt/eDXNxQA==
 								</data>
 								<key>Size</key>
-								<integer>7770</integer>
+								<integer>7885</integer>
 							</dict>
 							<key>rw_common/images/icon@2x.png</key>
 							<dict>

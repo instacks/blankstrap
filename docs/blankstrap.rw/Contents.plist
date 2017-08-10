@@ -23,7 +23,7 @@
 					<key>page0 - file:///Users/d459/Developer/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-08-10T20:34:34Z</date>
+						<date>2017-08-10T20:37:56Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -62,11 +62,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								zsJnNAyY8p/K
-								/Or5Rc7Big==
+								1YBbJ4hRZQa1
+								rt/eDXNxQA==
 								</data>
 								<key>Size</key>
-								<integer>7770</integer>
+								<integer>7885</integer>
 							</dict>
 							<key>rw_common/images/icon@2x.png</key>
 							<dict>
@@ -109,7 +109,7 @@
 					<key>rw:plugin:stacks - file:///Users/d459/Developer/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-08-10T20:34:34Z</date>
+						<date>2017-08-10T20:37:56Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -145,7 +145,7 @@
 					<key>rw:theme:Blankstrap - file:///Users/d459/Developer/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-08-10T20:34:34Z</date>
+						<date>2017-08-10T20:37:56Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -994,7 +994,7 @@
 					<key>WebClipIconUsed</key>
 					<false/>
 					<key>cacheBustingString</key>
-					<string>?rwcache=524090074</string>
+					<string>?rwcache=524090276</string>
 					<key>globalBody</key>
 					<string></string>
 					<key>globalCSS</key>
