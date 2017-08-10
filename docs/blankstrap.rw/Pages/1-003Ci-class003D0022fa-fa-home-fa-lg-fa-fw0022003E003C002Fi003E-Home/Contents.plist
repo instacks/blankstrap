@@ -9,6 +9,8 @@
 		<dict>
 			<key>Dictionary</key>
 			<dict>
+				<key>BrowserTitle</key>
+				<string>Home</string>
 				<key>CreatedDate</key>
 				<date>2017-07-13T09:53:50Z</date>
 				<key>ID</key>
@@ -33,7 +35,7 @@
 					<key>file:///Users/d459/Developer/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-08-10T20:31:39Z</date>
+						<date>2017-08-10T20:34:34Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -72,11 +74,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								gJXCxPLhbMlx
-								waLhnTSfpQ==
+								zsJnNAyY8p/K
+								/Or5Rc7Big==
 								</data>
 								<key>Size</key>
-								<integer>7822</integer>
+								<integer>7770</integer>
 							</dict>
 							<key>rw_common/images/icon@2x.png</key>
 							<dict>
