@@ -16,7 +16,7 @@
 				<key>MostRecentlySelectedStyleName</key>
 				<string>Theme Default</string>
 				<key>PageTitle</key>
-				<string>Home</string>
+				<string>&lt;i class="fa fa-home fa-lg fa-fw"&gt;&lt;/i&gt; Home</string>
 				<key>PluginClassName</key>
 				<string>YHStacksPlugin</string>
 				<key>PluginMetadata</key>
@@ -26,27 +26,37 @@
 					<key>Name</key>
 					<string>Stacks</string>
 					<key>Version</key>
-					<string>3.5.0b15</string>
+					<string>3.5.0b23</string>
 				</dict>
 				<key>PublishingManifests</key>
 				<dict>
-					<key>file:///Users/d459/Sites/Blankstrap/</key>
+					<key>file:///Users/d459/Developer/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-07-13T11:02:46Z</date>
+						<date>2017-08-10T20:31:39Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
 						<dict>
+							<key>files/stacks-image-d8b09df.png</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								rsrYw7eEbIDF
+								VoEPWqkQew==
+								</data>
+								<key>Size</key>
+								<integer>72392</integer>
+							</dict>
 							<key>files/stacks_page_page0.css</key>
 							<dict>
 								<key>Digest</key>
 								<data>
-								NXxqoaedRwfK
-								JcBOPVrBOA==
+								4L7Q1Fda1Rg+
+								6rePKyu0+w==
 								</data>
 								<key>Size</key>
-								<integer>11</integer>
+								<integer>709</integer>
 							</dict>
 							<key>files/stacks_page_page0.js</key>
 							<dict>
@@ -62,11 +72,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								Y62YNbTi/lmO
-								JKuynOwaag==
+								gJXCxPLhbMlx
+								waLhnTSfpQ==
 								</data>
 								<key>Size</key>
-								<integer>4322</integer>
+								<integer>7822</integer>
 							</dict>
 							<key>rw_common/images/icon@2x.png</key>
 							<dict>
@@ -82,8 +92,8 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								/Avwgg+dPETD
-								E+LjfVdY+A==
+								rdWu4w06xca/
+								fh3orbUydg==
 								</data>
 								<key>Size</key>
 								<integer>6</integer>
@@ -92,11 +102,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								mNtNDMgyyiXS
-								xAf9eW/SoQ==
+								hk632UZm7lSD
+								i7rktv6MFw==
 								</data>
 								<key>Size</key>
-								<integer>150</integer>
+								<integer>219</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>

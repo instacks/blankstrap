@@ -20,23 +20,33 @@
 				<string>7.1</string>
 				<key>PublishingManifests</key>
 				<dict>
-					<key>page0 - file:///Users/d459/Sites/Blankstrap/</key>
+					<key>page0 - file:///Users/d459/Developer/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-07-13T11:02:46Z</date>
+						<date>2017-08-10T20:31:39Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
 						<dict>
+							<key>files/stacks-image-d8b09df.png</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								rsrYw7eEbIDF
+								VoEPWqkQew==
+								</data>
+								<key>Size</key>
+								<integer>72392</integer>
+							</dict>
 							<key>files/stacks_page_page0.css</key>
 							<dict>
 								<key>Digest</key>
 								<data>
-								NXxqoaedRwfK
-								JcBOPVrBOA==
+								4L7Q1Fda1Rg+
+								6rePKyu0+w==
 								</data>
 								<key>Size</key>
-								<integer>11</integer>
+								<integer>709</integer>
 							</dict>
 							<key>files/stacks_page_page0.js</key>
 							<dict>
@@ -52,11 +62,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								Y62YNbTi/lmO
-								JKuynOwaag==
+								gJXCxPLhbMlx
+								waLhnTSfpQ==
 								</data>
 								<key>Size</key>
-								<integer>4322</integer>
+								<integer>7822</integer>
 							</dict>
 							<key>rw_common/images/icon@2x.png</key>
 							<dict>
@@ -72,8 +82,8 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								/Avwgg+dPETD
-								E+LjfVdY+A==
+								rdWu4w06xca/
+								fh3orbUydg==
 								</data>
 								<key>Size</key>
 								<integer>6</integer>
@@ -82,11 +92,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								mNtNDMgyyiXS
-								xAf9eW/SoQ==
+								hk632UZm7lSD
+								i7rktv6MFw==
 								</data>
 								<key>Size</key>
-								<integer>150</integer>
+								<integer>219</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -96,10 +106,10 @@
 						<key>Version</key>
 						<integer>3</integer>
 					</dict>
-					<key>rw:plugin:stacks - file:///Users/d459/Sites/Blankstrap/</key>
+					<key>rw:plugin:stacks - file:///Users/d459/Developer/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-07-13T11:02:46Z</date>
+						<date>2017-08-10T20:31:39Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -132,10 +142,10 @@
 						<key>Version</key>
 						<integer>3</integer>
 					</dict>
-					<key>rw:theme:Blankstrap - file:///Users/d459/Sites/Blankstrap/</key>
+					<key>rw:theme:Blankstrap - file:///Users/d459/Developer/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-07-13T11:02:46Z</date>
+						<date>2017-08-10T20:31:39Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -392,6 +402,8 @@
 					<true/>
 					<key>BannerUsed</key>
 					<false/>
+					<key>BaseURL</key>
+					<string>https://jrondorf.github.io/Blankstrap/</string>
 					<key>ConsolidateCSSFiles</key>
 					<true/>
 					<key>ConsolidateCommonFilesMode</key>
@@ -970,29 +982,39 @@
 					<key>ThemeName</key>
 					<string>Blankstrap</string>
 					<key>TitleText</key>
-					<string>Blankstrap Theme</string>
+					<string>Blankstrap</string>
 					<key>TitleTextUsed</key>
 					<true/>
 					<key>UniqueBackupName</key>
 					<string>17B6D272-1491-428B-8658-E7E045A4A9DA_rwbackup</string>
 					<key>UserAgentResizingPreset</key>
-					<integer>0</integer>
+					<integer>3</integer>
 					<key>WantsXMLSiteMap</key>
 					<true/>
 					<key>WebClipIconUsed</key>
 					<false/>
 					<key>cacheBustingString</key>
-					<string>?rwcache=521636566</string>
+					<string>?rwcache=524089899</string>
+					<key>globalBody</key>
+					<string></string>
+					<key>globalCSS</key>
+					<string></string>
+					<key>globalHeader</key>
+					<string></string>
+					<key>globalJavascript</key>
+					<string></string>
+					<key>globalPrefix</key>
+					<string></string>
 					<key>hasChangedGlobalBody</key>
-					<false/>
+					<true/>
 					<key>hasChangedGlobalCSS</key>
 					<false/>
 					<key>hasChangedGlobalHeader</key>
-					<false/>
+					<true/>
 					<key>hasChangedGlobalJavascript</key>
 					<false/>
 					<key>hasChangedGlobalPrefix</key>
-					<false/>
+					<true/>
 					<key>minifyExtraFiles</key>
 					<true/>
 					<key>useCacheBusting</key>

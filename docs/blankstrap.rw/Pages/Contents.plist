@@ -10,13 +10,15 @@
 			<key>Dictionary</key>
 			<dict>
 				<key>HomePage</key>
-				<string>1-Home</string>
+				<string>1-003Ci-class003D0022fa-fa-home-fa-lg-fa-fw0022003E003C002Fi003E-Home</string>
 			</dict>
 			<key>Files</key>
 			<array/>
 			<key>Subsandwiches</key>
 			<array>
-				<string>1-Home</string>
+				<string>1-003Ci-class003D0022fa-fa-home-fa-lg-fa-fw0022003E003C002Fi003E-Home</string>
+				<string>2-003Ci-class003D0022fa-fa-cog-fa-lg-fa-fw0022003E003C002Fi003E-Settings</string>
+				<string>3-003Ci-class003D0022fa-fa-github-fa-lg-fa-fw0022003E003C002Fi003E-Download</string>
 			</array>
 		</dict>
 	</array>

@@ -9,25 +9,31 @@
 		<dict>
 			<key>Dictionary</key>
 			<dict>
-				<key>ColourStyles</key>
+				<key>ChangedStatuses</key>
 				<dict>
-					<key>Affero</key>
-					<dict/>
-					<key>Blankstrap</key>
-					<dict/>
-					<key>BootSnap3</key>
-					<dict/>
-					<key>Bravo</key>
-					<dict/>
-					<key>Lunar</key>
-					<dict/>
+					<key>default</key>
+					<true/>
+					<key>file:///Users/d459/Developer/Blankstrap/docs/</key>
+					<false/>
 				</dict>
+				<key>ColourStyles</key>
+				<dict/>
 				<key>CreditRapidWeaver</key>
 				<true/>
+				<key>CustomCopyrightUsed</key>
+				<false/>
+				<key>CustomSiteTitleUsed</key>
+				<false/>
+				<key>CustomSloganUsed</key>
+				<false/>
 				<key>DefaultLinkTarget</key>
 				<string></string>
+				<key>Enabled</key>
+				<true/>
 				<key>FilenameExtension</key>
 				<string>html</string>
+				<key>FolderName</key>
+				<string>offsite-3</string>
 				<key>HasCustomThemeStyle</key>
 				<false/>
 				<key>ImageFormat</key>
@@ -35,11 +41,13 @@
 				<key>ImageQuality</key>
 				<string>High</string>
 				<key>IndexFilename</key>
-				<string></string>
+				<string>index.html</string>
 				<key>OutputFormat</key>
 				<string>Default</string>
 				<key>OutputXMLDeclaration</key>
 				<false/>
+				<key>PluginHasPerformedMigrationToSharedData</key>
+				<true/>
 				<key>RobotsShouldFollowLinks</key>
 				<true/>
 				<key>RobotsShouldIndexPage</key>
@@ -48,18 +56,6 @@
 				<integer>1</integer>
 				<key>TextEncoding</key>
 				<string>utf-8</string>
-				<key>ThemeStyles</key>
-				<dict>
-					<key>Blankstrap</key>
-					<array>
-						<string>Content Container.Container</string>
-						<string>Navigation Bar Colors.navbar-inverse bg-primary</string>
-						<string>Other Settings.Display Logo in Navigation Bar</string>
-						<string>Other Settings.Display Navigation Bar</string>
-						<string>Other Settings.Include Font Awesome</string>
-						<string>Styles.Materia</string>
-					</array>
-				</dict>
 			</dict>
 			<key>Files</key>
 			<array/>

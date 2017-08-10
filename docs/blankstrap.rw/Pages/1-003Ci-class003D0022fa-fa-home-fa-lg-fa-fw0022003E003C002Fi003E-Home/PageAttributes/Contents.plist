@@ -13,13 +13,21 @@
 				<dict>
 					<key>default</key>
 					<true/>
-					<key>file:///Users/d459/Sites/Blankstrap/</key>
+					<key>file:///Users/d459/Developer/Blankstrap/docs/</key>
 					<false/>
+					<key>file:///Users/d459/Sites/Blankstrap/</key>
+					<true/>
+					<key>file:///Users/d459/Sites/settings/</key>
+					<true/>
 				</dict>
 				<key>ColourStyles</key>
 				<dict/>
 				<key>CreditRapidWeaver</key>
 				<true/>
+				<key>CustomCSS</key>
+				<string>body {
+	font-size: 1rem;
+}	</string>
 				<key>CustomCopyrightUsed</key>
 				<false/>
 				<key>CustomSiteTitleUsed</key>
