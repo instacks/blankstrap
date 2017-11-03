@@ -20,23 +20,23 @@
 				<string>7.1</string>
 				<key>PublishingManifests</key>
 				<dict>
-					<key>page0 - file:///Users/d459/Developer/Blankstrap/docs/</key>
+					<key>page0 - file:///Users/d459/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-08-10T21:12:00Z</date>
+						<date>2017-11-03T23:18:52Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
 						<dict>
-							<key>files/stacks-image-d8b09df.png</key>
+							<key>files/stacks-image-2e9513b.png</key>
 							<dict>
 								<key>Digest</key>
 								<data>
-								rsrYw7eEbIDF
-								VoEPWqkQew==
+								T+0D0NwGCpZw
+								vzCeoEFiLA==
 								</data>
 								<key>Size</key>
-								<integer>72392</integer>
+								<integer>80638</integer>
 							</dict>
 							<key>files/stacks_page_page0.css</key>
 							<dict>
@@ -62,11 +62,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								CKe4m65AKGry
-								v2ExuYPO/w==
+								OlBE1GzOjSZK
+								eutYvJBhPw==
 								</data>
 								<key>Size</key>
-								<integer>7904</integer>
+								<integer>8083</integer>
 							</dict>
 							<key>rw_common/images/icon@2x.png</key>
 							<dict>
@@ -82,8 +82,8 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								rdWu4w06xca/
-								fh3orbUydg==
+								ToDh+yiWEz9O
+								GVfOJy513g==
 								</data>
 								<key>Size</key>
 								<integer>6</integer>
@@ -92,11 +92,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								6zX9BkR0tzu/
-								dv/BnXl+kg==
+								X6aOtNfnrhKB
+								LIVh3MTxxg==
 								</data>
 								<key>Size</key>
-								<integer>187</integer>
+								<integer>219</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -106,10 +106,10 @@
 						<key>Version</key>
 						<integer>3</integer>
 					</dict>
-					<key>rw:plugin:stacks - file:///Users/d459/Developer/Blankstrap/docs/</key>
+					<key>rw:plugin:stacks - file:///Users/d459/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-08-10T21:12:00Z</date>
+						<date>2017-11-03T23:18:52Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -142,10 +142,10 @@
 						<key>Version</key>
 						<integer>3</integer>
 					</dict>
-					<key>rw:theme:Blankstrap - file:///Users/d459/Developer/Blankstrap/docs/</key>
+					<key>rw:theme:Blankstrap - file:///Users/d459/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-08-10T21:12:00Z</date>
+						<date>2017-11-03T23:18:52Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -154,11 +154,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								9ksXnAzVSanc
-								Nb+fUnDX4w==
+								T6y829w8Jvrz
+								5Z/txaml9w==
 								</data>
 								<key>Size</key>
-								<integer>215385</integer>
+								<integer>236269</integer>
 							</dict>
 							<key>fonts/FontAwesome.otf</key>
 							<dict>
@@ -220,15 +220,55 @@
 								<key>Size</key>
 								<integer>77160</integer>
 							</dict>
+							<key>js/bg-dark.js</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								mb1jRiZE239P
+								mgYSFiHbXw==
+								</data>
+								<key>Size</key>
+								<integer>58</integer>
+							</dict>
+							<key>js/bg-light.js</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								Kja9A7PzJ6jO
+								HA7uhvOjbg==
+								</data>
+								<key>Size</key>
+								<integer>59</integer>
+							</dict>
+							<key>js/bg-primary.js</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								UuAyIQLeJBQd
+								ERRyNxpKqA==
+								</data>
+								<key>Size</key>
+								<integer>61</integer>
+							</dict>
 							<key>js/bootstrap.min.js</key>
 							<dict>
 								<key>Digest</key>
 								<data>
-								CCegvc2akXmQ
-								7uRhp33TPg==
+								RrVJvckJIPGK
+								kR8Ya53XXA==
 								</data>
 								<key>Size</key>
-								<integer>46653</integer>
+								<integer>50564</integer>
+							</dict>
+							<key>js/bootstrap.min.js.map</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								eiNyeK1sG1S/
+								JTS/goqyFw==
+								</data>
+								<key>Size</key>
+								<integer>159064</integer>
 							</dict>
 							<key>js/content-background-color.js</key>
 							<dict>
@@ -290,55 +330,35 @@
 								<key>Size</key>
 								<integer>10724</integer>
 							</dict>
-							<key>js/jquery-3.1.1.slim.min.js</key>
+							<key>js/jquery.min.js</key>
 							<dict>
 								<key>Digest</key>
 								<data>
-								VQ3f6EoRT3mn
-								Z8CH35fzvA==
+								yfWu7KOtN78q
+								oAYTm5NfCg==
 								</data>
 								<key>Size</key>
-								<integer>69309</integer>
+								<integer>86659</integer>
 							</dict>
-							<key>js/navbar-inverse_bg-inverse.js</key>
+							<key>js/navbar-dark.js</key>
 							<dict>
 								<key>Digest</key>
 								<data>
-								3JUCMXBd/e5X
-								a0zIM4vEkA==
+								kqDAewk76jEI
+								zTTlFQJUiQ==
 								</data>
 								<key>Size</key>
-								<integer>76</integer>
+								<integer>62</integer>
 							</dict>
-							<key>js/navbar-inverse_bg-primary.js</key>
+							<key>js/navbar-light.js</key>
 							<dict>
 								<key>Digest</key>
 								<data>
-								SEHiBTtAEsSU
-								RelD/liYKg==
+								dBuBls1qunBG
+								Vp6jEa/Ixw==
 								</data>
 								<key>Size</key>
-								<integer>76</integer>
-							</dict>
-							<key>js/navbar-light_bg-inverse.js</key>
-							<dict>
-								<key>Digest</key>
-								<data>
-								YyZwIeWbjyp2
-								l1c7jHNTdg==
-								</data>
-								<key>Size</key>
-								<integer>74</integer>
-							</dict>
-							<key>js/navbar-light_bg-primary.js</key>
-							<dict>
-								<key>Digest</key>
-								<data>
-								LA62FKh8G07Y
-								DiwPsU1NyA==
-								</data>
-								<key>Size</key>
-								<integer>74</integer>
+								<integer>63</integer>
 							</dict>
 							<key>js/navigation.js</key>
 							<dict>
@@ -350,15 +370,25 @@
 								<key>Size</key>
 								<integer>60</integer>
 							</dict>
-							<key>js/tether.min.js</key>
+							<key>js/popper.min.js</key>
 							<dict>
 								<key>Digest</key>
 								<data>
-								7N/T3EZM7aX0
-								g7tclqbj0g==
+								qtJHXx4mFSJP
+								qXFrU5VL4g==
 								</data>
 								<key>Size</key>
-								<integer>24989</integer>
+								<integer>19236</integer>
+							</dict>
+							<key>js/popper.min.js.map</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								mYstMsPjhxUt
+								zP84cIYcog==
+								</data>
+								<key>Size</key>
+								<integer>113386</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -994,7 +1024,7 @@
 					<key>WebClipIconUsed</key>
 					<false/>
 					<key>cacheBustingString</key>
-					<string>?rwcache=524092320</string>
+					<string>?rwcache=531443932</string>
 					<key>globalBody</key>
 					<string></string>
 					<key>globalCSS</key>
