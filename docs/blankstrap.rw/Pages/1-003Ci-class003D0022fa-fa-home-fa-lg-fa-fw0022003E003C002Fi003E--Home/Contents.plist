@@ -9,6 +9,8 @@
 		<dict>
 			<key>Dictionary</key>
 			<dict>
+				<key>BrowserTitle</key>
+				<string>Home</string>
 				<key>CreatedDate</key>
 				<date>2017-07-13T09:53:50Z</date>
 				<key>ID</key>
@@ -33,7 +35,7 @@
 					<key>file:///Users/d459/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-11-03T23:41:17Z</date>
+						<date>2017-11-03T23:43:04Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -72,11 +74,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								GmCdOFNh/T4P
-								RMQvY5j+Bg==
+								/I5PenjmwTab
+								te7UKX5umw==
 								</data>
 								<key>Size</key>
-								<integer>8053</integer>
+								<integer>7980</integer>
 							</dict>
 							<key>rw_common/images/icon@2x.png</key>
 							<dict>

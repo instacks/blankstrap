@@ -33,7 +33,7 @@
 				<key>CustomCopyrightUsed</key>
 				<false/>
 				<key>CustomSiteTitleUsed</key>
-				<false/>
+				<true/>
 				<key>CustomSloganUsed</key>
 				<false/>
 				<key>DefaultLinkTarget</key>
