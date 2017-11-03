@@ -10,9 +10,9 @@
 <sparkle:releaseNotesLink>https://github.com/jrondorf/Blankstrap</sparkle:releaseNotesLink>
 <pubDate>Tue, 20 Jun 2017 12:00:00 +0000</pubDate>
 <enclosure
- url="https://github.com/jrondorf/Blankstrap/releases/download/0.0.6/Blankstrap.zip"
+ url="https://github.com/jrondorf/Blankstrap/releases/download/0.1.2/Blankstrap.zip"
  sparkle:version="6"
- sparkle:shortVersionString="0.0.6"
+ sparkle:shortVersionString="0.1.2"
  length="1"
  type="application/octet-stream" />
 </item>

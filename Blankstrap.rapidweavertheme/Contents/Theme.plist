@@ -427,7 +427,7 @@
                 <key>GroupDisplayName</key>
                 <dict>
                     <key>en</key>
-                    <string>Navigation Bar Colors</string>
+                    <string>Navigation Bar Text Colors</string>
                 </dict>
                 <key>GroupMembers</key>
                 <array>
@@ -435,16 +435,16 @@
                         <key>DisplayName</key>
                         <dict>
                             <key>en</key>
-                            <string>navbar-inverse bg-inverse</string>
+                            <string>Dark</string>
                         </dict>
                         <key>Enabled</key>
                         <true/>
                         <key>Files</key>
                         <array>
-                            <string>js/navbar-inverse_bg-inverse.js</string>
+                            <string>js/navbar-light.js</string>
                         </array>
                         <key>Name</key>
-                        <string>navbar-inverse bg-inverse</string>
+                        <string>Dark</string>
                         <key>Type</key>
                         <string>Javascript</string>
                     </dict>
@@ -452,56 +452,87 @@
                         <key>DisplayName</key>
                         <dict>
                             <key>en</key>
-                            <string>navbar-inverse bg-primary</string>
+                            <string>Light</string>
                         </dict>
                         <key>Enabled</key>
-                        <false/>
+                        <true/>
                         <key>Files</key>
                         <array>
-                            <string>js/navbar-inverse_bg-primary.js</string>
+                            <string>js/navbar-dark.js</string>
                         </array>
                         <key>Name</key>
-                        <string>navbar-inverse bg-primary</string>
-                        <key>Type</key>
-                        <string>Javascript</string>
-                    </dict>
-                    <dict>
-                        <key>DisplayName</key>
-                        <dict>
-                            <key>en</key>
-                            <string>navbar-light bg-inverse</string>
-                        </dict>
-                        <key>Enabled</key>
-                        <false/>
-                        <key>Files</key>
-                        <array>
-                            <string>js/navbar-light_bg-inverse.js</string>
-                        </array>
-                        <key>Name</key>
-                        <string>navbar-light bg-inverse</string>
-                        <key>Type</key>
-                        <string>Javascript</string>
-                    </dict>
-                    <dict>
-                        <key>DisplayName</key>
-                        <dict>
-                            <key>en</key>
-                            <string>navbar-light bg-primary</string>
-                        </dict>
-                        <key>Enabled</key>
-                        <false/>
-                        <key>Files</key>
-                        <array>
-                            <string>js/navbar-light_bg-primary.js</string>
-                        </array>
-                        <key>Name</key>
-                        <string>navbar-light bg-primary</string>
+                        <string>Light</string>
                         <key>Type</key>
                         <string>Javascript</string>
                     </dict>
                 </array>
                 <key>GroupName</key>
-                <string>Navigation Bar Colors</string>
+                <string>Navigation Bar Text Colors</string>
+                <key>GroupSelectionLimit</key>
+                <integer>1</integer>
+            </dict>
+            <dict>
+                <key>GroupDisplayName</key>
+                <dict>
+                    <key>en</key>
+                    <string>Navigation Bar Background Colors</string>
+                </dict>
+                <key>GroupMembers</key>
+                <array>
+                    <dict>
+                        <key>DisplayName</key>
+                        <dict>
+                            <key>en</key>
+                            <string>Dark</string>
+                        </dict>
+                        <key>Enabled</key>
+                        <true/>
+                        <key>Files</key>
+                        <array>
+                            <string>js/bg-dark.js</string>
+                        </array>
+                        <key>Name</key>
+                        <string>Dark</string>
+                        <key>Type</key>
+                        <string>Javascript</string>
+                    </dict>
+                    <dict>
+                        <key>DisplayName</key>
+                        <dict>
+                            <key>en</key>
+                            <string>Light</string>
+                        </dict>
+                        <key>Enabled</key>
+                        <true/>
+                        <key>Files</key>
+                        <array>
+                            <string>js/bg-light.js</string>
+                        </array>
+                        <key>Name</key>
+                        <string>Light</string>
+                        <key>Type</key>
+                        <string>Javascript</string>
+                    </dict>
+                    <dict>
+                        <key>DisplayName</key>
+                        <dict>
+                            <key>en</key>
+                            <string>Primary</string>
+                        </dict>
+                        <key>Enabled</key>
+                        <true/>
+                        <key>Files</key>
+                        <array>
+                            <string>js/bg-primary.js</string>
+                        </array>
+                        <key>Name</key>
+                        <string>Primary</string>
+                        <key>Type</key>
+                        <string>Javascript</string>
+                    </dict>
+                </array>
+                <key>GroupName</key>
+                <string>Navigation Bar Background Colors</string>
                 <key>GroupSelectionLimit</key>
                 <integer>1</integer>
             </dict>
