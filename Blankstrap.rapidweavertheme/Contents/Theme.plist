@@ -438,7 +438,7 @@
                             <string>Dark</string>
                         </dict>
                         <key>Enabled</key>
-                        <true/>
+                        <false/>
                         <key>Files</key>
                         <array>
                             <string>js/navbar-light.js</string>
@@ -503,7 +503,7 @@
                             <string>Light</string>
                         </dict>
                         <key>Enabled</key>
-                        <true/>
+                        <false/>
                         <key>Files</key>
                         <array>
                             <string>js/bg-light.js</string>
@@ -520,7 +520,7 @@
                             <string>Primary</string>
                         </dict>
                         <key>Enabled</key>
-                        <true/>
+                        <false/>
                         <key>Files</key>
                         <array>
                             <string>js/bg-primary.js</string>
@@ -618,6 +618,18 @@
 						</array>
 						<key>Name</key>
 						<string>Display Navigation Bar</string>
+						<key>Type</key>
+						<string>Javascript</string>
+					</dict>
+					<dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>js/fixed-top.js</string>
+						</array>
+						<key>Name</key>
+						<string>Fixed Navigation Bar</string>
 						<key>Type</key>
 						<string>Javascript</string>
 					</dict>
