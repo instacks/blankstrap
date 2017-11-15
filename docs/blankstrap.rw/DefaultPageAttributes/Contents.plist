@@ -56,7 +56,11 @@
 						<string>Content Container.Container</string>
 						<string>Navigation Bar Background Colors.Primary</string>
 						<string>Navigation Bar Colors.navbar-inverse bg-primary</string>
+						<string>Navigation Bar Container.Content Fluid</string>
 						<string>Navigation Bar Text Colors.Dark</string>
+						<string>Navigation Bar.Display Logo in Navigation Bar</string>
+						<string>Navigation Bar.Display Navigation Bar</string>
+						<string>Navigation Bar.Fixed Navigation Bar</string>
 						<string>Other Settings.Display Logo in Navigation Bar</string>
 						<string>Other Settings.Display Navigation Bar</string>
 						<string>Other Settings.Include Font Awesome</string>

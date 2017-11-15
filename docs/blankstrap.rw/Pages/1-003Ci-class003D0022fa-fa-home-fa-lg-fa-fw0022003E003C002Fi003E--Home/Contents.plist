@@ -28,37 +28,37 @@
 					<key>Name</key>
 					<string>Stacks</string>
 					<key>Version</key>
-					<string>3.5.5b1</string>
+					<string>3.5.6b2</string>
 				</dict>
 				<key>PublishingManifests</key>
 				<dict>
 					<key>file:///Users/d459/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-11-03T23:43:04Z</date>
+						<date>2017-11-15T22:46:06Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
 						<dict>
-							<key>files/stacks-image-2e9513b.png</key>
+							<key>files/stacks-image-230aab6.png</key>
 							<dict>
 								<key>Digest</key>
 								<data>
-								T+0D0NwGCpZw
-								vzCeoEFiLA==
+								7y7/0FTkF5kh
+								ZmGFKRnz+g==
 								</data>
 								<key>Size</key>
-								<integer>80638</integer>
+								<integer>97328</integer>
 							</dict>
 							<key>files/stacks_page_page0.css</key>
 							<dict>
 								<key>Digest</key>
 								<data>
-								4L7Q1Fda1Rg+
-								6rePKyu0+w==
+								TAHxRGiqm6Vd
+								8cP82VaZVA==
 								</data>
 								<key>Size</key>
-								<integer>709</integer>
+								<integer>708</integer>
 							</dict>
 							<key>files/stacks_page_page0.js</key>
 							<dict>
@@ -74,41 +74,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								/I5PenjmwTab
-								te7UKX5umw==
+								R4FqJNKDRPAB
+								RGbStd4SHg==
 								</data>
 								<key>Size</key>
-								<integer>7980</integer>
-							</dict>
-							<key>rw_common/images/icon@2x.png</key>
-							<dict>
-								<key>Digest</key>
-								<data>
-								iB1yoVXvB8ZF
-								XEA2Mr1YHw==
-								</data>
-								<key>Size</key>
-								<integer>14299</integer>
-							</dict>
-							<key>rw_common/version.txt</key>
-							<dict>
-								<key>Digest</key>
-								<data>
-								ToDh+yiWEz9O
-								GVfOJy513g==
-								</data>
-								<key>Size</key>
-								<integer>6</integer>
-							</dict>
-							<key>sitemap.xml</key>
-							<dict>
-								<key>Digest</key>
-								<data>
-								6zX9BkR0tzu/
-								dv/BnXl+kg==
-								</data>
-								<key>Size</key>
-								<integer>187</integer>
+								<integer>8505</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>

@@ -23,30 +23,30 @@
 					<key>page0 - file:///Users/d459/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-11-03T23:43:04Z</date>
+						<date>2017-11-15T22:46:06Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
 						<dict>
-							<key>files/stacks-image-2e9513b.png</key>
+							<key>files/stacks-image-230aab6.png</key>
 							<dict>
 								<key>Digest</key>
 								<data>
-								T+0D0NwGCpZw
-								vzCeoEFiLA==
+								7y7/0FTkF5kh
+								ZmGFKRnz+g==
 								</data>
 								<key>Size</key>
-								<integer>80638</integer>
+								<integer>97328</integer>
 							</dict>
 							<key>files/stacks_page_page0.css</key>
 							<dict>
 								<key>Digest</key>
 								<data>
-								4L7Q1Fda1Rg+
-								6rePKyu0+w==
+								TAHxRGiqm6Vd
+								8cP82VaZVA==
 								</data>
 								<key>Size</key>
-								<integer>709</integer>
+								<integer>708</integer>
 							</dict>
 							<key>files/stacks_page_page0.js</key>
 							<dict>
@@ -62,12 +62,28 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								/I5PenjmwTab
-								te7UKX5umw==
+								R4FqJNKDRPAB
+								RGbStd4SHg==
 								</data>
 								<key>Size</key>
-								<integer>7980</integer>
+								<integer>8505</integer>
 							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>page0</string>
+						<key>SiteRoot</key>
+						<string></string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
+					<key>rw:document:extrafiles - file:///Users/d459/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Blankstrap/docs/</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2017-11-15T22:46:06Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
 							<key>rw_common/images/icon@2x.png</key>
 							<dict>
 								<key>Digest</key>
@@ -82,8 +98,8 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								ToDh+yiWEz9O
-								GVfOJy513g==
+								JKtBs3FLko0+
+								7Gqlk5+B5g==
 								</data>
 								<key>Size</key>
 								<integer>6</integer>
@@ -100,7 +116,7 @@
 							</dict>
 						</dict>
 						<key>PageID</key>
-						<string>page0</string>
+						<string>rw:document:extrafiles</string>
 						<key>SiteRoot</key>
 						<string></string>
 						<key>Version</key>
@@ -109,7 +125,7 @@
 					<key>rw:plugin:stacks - file:///Users/d459/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-11-03T23:43:04Z</date>
+						<date>2017-11-15T22:46:06Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -145,7 +161,7 @@
 					<key>rw:theme:Blankstrap - file:///Users/d459/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-11-03T23:43:04Z</date>
+						<date>2017-11-15T22:46:06Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -359,6 +375,36 @@
 								</data>
 								<key>Size</key>
 								<integer>63</integer>
+							</dict>
+							<key>js/navigation-container-fluid.js</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								+5gOnM/xg6Uv
+								9VgZF3OPrw==
+								</data>
+								<key>Size</key>
+								<integer>132</integer>
+							</dict>
+							<key>js/navigation-container.js</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								ryvk0Ar0SbTP
+								9mGEM/JxsA==
+								</data>
+								<key>Size</key>
+								<integer>132</integer>
+							</dict>
+							<key>js/navigation-fixed-top.js</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								l9pu9M7jp5ip
+								nv8Ig4F+KA==
+								</data>
+								<key>Size</key>
+								<integer>139</integer>
 							</dict>
 							<key>js/navigation.js</key>
 							<dict>
@@ -1024,7 +1070,7 @@
 					<key>WebClipIconUsed</key>
 					<false/>
 					<key>cacheBustingString</key>
-					<string>?rwcache=531445384</string>
+					<string>?rwcache=532478766</string>
 					<key>globalBody</key>
 					<string></string>
 					<key>globalCSS</key>
