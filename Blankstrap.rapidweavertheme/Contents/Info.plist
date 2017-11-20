@@ -21,7 +21,7 @@
 	<key>author/copyright info</key>
 	<string>inStacks Software</string>
 	<key>SUFeedURL</key>
-	<string>https://raw.githubusercontent.com/jrondorf/Blankstrap/master/appcast.xml</string>
+	<string>https://raw.githubusercontent.com/jrondorf/Blankstrap/master/appcast/appcast-theme.xml</string>
 	<key>RWThemeSDKVersion</key>
 	<string>7.0</string>
 </dict>
