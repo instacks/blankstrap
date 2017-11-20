@@ -24,6 +24,8 @@
     <string>https://jrondorf.github.io/Blankstrap/</string>
     <key>infoURL</key>
     <string>https://jrondorf.github.io/Blankstrap/</string>
+    <key>SUFeedURL</key>
+    <string>https://raw.githubusercontent.com/jrondorf/Blankstrap/master/appcast/appcast-stack.xml</string>
     <key>icon</key>
     <string>icon</string>
     <key>minAPIVersion</key>
