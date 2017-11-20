@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>author/copyright info</key>
+    <string>Futural UG (haftungsbeschraenkt)</string>
+    <key>CFBundleIdentifier</key>
+    <string>blankstrapstack</string>
+    <key>CFBundleVersion</key>
+    <string>1.0.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>author</key>
+    <string>inStacks Software</string>
+    <key>group</key>
+    <string>inStacks Software</string>
+    <key>RWAddonAuthor</key>
+    <string>inStacks Software</string>
+    <key>RWAddonManagerIconAsset</key>
+    <string>icon</string>
+    <key>RWAddonSupportURL</key>
+    <string>https://jrondorf.github.io/Blankstrap/</string>
+    <key>helpURL</key>
+    <string>https://jrondorf.github.io/Blankstrap/</string>
+    <key>infoURL</key>
+    <string>https://jrondorf.github.io/Blankstrap/</string>
+    <key>icon</key>
+    <string>icon</string>
+    <key>minAPIVersion</key>
+    <integer>10</integer>
+    <key>preprocessor</key>
+    <true/>
+    <key>title</key>
+    <string>Blankstrap Stack</string>
+    <key>subtitle</key>
+    <string>Blankstrap Stack</string>
+    <key>hidden</key>
+    <true/>
+    <key>customItems</key>
+    <array>
+    </array>
+    <key>templates</key>
+    <array>
+    </array>
+    <key>assets</key>
+    <array>
+    </array>
+    <key>libraries</key>
+    <array>
+    </array>
+    <key>tags</key>
+    <array>
+        <string>Blankstrap</string>
+    </array>
+</dict>
+</plist>
