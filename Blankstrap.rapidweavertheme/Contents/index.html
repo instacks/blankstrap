@@ -1,41 +1,45 @@
 <html>
 <head>
-    %header%
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
     <meta charset="utf-8">
     <meta name="theme" content="Blankstrap 0.1.2" />
-    <title>%title%</title>
-    <script src="%pathto(js/jquery.min.js)%"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="%pathto(colourtag.css)%" />
-    %style_variations%
-    %user_styles%
-    %plugin_header%
+    <!-- header -->
+    %header%
+    <!-- user_header -->
     %user_header%
+    <title>%title%</title>
+    <!-- user_styles -->
+    <link rel="stylesheet" type="text/css" media="screen" href="%pathto(colourtag.css)%" />
+    <!-- user_styles -->
+    %user_styles%
+    <!-- plugin_header -->
+    %plugin_header%
 </head>
 <body>
-    <div id="blankstrap-nav" class="navbar navbar-expand-lg">
+    <nav id="blankstrap-nav" class="navbar navbar-expand-lg">
         <div id="blankstrap-nav-container" class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a href="../" class="navbar-brand">
                 %logo%
                 %site_title%
             </a>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    %navigation%
-                </ul>
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                %navigation%
             </div>
         </div>
-    </div>
+    </nav>
     <div id="blankstrap-content">
         %content%
     </div>
     <div id="blankstrap"></div>
-    <script src="%pathto(js/popper.min.js)%"></script>
-    <script src="%pathto(js/bootstrap.min.js)%"></script>
+    <script src="%pathto(js/jquery.min.js)%"></script>
+    <script src="%pathto(js/bootstrap.bundle.min.js)%"></script>
     <script type="text/javascript" src="%pathto(js/javascript.js)%"></script>
+    <!-- style_variations -->
+    %style_variations%
+    <!-- user_javascript -->
     %user_javascript%
 </body>
 </html>

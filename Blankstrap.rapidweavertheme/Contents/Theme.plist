@@ -810,19 +810,19 @@
 		<key>RWSupportedLevels</key>
 		<integer>3</integer>
 		<key>RWToolbarItemNormal</key>
-		<string>&lt;li class="nav-item"&gt;&lt;a href="%url%" rel="%rel%" class="nav-link normal"&gt;%title%&lt;/a&gt;&lt;/li&gt;</string>
+		<string>&lt;li class="nav-item"&gt;&lt;a href="%url%" rel="%rel%" class="nav-link normal"&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarItemCurrent</key>
-		<string>&lt;li class="nav-item"&gt;&lt;a href="%url%" rel="%rel%" class="nav-link current active"&gt;%title%&lt;/a&gt;&lt;/li&gt;</string>
+		<string>&lt;li class="nav-item"&gt;&lt;a href="%url%" rel="%rel%" class="nav-link current active"&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarItemCurrentParent</key>
-		<string>&lt;li class="nav-item"&gt;&lt;a href="%url%" rel="%rel%" class="nav-link currentParent active"&gt;%title%&lt;/a&gt;&lt;/li&gt;</string>
+		<string>&lt;li class="nav-item dropdown"&gt;&lt;a href="%url%" rel="%rel%" class="nav-link current parent currentParent active"&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarItemCurrentAncestor</key>
-		<string>&lt;li class="nav-item"&gt;&lt;a href="%url%" rel="%rel%" class="nav-link currentAncestor active"&gt;%title%&lt;/a&gt;&lt;/li&gt;</string>
+		<string>&lt;li class="nav-item"&gt;&lt;a href="%url%" rel="%rel%" class="nav-link currentAncestor active"&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarItemCurrentAncestorParent</key>
-		<string>&lt;li class="nav-item"&gt;&lt;a href="%url%" rel="%rel%" class="nav-link currentAncestorParent active"&gt;%title%&lt;/a&gt;&lt;/li&gt;</string>
+		<string>&lt;li class="nav-item dropdown"&gt;&lt;a href="%url%" rel="%rel%" class="nav-link current parent currentAncestorParent active"&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarItemNormalParent</key>
-		<string>&lt;li class="nav-item"&gt;&lt;a href="%url%" rel="%rel%" class="nav-link normalParent"&gt;%title%&lt;/a&gt;&lt;/li&gt;</string>
+		<string>&lt;li class="nav-item dropdown"&gt;&lt;a href="%url%" rel="%rel%" class="nav-link normal parent normalParent"&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarList</key>
-		<string>%items%</string>
+		<string>&lt;ul&gt;%items%&lt;/ul&gt;</string>
 	</dict>
 	<key>RWThemeAuthor</key>
 	<string>inStacks Software</string>

@@ -12,6 +12,6 @@
     color: %color_content_text%;
 }
 
-.navbar-nav .nav-item+.nav-item {
-    margin-left: inherit !important;
+.blankstrap-hide {
+	display: none;
 }
