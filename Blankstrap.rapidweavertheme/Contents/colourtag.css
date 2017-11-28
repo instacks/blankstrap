@@ -15,3 +15,14 @@
 .blankstrap-hide {
 	display: none;
 }
+
+#blankstrap-nav-container .navbar-nav .nav-item + .nav-item {
+    margin-left: inherit;
+}
+
+.album-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
