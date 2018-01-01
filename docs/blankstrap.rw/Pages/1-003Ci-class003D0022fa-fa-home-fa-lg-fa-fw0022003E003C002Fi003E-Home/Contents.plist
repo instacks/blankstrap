@@ -32,10 +32,10 @@
 				</dict>
 				<key>PublishingManifests</key>
 				<dict>
-					<key>file:///Users/d459/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Blankstrap/docs/</key>
+					<key>file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-11-27T16:52:05Z</date>
+						<date>2018-01-01T20:50:46Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -54,11 +54,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								UNgbLMmYfSH3
-								bY8ejE/39g==
+								vu9XKrJm08o7
+								HQMjlg6pYQ==
 								</data>
 								<key>Size</key>
-								<integer>761</integer>
+								<integer>860</integer>
 							</dict>
 							<key>files/stacks_page_page0.js</key>
 							<dict>
@@ -74,11 +74,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								wUB11DC6gbDr
-								A5wZtDYllg==
+								Ei8k2QDqgC2s
+								7ASLT/6aVg==
 								</data>
 								<key>Size</key>
-								<integer>8966</integer>
+								<integer>9242</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>

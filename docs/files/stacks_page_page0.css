@@ -70,5 +70,8 @@
 }
 
 #stacks_in_41_page0 {
-	margin: 100px 0px 0px 0px;
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width: 1px 0px 0px 0px;
+	margin: 50px 0px 50px 0px;
+	padding: 50px 0px 0px 0px;
 }

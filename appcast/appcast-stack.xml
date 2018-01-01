@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel>
-<title>Blankstrap Theme for RapidWeaver</title>
+<title>Blankstrap Stack for RapidWeaver</title>
 <link>https://github.com/jrondorf/Blankstrap</link>
-<description>Blankstrap Theme for RapidWeaver</description>
+<description>Blankstrap Stack for RapidWeaver</description>
 <language>en</language>
 <item>
 <title>Blankstrap Stack for RapidWeaver Update</title>
 <sparkle:releaseNotesLink>https://github.com/jrondorf/Blankstrap</sparkle:releaseNotesLink>
-<pubDate>Mon, 20 Nov 2017 12:00:00 +0000</pubDate>
+<pubDate>Mon, 01 Jan 2018 12:00:00 +0000</pubDate>
 <enclosure
- url=""
- sparkle:version="1.0.0"
- sparkle:shortVersionString="1.0.0"
+ url="https://github.com/jrondorf/Blankstrap/releases/download/0.2.0/Blankstrap.stack.zip"
+ sparkle:version="20"
+ sparkle:shortVersionString="0.2.0"
  length="1"
  type="application/octet-stream" />
 </item>

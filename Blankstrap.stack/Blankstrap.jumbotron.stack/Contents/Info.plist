@@ -5,7 +5,7 @@
     <key>author/copyright info</key>
     <string>Futural UG (haftungsbeschraenkt)</string>
     <key>CFBundleIdentifier</key>
-    <string>blankstrapstack.container</string>
+    <string>blankstrapstack.jumbotron</string>
     <key>CFBundleVersion</key>
     <string>0.2.0</string>
     <key>CFBundleShortVersionString</key>
@@ -31,9 +31,9 @@
     <key>preprocessor</key>
     <true/>
     <key>title</key>
-    <string>Container</string>
+    <string>Jumbotron</string>
     <key>subtitle</key>
-    <string>Blankstrap Container</string>
+    <string>Blankstrap Jumbotron</string>
     <key>customItems</key>
     <array>
     </array>
@@ -45,6 +45,7 @@
         <string>Blankstrap</string>
         <string>Content</string>
         <string>Container</string>
+        <string>Jumbotron</string>
     </array>
     <key>templates</key>
     <array>

@@ -20,10 +20,10 @@
 				<string>7.1</string>
 				<key>PublishingManifests</key>
 				<dict>
-					<key>page0 - file:///Users/d459/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Blankstrap/docs/</key>
+					<key>page0 - file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-11-27T16:52:05Z</date>
+						<date>2018-01-01T20:50:46Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -42,11 +42,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								UNgbLMmYfSH3
-								bY8ejE/39g==
+								vu9XKrJm08o7
+								HQMjlg6pYQ==
 								</data>
 								<key>Size</key>
-								<integer>761</integer>
+								<integer>860</integer>
 							</dict>
 							<key>files/stacks_page_page0.js</key>
 							<dict>
@@ -62,11 +62,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								wUB11DC6gbDr
-								A5wZtDYllg==
+								Ei8k2QDqgC2s
+								7ASLT/6aVg==
 								</data>
 								<key>Size</key>
-								<integer>8966</integer>
+								<integer>9242</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -76,10 +76,10 @@
 						<key>Version</key>
 						<integer>3</integer>
 					</dict>
-					<key>rw:document:extrafiles - file:///Users/d459/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Blankstrap/docs/</key>
+					<key>rw:document:extrafiles - file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-11-27T16:52:05Z</date>
+						<date>2018-01-01T20:50:46Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -98,11 +98,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								JKtBs3FLko0+
-								7Gqlk5+B5g==
+								faFLeaGqn2Gi
+								jw+XIpD0IA==
 								</data>
 								<key>Size</key>
-								<integer>6</integer>
+								<integer>5</integer>
 							</dict>
 							<key>sitemap.xml</key>
 							<dict>
@@ -122,10 +122,10 @@
 						<key>Version</key>
 						<integer>3</integer>
 					</dict>
-					<key>rw:plugin:stacks - file:///Users/d459/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Blankstrap/docs/</key>
+					<key>rw:plugin:stacks - file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-11-27T16:52:05Z</date>
+						<date>2018-01-01T20:50:46Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -158,10 +158,10 @@
 						<key>Version</key>
 						<integer>3</integer>
 					</dict>
-					<key>rw:theme:Blankstrap - file:///Users/d459/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Blankstrap/docs/</key>
+					<key>rw:theme:Blankstrap - file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2017-11-27T16:52:05Z</date>
+						<date>2018-01-01T20:50:46Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -170,21 +170,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								1T7hoQl1Nf0l
-								mGzwjkZo8w==
+								bXxBwGS/w2s1
+								ct9pVrLSmg==
 								</data>
 								<key>Size</key>
-								<integer>199754</integer>
-							</dict>
-							<key>css/bootstrap.min.css.map</key>
-							<dict>
-								<key>Digest</key>
-								<data>
-								3qDMbxcTIhHa
-								yIvSzZku9w==
-								</data>
-								<key>Size</key>
-								<integer>514728</integer>
+								<integer>199721</integer>
 							</dict>
 							<key>fonts/FontAwesome.otf</key>
 							<dict>
@@ -275,66 +265,6 @@
 								</data>
 								<key>Size</key>
 								<integer>61</integer>
-							</dict>
-							<key>js/bootstrap.bundle.js</key>
-							<dict>
-								<key>Digest</key>
-								<data>
-								4aBr5z0m+4zj
-								cvOnhhs/1A==
-								</data>
-								<key>Size</key>
-								<integer>105827</integer>
-							</dict>
-							<key>js/bootstrap.bundle.js.map</key>
-							<dict>
-								<key>Digest</key>
-								<data>
-								EQzY9+yq/76C
-								dTUuTYIPKg==
-								</data>
-								<key>Size</key>
-								<integer>323074</integer>
-							</dict>
-							<key>js/bootstrap.bundle.min.js</key>
-							<dict>
-								<key>Digest</key>
-								<data>
-								hb7xuGuHfbSx
-								fqi64+t80w==
-								</data>
-								<key>Size</key>
-								<integer>69453</integer>
-							</dict>
-							<key>js/bootstrap.bundle.min.js.map</key>
-							<dict>
-								<key>Digest</key>
-								<data>
-								5wts3LO9/4w0
-								bBpT/vexuQ==
-								</data>
-								<key>Size</key>
-								<integer>271233</integer>
-							</dict>
-							<key>js/bootstrap.js</key>
-							<dict>
-								<key>Digest</key>
-								<data>
-								sPUvNi8lZF4t
-								cCKJS+46Kg==
-								</data>
-								<key>Size</key>
-								<integer>71889</integer>
-							</dict>
-							<key>js/bootstrap.js.map</key>
-							<dict>
-								<key>Digest</key>
-								<data>
-								A4SxVMe7pIrc
-								3G6ZN7pyBQ==
-								</data>
-								<key>Size</key>
-								<integer>191202</integer>
 							</dict>
 							<key>js/bootstrap.min.js</key>
 							<dict>
@@ -480,31 +410,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								SdcB6Iegb/RX
-								VOwyuAZqlQ==
+								EVcr4NhA75cR
+								86wS7GurUQ==
 								</data>
 								<key>Size</key>
-								<integer>697</integer>
-							</dict>
-							<key>js/popper.js</key>
-							<dict>
-								<key>Digest</key>
-								<data>
-								3qPOnu60PufH
-								UBBLEPcCUg==
-								</data>
-								<key>Size</key>
-								<integer>34234</integer>
-							</dict>
-							<key>js/popper.js.map</key>
-							<dict>
-								<key>Digest</key>
-								<data>
-								ixRIbTtgqhvV
-								lBiCmr/o4Q==
-								</data>
-								<key>Size</key>
-								<integer>128921</integer>
+								<integer>60</integer>
 							</dict>
 							<key>js/popper.min.js</key>
 							<dict>
@@ -1160,7 +1070,7 @@
 					<key>WebClipIconUsed</key>
 					<false/>
 					<key>cacheBustingString</key>
-					<string>?rwcache=533494325</string>
+					<string>?rwcache=536532646</string>
 					<key>globalBody</key>
 					<string></string>
 					<key>globalCSS</key>
