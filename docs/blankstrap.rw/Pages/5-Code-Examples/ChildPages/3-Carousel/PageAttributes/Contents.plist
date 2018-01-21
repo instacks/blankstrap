@@ -163,9 +163,9 @@ body {
 				<dict>
 					<key>Blankstrap</key>
 					<array>
-						<string>Bootswatch Themes.Materia</string>
+						<string>Bootswatch Themes.United</string>
 						<string>Content Container.None</string>
-						<string>Navigation Bar Background Colors.Dark</string>
+						<string>Navigation Bar Background Colors.Primary</string>
 						<string>Navigation Bar Colors.navbar-inverse bg-primary</string>
 						<string>Navigation Bar Container.Content Fluid</string>
 						<string>Navigation Bar Text Colors.Light</string>
