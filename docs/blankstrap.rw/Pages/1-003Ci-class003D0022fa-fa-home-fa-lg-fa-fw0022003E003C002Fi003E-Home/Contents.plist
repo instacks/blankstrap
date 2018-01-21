@@ -28,14 +28,14 @@
 					<key>Name</key>
 					<string>Stacks</string>
 					<key>Version</key>
-					<string>3.5.6b2</string>
+					<string>3.5.7b2</string>
 				</dict>
 				<key>PublishingManifests</key>
 				<dict>
 					<key>file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2018-01-01T20:50:46Z</date>
+						<date>2018-01-21T23:00:03Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -74,11 +74,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								Ei8k2QDqgC2s
-								7ASLT/6aVg==
+								TS2xXlRCgPzp
+								77TFt1v1nA==
 								</data>
 								<key>Size</key>
-								<integer>9242</integer>
+								<integer>11165</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>

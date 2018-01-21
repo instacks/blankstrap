@@ -1,0 +1,273 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+    <meta charset="utf-8">
+    <meta name="theme" content="Blankstrap 0.2.0" />
+    <!-- header -->
+    
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="robots" content="index, follow" />
+		<meta name="generator" content="RapidWeaver" />
+		
+    <!-- user_header -->
+    
+    <title>Checkout | Blankstrap</title>
+    <!-- colourtag / other css -->
+    <link rel="stylesheet" type="text/css" media="all" href="../../rw_common/themes/Blankstrap/consolidated.css?rwcache=538268403" />
+		
+    
+    <!-- user_styles -->
+    
+    <!-- plugin_header -->
+    
+</head>
+<body>
+    <nav id="blankstrap-nav" class="navbar navbar-expand-lg">
+        <div id="blankstrap-nav-container" class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="../" class="navbar-brand">
+                <img src="../../rw_common/images/icon@2x.png" width="256" height="256" alt="Blankstrap"/>
+                Blankstrap
+            </a>
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                <ul><li class="nav-item"><a href="../../" rel="" class="nav-link normal"><i class="fa fa-home fa-lg fa-fw"></i> Home</a></li><li class="nav-item"><a href="./#settings" rel="" class="nav-link normal"><i class="fa fa-cog fa-lg fa-fw"></i> Settings</a></li><li class="nav-item"><a href="./#stacks" rel="" class="nav-link normal"><i class="fa fa-cubes fa-lg fa-fw"></i> Stacks</a></li><li class="nav-item dropdown"><a href="../../rwexamples/" rel="" class="nav-link normal parent normalParent">RW Examples</a><ul><li class="nav-item"><a href="../../rwexamples/blog/" rel="" class="nav-link normal"><i class="fa fa-pencil fa-lg fa-fw"></i> Blog</a></li><li class="nav-item"><a href="../../rwexamples/photos/" rel="" class="nav-link normal"><i class="fa fa-picture-o fa-lg fa-fw"></i> Photo Album</a></li><li class="nav-item"><a href="../../rwexamples/contact-form/" rel="" class="nav-link normal"><i class="fa fa-address-card-o fa-lg fa-fw"></i> Blog</a></li></ul></li><li class="nav-item dropdown"><a href="../../codeexamples/" rel="" class="nav-link current parent currentAncestorParent active">Code Examples</a><ul><li class="nav-item"><a href="../../codeexamples/album/" rel="" class="nav-link normal">Album</a></li><li class="nav-item"><a href="../../codeexamples/blog/" rel="" class="nav-link normal">Blog</a></li><li class="nav-item"><a href="../../codeexamples/carousel/" rel="" class="nav-link normal">Carousel</a></li><li class="nav-item"><a href="./" rel="" class="nav-link current active">Checkout</a></li><li class="nav-item"><a href="../../codeexamples/dashboard/" rel="" class="nav-link normal">Dashboard</a></li><li class="nav-item"><a href="../../codeexamples/pricing/" rel="" class="nav-link normal">Pricing</a></li><li class="nav-item"><a href="../../codeexamples/product/" rel="" class="nav-link normal">Product</a></li></ul></li><li class="nav-item"><a href="https://github.com/jrondorf/Blankstrap" rel="" class="nav-link normal"><i class="fa fa-github fa-lg fa-fw"></i> GitHub</a></li></ul>
+            </div>
+        </div>
+    </nav>
+    <div id="blankstrap-content">
+        <div class="container">
+      <div class="py-5 text-center">
+        <img class="d-block mx-auto mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+        <h2>Checkout form</h2>
+        <p class="lead">Below is an example form built entirely with Bootstrap's form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 order-md-2 mb-4">
+          <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-muted">Your cart</span>
+            <span class="badge badge-secondary badge-pill">3</span>
+          </h4>
+          <ul class="list-group mb-3">
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Product name</h6>
+                <small class="text-muted">Brief description</small>
+              </div>
+              <span class="text-muted">$12</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Second product</h6>
+                <small class="text-muted">Brief description</small>
+              </div>
+              <span class="text-muted">$8</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Third item</h6>
+                <small class="text-muted">Brief description</small>
+              </div>
+              <span class="text-muted">$5</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between bg-light">
+              <div class="text-success">
+                <h6 class="my-0">Promo code</h6>
+                <small>EXAMPLECODE</small>
+              </div>
+              <span class="text-success">-$5</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Total (USD)</span>
+              <strong>$20</strong>
+            </li>
+          </ul>
+
+          <form class="card p-2">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Promo code">
+              <div class="input-group-append">
+                <button type="submit" class="btn btn-secondary">Redeem</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-8 order-md-1">
+          <h4 class="mb-3">Billing address</h4>
+          <form class="needs-validation" novalidate="">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="firstName">First name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                <div class="invalid-feedback">
+                  Valid first name is required.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="lastName">Last name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                <div class="invalid-feedback">
+                  Valid last name is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="username">Username</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">@</span>
+                </div>
+                <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                <div class="invalid-feedback" style="width: 100%;">
+                  Your username is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="email">Email <span class="text-muted">(Optional)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+              <div class="invalid-feedback">
+                Please enter a valid email address for shipping updates.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="address">Address</label>
+              <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+              <div class="invalid-feedback">
+                Please enter your shipping address.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
+              <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+            </div>
+
+            <div class="row">
+              <div class="col-md-5 mb-3">
+                <label for="country">Country</label>
+                <select class="custom-select d-block w-100" id="country" required="">
+                  <option value="">Choose...</option>
+                  <option>United States</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid country.
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="state">State</label>
+                <select class="custom-select d-block w-100" id="state" required="">
+                  <option value="">Choose...</option>
+                  <option>California</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please provide a valid state.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="zip">Zip</label>
+                <input type="text" class="form-control" id="zip" placeholder="" required="">
+                <div class="invalid-feedback">
+                  Zip code required.
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="same-address">
+              <label class="custom-control-label" for="same-address">Shipping address is the same as my billing address</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="save-info">
+              <label class="custom-control-label" for="save-info">Save this information for next time</label>
+            </div>
+            <hr class="mb-4">
+
+            <h4 class="mb-3">Payment</h4>
+
+            <div class="d-block my-3">
+              <div class="custom-control custom-radio">
+                <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked="" required="">
+                <label class="custom-control-label" for="credit">Credit card</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required="">
+                <label class="custom-control-label" for="debit">Debit card</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required="">
+                <label class="custom-control-label" for="paypal">Paypal</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="cc-name">Name on card</label>
+                <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                <small class="text-muted">Full name as displayed on card</small>
+                <div class="invalid-feedback">
+                  Name on card is required
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="cc-number">Credit card number</label>
+                <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                <div class="invalid-feedback">
+                  Credit card number is required
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3 mb-3">
+                <label for="cc-expiration">Expiration</label>
+                <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                <div class="invalid-feedback">
+                  Expiration date required
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="cc-expiration">CVV</label>
+                <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                <div class="invalid-feedback">
+                  Security code required
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4">
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+          </form>
+        </div>
+      </div>
+
+      <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">© 2017-2018 Company Name</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Privacy</a></li>
+          <li class="list-inline-item"><a href="#">Terms</a></li>
+          <li class="list-inline-item"><a href="#">Support</a></li>
+        </ul>
+      </footer>
+    </div>
+    </div>
+    <div id="blankstrap"></div>
+    <script type="text/javascript" src="../../rw_common/themes/Blankstrap/js/jquery.min.js?rwcache=538268403"></script>
+    <script type="text/javascript" src="../../rw_common/themes/Blankstrap/js/bootstrap.bundle.min.js?rwcache=538268403"></script>
+    <script type="text/javascript" src="../../rw_common/themes/Blankstrap/js/javascript.js?rwcache=538268403"></script>
+    <script type="text/javascript" src="../../rw_common/themes/Blankstrap/js/baguetteBox.min.js?rwcache=538268403"></script>
+    <script type="text/javascript" src="../../rw_common/themes/Blankstrap/js/photo-album.js?rwcache=538268403"></script>
+    <!-- style_variations -->
+    <script type="text/javascript" src="../../rw_common/themes/Blankstrap/js/navigation.js?rwcache=538268403"></script>
+		<script type="text/javascript" src="../../rw_common/themes/Blankstrap/js/navigation-fixed-top.js?rwcache=538268403"></script>
+		<script type="text/javascript" src="../../rw_common/themes/Blankstrap/js/navbar-dark.js?rwcache=538268403"></script>
+		<script type="text/javascript" src="../../rw_common/themes/Blankstrap/js/bg-primary.js?rwcache=538268403"></script>
+		<script type="text/javascript" src="../../rw_common/themes/Blankstrap/js/navigation-container-fluid.js?rwcache=538268403"></script>
+		<script type="text/javascript" src="../../rw_common/themes/Blankstrap/js/content-container.js?rwcache=538268403"></script>
+		
+    <!-- user_javascript -->
+    
+</body>
+</html>

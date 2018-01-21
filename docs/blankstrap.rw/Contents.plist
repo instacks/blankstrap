@@ -23,7 +23,7 @@
 					<key>page0 - file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2018-01-01T20:50:46Z</date>
+						<date>2018-01-21T23:00:03Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -62,11 +62,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								Ei8k2QDqgC2s
-								7ASLT/6aVg==
+								TS2xXlRCgPzp
+								77TFt1v1nA==
 								</data>
 								<key>Size</key>
-								<integer>9242</integer>
+								<integer>11165</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -76,10 +76,812 @@
 						<key>Version</key>
 						<integer>3</integer>
 					</dict>
+					<key>page10 - file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2018-01-21T23:00:03Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>index.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								WJ09B0BO1DT8
+								D/CTsEMyTA==
+								</data>
+								<key>Size</key>
+								<integer>4993</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>page10</string>
+						<key>SiteRoot</key>
+						<string>codeexamples/pricing</string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
+					<key>page12 - file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2018-01-21T23:00:03Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>index.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								bDFnapyk13rf
+								szpnpnf3Yw==
+								</data>
+								<key>Size</key>
+								<integer>21511</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>page12</string>
+						<key>SiteRoot</key>
+						<string>codeexamples/album</string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
+					<key>page13 - file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2018-01-21T23:00:03Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>index.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								SZB+XSzpSwAe
+								6TCCJk4O8w==
+								</data>
+								<key>Size</key>
+								<integer>10456</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>page13</string>
+						<key>SiteRoot</key>
+						<string>codeexamples/product</string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
+					<key>page14 - file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2018-01-21T23:00:03Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>index.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								WerL8ZaUvBEH
+								dM4LNUPJpA==
+								</data>
+								<key>Size</key>
+								<integer>20160</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>page14</string>
+						<key>SiteRoot</key>
+						<string>codeexamples/dashboard</string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
+					<key>page15 - file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2018-01-21T23:00:03Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>index.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								Wg88BK85sLW4
+								6mAcHooNqw==
+								</data>
+								<key>Size</key>
+								<integer>19751</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>page15</string>
+						<key>SiteRoot</key>
+						<string>codeexamples/blog</string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
+					<key>page16 - file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2018-01-21T23:00:03Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>index.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								BYDlcZxtVvwV
+								17ujucIyRA==
+								</data>
+								<key>Size</key>
+								<integer>16554</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>page16</string>
+						<key>SiteRoot</key>
+						<string>codeexamples/carousel</string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
+					<key>page4 - file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2018-01-21T23:00:03Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>files/page4-1000-full.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								tZNPTNrRQnd5
+								m1zqsMCW7w==
+								</data>
+								<key>Size</key>
+								<integer>1579</integer>
+							</dict>
+							<key>files/page4-1000-full.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								iGAm0VF7vc9Q
+								OK0XGYwr6A==
+								</data>
+								<key>Size</key>
+								<integer>196309</integer>
+							</dict>
+							<key>files/page4-1000-thumb.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								/x6z8ZnExOUg
+								4CVm5taUBA==
+								</data>
+								<key>Size</key>
+								<integer>61574</integer>
+							</dict>
+							<key>files/page4-1001-full.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								XheFWiAtvD7D
+								NeycJaDWKQ==
+								</data>
+								<key>Size</key>
+								<integer>1617</integer>
+							</dict>
+							<key>files/page4-1001-full.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								/jE1FMU3h6F3
+								Td2CDdLYjQ==
+								</data>
+								<key>Size</key>
+								<integer>161278</integer>
+							</dict>
+							<key>files/page4-1001-thumb.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								baFLEllFEZW2
+								fvvfJCI24Q==
+								</data>
+								<key>Size</key>
+								<integer>68663</integer>
+							</dict>
+							<key>files/page4-1002-full.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								ZLGkEAlrhoCa
+								PHxnvmPK6A==
+								</data>
+								<key>Size</key>
+								<integer>1619</integer>
+							</dict>
+							<key>files/page4-1002-full.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								vgOjS/lmIl3a
+								R3NoO9kBrg==
+								</data>
+								<key>Size</key>
+								<integer>288958</integer>
+							</dict>
+							<key>files/page4-1002-thumb.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								IBxOLCpnpnhk
+								obY6ly5NnA==
+								</data>
+								<key>Size</key>
+								<integer>83075</integer>
+							</dict>
+							<key>files/page4-1003-full.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								0P6ra2gbCID1
+								WltOz8zW1g==
+								</data>
+								<key>Size</key>
+								<integer>1619</integer>
+							</dict>
+							<key>files/page4-1003-full.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								ZlCvcgb7Te3H
+								/PbrEd9I8g==
+								</data>
+								<key>Size</key>
+								<integer>171046</integer>
+							</dict>
+							<key>files/page4-1003-thumb.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								qgubgPRYJTHC
+								zkPgXMuxsg==
+								</data>
+								<key>Size</key>
+								<integer>75700</integer>
+							</dict>
+							<key>files/page4-1004-full.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								ksHEckrlirh6
+								cAvCM5LzGQ==
+								</data>
+								<key>Size</key>
+								<integer>1619</integer>
+							</dict>
+							<key>files/page4-1004-full.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								wZyb70xyQoTW
+								rDEJg2T5RA==
+								</data>
+								<key>Size</key>
+								<integer>285727</integer>
+							</dict>
+							<key>files/page4-1004-thumb.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								ENZw+264Hbd3
+								+Pj/UtqKYA==
+								</data>
+								<key>Size</key>
+								<integer>79975</integer>
+							</dict>
+							<key>files/page4-1005-full.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								Kn8EVhAApSUN
+								OzgikqFD9g==
+								</data>
+								<key>Size</key>
+								<integer>1627</integer>
+							</dict>
+							<key>files/page4-1005-full.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								+eMiDMXvPE2h
+								XfegdcNuJw==
+								</data>
+								<key>Size</key>
+								<integer>47995</integer>
+							</dict>
+							<key>files/page4-1005-thumb.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								kebT6AyGKJRX
+								5iiHfYwp7g==
+								</data>
+								<key>Size</key>
+								<integer>31243</integer>
+							</dict>
+							<key>files/page4-1006-full.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								ZRNXSIMWgTdc
+								FkN1CvAM5w==
+								</data>
+								<key>Size</key>
+								<integer>1623</integer>
+							</dict>
+							<key>files/page4-1006-full.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								vMl3G//gRuyp
+								Xa4QpMBTRQ==
+								</data>
+								<key>Size</key>
+								<integer>206750</integer>
+							</dict>
+							<key>files/page4-1006-thumb.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								RfOjctbgcN9u
+								TBMtsM1rzA==
+								</data>
+								<key>Size</key>
+								<integer>56136</integer>
+							</dict>
+							<key>files/page4-1007-full.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								BqXy1qYB9rly
+								+qvTvyZOxw==
+								</data>
+								<key>Size</key>
+								<integer>1631</integer>
+							</dict>
+							<key>files/page4-1007-full.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								2bMC2FLI6Mjz
+								2Cqc/jzm8w==
+								</data>
+								<key>Size</key>
+								<integer>203997</integer>
+							</dict>
+							<key>files/page4-1007-thumb.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								K6hFF6ZBtRYl
+								+InKjgjG3w==
+								</data>
+								<key>Size</key>
+								<integer>79775</integer>
+							</dict>
+							<key>files/page4-1008-full.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								GMqRNHu1+hqL
+								CE5Or/bYgA==
+								</data>
+								<key>Size</key>
+								<integer>1631</integer>
+							</dict>
+							<key>files/page4-1008-full.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								zaC7Lk0kbz0J
+								iaepYCYz1Q==
+								</data>
+								<key>Size</key>
+								<integer>139397</integer>
+							</dict>
+							<key>files/page4-1008-thumb.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								R20HjOhqvfVd
+								F6voww0bzA==
+								</data>
+								<key>Size</key>
+								<integer>60349</integer>
+							</dict>
+							<key>files/page4-1009-full.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								7IjB65jWS+cH
+								CGzuENntwg==
+								</data>
+								<key>Size</key>
+								<integer>1623</integer>
+							</dict>
+							<key>files/page4-1009-full.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								bC2bcW/HEhqW
+								0Q98lYcLkg==
+								</data>
+								<key>Size</key>
+								<integer>376308</integer>
+							</dict>
+							<key>files/page4-1009-thumb.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								OeXNZENwKlxx
+								EcCgaFKgDg==
+								</data>
+								<key>Size</key>
+								<integer>85154</integer>
+							</dict>
+							<key>files/page4-1010-full.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								QMNO0Pjkhaum
+								8Ku+aLynvg==
+								</data>
+								<key>Size</key>
+								<integer>1621</integer>
+							</dict>
+							<key>files/page4-1010-full.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								Jxh8mRRRWc9P
+								LGSu5CYbJw==
+								</data>
+								<key>Size</key>
+								<integer>311897</integer>
+							</dict>
+							<key>files/page4-1010-thumb.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								RRP888Lf6fOq
+								2sJGbFlkpg==
+								</data>
+								<key>Size</key>
+								<integer>80907</integer>
+							</dict>
+							<key>files/page4-1011-full.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								giBpUunl2QLG
+								jIU7HLZONQ==
+								</data>
+								<key>Size</key>
+								<integer>1587</integer>
+							</dict>
+							<key>files/page4-1011-full.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								K8wTb5fKEpek
+								APvaBPl/Xw==
+								</data>
+								<key>Size</key>
+								<integer>166650</integer>
+							</dict>
+							<key>files/page4-1011-thumb.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								UNxp0k/mbp6v
+								WcbffQ2+bQ==
+								</data>
+								<key>Size</key>
+								<integer>71839</integer>
+							</dict>
+							<key>index.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								s6CyngSPeywv
+								woo470I9Zg==
+								</data>
+								<key>Size</key>
+								<integer>9035</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>page4</string>
+						<key>SiteRoot</key>
+						<string>rwexamples/photos</string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
+					<key>page5 - file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2018-01-21T23:00:03Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>files/stacks_page_page5.css</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								NXxqoaedRwfK
+								JcBOPVrBOA==
+								</data>
+								<key>Size</key>
+								<integer>11</integer>
+							</dict>
+							<key>files/stacks_page_page5.js</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								/sVCkdFW9q/I
+								jsYQMInoDw==
+								</data>
+								<key>Size</key>
+								<integer>17</integer>
+							</dict>
+							<key>index.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								s8IO84kjSpLU
+								t1BVP4UX+w==
+								</data>
+								<key>Size</key>
+								<integer>5340</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>page5</string>
+						<key>SiteRoot</key>
+						<string>rwexamples</string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
+					<key>page6 - file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2018-01-21T23:00:03Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>files/377c3582ecdae577aea4cf6a6d9b34cf-0.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								n86Jws4G3b9K
+								tmYTWTQJqQ==
+								</data>
+								<key>Size</key>
+								<integer>8656</integer>
+							</dict>
+							<key>files/3d232d8560d370d500eb9349ae5ffa65-4.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								IdzPIasE7W4S
+								DTVJCf+TVg==
+								</data>
+								<key>Size</key>
+								<integer>8656</integer>
+							</dict>
+							<key>files/4781b591426d49509ea7008a8cf544ff-2.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								/XSZ9uVUmG3s
+								hyr41kfU7A==
+								</data>
+								<key>Size</key>
+								<integer>8656</integer>
+							</dict>
+							<key>files/archive-january-2018.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								8aTTsQzy6hea
+								7wRu3hMgKQ==
+								</data>
+								<key>Size</key>
+								<integer>10364</integer>
+							</dict>
+							<key>files/b1477ab9e55d42c222b25a71e7f09805-1.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								BaQZY4pThMha
+								vyhjOuc58Q==
+								</data>
+								<key>Size</key>
+								<integer>8656</integer>
+							</dict>
+							<key>files/f6d48eec25ccd35fbc06c4174cb044b8-3.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								MMIMvCW4Fwkg
+								SvSXszIX4g==
+								</data>
+								<key>Size</key>
+								<integer>8656</integer>
+							</dict>
+							<key>files/feed.xml</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								pCYi4o5KfAxf
+								Li9xZI+Vgw==
+								</data>
+								<key>Size</key>
+								<integer>6414</integer>
+							</dict>
+							<key>files/meta.js</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								AtaC/vvDSMrf
+								mIiClDv9lg==
+								</data>
+								<key>Size</key>
+								<integer>2556</integer>
+							</dict>
+							<key>index.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								ITXyVEIUIVQs
+								MYDx+cjpDQ==
+								</data>
+								<key>Size</key>
+								<integer>10081</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>page6</string>
+						<key>SiteRoot</key>
+						<string>rwexamples/blog</string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
+					<key>page7 - file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2018-01-21T23:00:03Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>files/mailer.php</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								XqUDvVgzmyWQ
+								egnYTb54GA==
+								</data>
+								<key>Size</key>
+								<integer>8976</integer>
+							</dict>
+							<key>index.php</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								Bx1kLE30Igyx
+								EbBH1qaDfQ==
+								</data>
+								<key>Size</key>
+								<integer>7385</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>page7</string>
+						<key>SiteRoot</key>
+						<string>rwexamples/contact-form</string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
+					<key>page8 - file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2018-01-21T23:00:03Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>files/stacks_page_page8.css</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								NXxqoaedRwfK
+								JcBOPVrBOA==
+								</data>
+								<key>Size</key>
+								<integer>11</integer>
+							</dict>
+							<key>files/stacks_page_page8.js</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								/sVCkdFW9q/I
+								jsYQMInoDw==
+								</data>
+								<key>Size</key>
+								<integer>17</integer>
+							</dict>
+							<key>index.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								DZyhbeVFRp+u
+								7AaD9e3cpg==
+								</data>
+								<key>Size</key>
+								<integer>5340</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>page8</string>
+						<key>SiteRoot</key>
+						<string>codeexamples</string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
+					<key>page9 - file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2018-01-21T23:00:03Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>index.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								JDb/rSzyjeOd
+								7rYg8FnzTw==
+								</data>
+								<key>Size</key>
+								<integer>14830</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>page9</string>
+						<key>SiteRoot</key>
+						<string>codeexamples/checkout</string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
 					<key>rw:document:extrafiles - file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2018-01-01T20:50:46Z</date>
+						<date>2018-01-21T23:00:03Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -108,11 +910,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								6zX9BkR0tzu/
-								dv/BnXl+kg==
+								ToYq3cSZcUqp
+								Po6/cZ3qfw==
 								</data>
 								<key>Size</key>
-								<integer>187</integer>
+								<integer>3310</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -122,10 +924,116 @@
 						<key>Version</key>
 						<integer>3</integer>
 					</dict>
+					<key>rw:plugin:blog - file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2018-01-21T23:00:03Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>rss.gif</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								ySu0h74kFZbd
+								w1d11rHDPA==
+								</data>
+								<key>Size</key>
+								<integer>219</integer>
+							</dict>
+							<key>smiley_angry.png</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								OsvBGlBtLs1C
+								xAB3/F5vkA==
+								</data>
+								<key>Size</key>
+								<integer>1275</integer>
+							</dict>
+							<key>smiley_embarrassed.png</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								Ok+zrbTJSQbz
+								YHvbtXa5FQ==
+								</data>
+								<key>Size</key>
+								<integer>1310</integer>
+							</dict>
+							<key>smiley_footinmouth.png</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								oNlmERQNe+Jv
+								bhxYf6Q/sQ==
+								</data>
+								<key>Size</key>
+								<integer>1254</integer>
+							</dict>
+							<key>smiley_gasp.png</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								3fIF+LsL4I97
+								3PnZdsHYdg==
+								</data>
+								<key>Size</key>
+								<integer>1208</integer>
+							</dict>
+							<key>smiley_laugh.png</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								aiKkmJLIzkmw
+								I7ENY7ns/A==
+								</data>
+								<key>Size</key>
+								<integer>1283</integer>
+							</dict>
+							<key>smiley_sad.png</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								JrI6GFcEDYoD
+								NPeCi0NJDQ==
+								</data>
+								<key>Size</key>
+								<integer>1263</integer>
+							</dict>
+							<key>smiley_smile.png</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								ek1FWaeOXYzG
+								u9xa5IUf6A==
+								</data>
+								<key>Size</key>
+								<integer>1240</integer>
+							</dict>
+							<key>smiley_wink.png</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								zIRR5aU+gUMZ
+								uXop1aVLFA==
+								</data>
+								<key>Size</key>
+								<integer>1236</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>rw:plugin:blog</string>
+						<key>SiteRoot</key>
+						<string>rw_common/plugins/blog</string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
 					<key>rw:plugin:stacks - file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2018-01-01T20:50:46Z</date>
+						<date>2018-01-21T23:00:03Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -161,20 +1069,50 @@
 					<key>rw:theme:Blankstrap - file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2018-01-01T20:50:46Z</date>
+						<date>2018-01-21T23:00:03Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
 						<dict>
+							<key>consolidated-13.css</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								bx7IX6yF5qOu
+								tHdyUYtihw==
+								</data>
+								<key>Size</key>
+								<integer>222154</integer>
+							</dict>
+							<key>consolidated-14.css</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								bx7IX6yF5qOu
+								tHdyUYtihw==
+								</data>
+								<key>Size</key>
+								<integer>222154</integer>
+							</dict>
+							<key>consolidated-16.css</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								bx7IX6yF5qOu
+								tHdyUYtihw==
+								</data>
+								<key>Size</key>
+								<integer>222154</integer>
+							</dict>
 							<key>consolidated.css</key>
 							<dict>
 								<key>Digest</key>
 								<data>
-								bXxBwGS/w2s1
-								ct9pVrLSmg==
+								7mSStIKr10ya
+								1B9Utva9aw==
 								</data>
 								<key>Size</key>
-								<integer>199721</integer>
+								<integer>186127</integer>
 							</dict>
 							<key>fonts/FontAwesome.otf</key>
 							<dict>
@@ -236,6 +1174,16 @@
 								<key>Size</key>
 								<integer>77160</integer>
 							</dict>
+							<key>js/baguetteBox.min.js</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								038dCWb36w/W
+								xDdR8cwuuA==
+								</data>
+								<key>Size</key>
+								<integer>9072</integer>
+							</dict>
 							<key>js/bg-dark.js</key>
 							<dict>
 								<key>Digest</key>
@@ -266,25 +1214,15 @@
 								<key>Size</key>
 								<integer>61</integer>
 							</dict>
-							<key>js/bootstrap.min.js</key>
+							<key>js/bootstrap.bundle.min.js</key>
 							<dict>
 								<key>Digest</key>
 								<data>
-								RrVJvckJIPGK
-								kR8Ya53XXA==
+								mNLB2hwKSV+P
+								yK0UTqHT0g==
 								</data>
 								<key>Size</key>
-								<integer>50564</integer>
-							</dict>
-							<key>js/bootstrap.min.js.map</key>
-							<dict>
-								<key>Digest</key>
-								<data>
-								eiNyeK1sG1S/
-								JTS/goqyFw==
-								</data>
-								<key>Size</key>
-								<integer>159064</integer>
+								<integer>67742</integer>
 							</dict>
 							<key>js/content-background-color.js</key>
 							<dict>
@@ -336,6 +1274,16 @@
 								<key>Size</key>
 								<integer>0</integer>
 							</dict>
+							<key>js/fontawesome-all.min.js</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								srsjL8+Q5vjt
+								2PJpqaqsKQ==
+								</data>
+								<key>Size</key>
+								<integer>659359</integer>
+							</dict>
 							<key>js/javascript.js</key>
 							<dict>
 								<key>Digest</key>
@@ -345,6 +1293,16 @@
 								</data>
 								<key>Size</key>
 								<integer>10724</integer>
+							</dict>
+							<key>js/jquery.fitvids.js</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								swvPZzKhmi8N
+								oa89AUf1Vg==
+								</data>
+								<key>Size</key>
+								<integer>1779</integer>
 							</dict>
 							<key>js/jquery.min.js</key>
 							<dict>
@@ -410,31 +1368,21 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								EVcr4NhA75cR
-								86wS7GurUQ==
+								61xqzBc0Ansu
+								cXTEJ9Lzdg==
 								</data>
 								<key>Size</key>
-								<integer>60</integer>
+								<integer>777</integer>
 							</dict>
-							<key>js/popper.min.js</key>
+							<key>js/photo-album.js</key>
 							<dict>
 								<key>Digest</key>
 								<data>
-								qtJHXx4mFSJP
-								qXFrU5VL4g==
+								AIuKIVmvOqpn
+								Dlyi/i10Xw==
 								</data>
 								<key>Size</key>
-								<integer>19236</integer>
-							</dict>
-							<key>js/popper.min.js.map</key>
-							<dict>
-								<key>Digest</key>
-								<data>
-								mYstMsPjhxUt
-								zP84cIYcog==
-								</data>
-								<key>Size</key>
-								<integer>113386</integer>
+								<integer>293</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -1070,7 +2018,7 @@
 					<key>WebClipIconUsed</key>
 					<false/>
 					<key>cacheBustingString</key>
-					<string>?rwcache=536532646</string>
+					<string>?rwcache=538268403</string>
 					<key>globalBody</key>
 					<string></string>
 					<key>globalCSS</key>
