@@ -3,33 +3,35 @@
 <plist version="1.0">
 <dict>
     <key>author/copyright info</key>
-    <string>Futural UG (haftungsbeschraenkt)</string>
+    <string>Blankstrap</string>
     <key>CFBundleIdentifier</key>
-    <string>blankstrapstack.container</string>
+    <string>com.blankstrap.container</string>
     <key>CFBundleVersion</key>
-    <string>0.2.0</string>
+    <string>1.0.0</string>
     <key>CFBundleShortVersionString</key>
-    <string>0.2.0</string>
+    <string>1.0.0</string>
     <key>author</key>
-    <string>inStacks Software</string>
+    <string>Blankstrap</string>
     <key>group</key>
-    <string>inStacks Software</string>
+    <string>Blankstrap</string>
     <key>RWAddonAuthor</key>
-    <string>inStacks Software</string>
+    <string>Blankstrap</string>
     <key>RWAddonManagerIconAsset</key>
     <string>icon</string>
     <key>RWAddonSupportURL</key>
-    <string>https://jrondorf.github.io/Blankstrap/</string>
+    <string>http://blankstrap.com</string>
     <key>helpURL</key>
-    <string>https://jrondorf.github.io/Blankstrap/</string>
+    <string>http://blankstrap.com</string>
     <key>infoURL</key>
-    <string>https://jrondorf.github.io/Blankstrap/</string>
+    <string>http://blankstrap.com</string>
     <key>icon</key>
     <string>icon</string>
     <key>minAPIVersion</key>
     <integer>10</integer>
     <key>preprocessor</key>
     <true/>
+    <key>inheritsFrom</key>
+    <string>com.blankstrap.base</string>
     <key>title</key>
     <string>Container</string>
     <key>subtitle</key>

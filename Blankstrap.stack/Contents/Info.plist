@@ -3,27 +3,27 @@
 <plist version="1.0">
 <dict>
     <key>author/copyright info</key>
-    <string>Futural UG (haftungsbeschraenkt)</string>
+    <string>Blankstrap</string>
     <key>CFBundleIdentifier</key>
-    <string>blankstrapstack</string>
+    <string>com.blankstrap.stack</string>
     <key>CFBundleVersion</key>
-    <string>0.2.0</string>
+    <string>0.3.0</string>
     <key>CFBundleShortVersionString</key>
-    <string>0.2.0</string>
+    <string>0.3.0</string>
     <key>author</key>
-    <string>inStacks Software</string>
+    <string>Blankstrap</string>
     <key>group</key>
-    <string>inStacks Software</string>
+    <string>Blankstrap</string>
     <key>RWAddonAuthor</key>
-    <string>inStacks Software</string>
+    <string>Blankstrap</string>
     <key>RWAddonManagerIconAsset</key>
     <string>icon</string>
     <key>RWAddonSupportURL</key>
-    <string>https://jrondorf.github.io/Blankstrap/</string>
+    <string>http://blankstrap.com</string>
     <key>helpURL</key>
-    <string>https://jrondorf.github.io/Blankstrap/</string>
+    <string>http://blankstrap.com</string>
     <key>infoURL</key>
-    <string>https://jrondorf.github.io/Blankstrap/</string>
+    <string>http://blankstrap.com</string>
     <key>SUFeedURL</key>
     <string>https://raw.githubusercontent.com/jrondorf/Blankstrap/master/appcast/appcast-stack.xml</string>
     <key>icon</key>
@@ -32,12 +32,12 @@
     <integer>10</integer>
     <key>preprocessor</key>
     <true/>
+    <key>hidden</key>
+    <true/>
     <key>title</key>
     <string>Blankstrap Stack</string>
     <key>subtitle</key>
     <string>Blankstrap Stack</string>
-    <key>hidden</key>
-    <true/>
     <key>customItems</key>
     <array>
     </array>
