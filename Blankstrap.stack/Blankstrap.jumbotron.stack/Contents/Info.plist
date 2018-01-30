@@ -38,6 +38,33 @@
     <string>Blankstrap Jumbotron</string>
     <key>customItems</key>
     <array>
+        <dict>
+            <key>id</key>
+            <string>css_class</string>
+            <key>type</key>
+            <string>select</string>
+            <key>default</key>
+            <string>jumbotron</string>
+            <key>title</key>
+            <string>Jumbotron Type</string>
+            <key>toolTip</key>
+            <string>Jumbotron Type</string>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>title</key>
+                    <string>Jumbotron</string>
+                    <key>value</key>
+                    <string>jumbotron</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Fluid Jumbotron</string>
+                    <key>value</key>
+                    <string>jumbotron jumbotron-fluid</string>
+                </dict>
+            </array>
+        </dict>
     </array>
     <key>libraries</key>
     <array>
