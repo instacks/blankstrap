@@ -54,5 +54,8 @@
     <array>
         <string>Blankstrap</string>
     </array>
+    <key>templates</key>
+    <array>
+    </array>
 </dict>
 </plist>

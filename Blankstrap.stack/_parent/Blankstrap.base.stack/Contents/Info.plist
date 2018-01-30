@@ -60,7 +60,7 @@
             <key>title</key>
             <string>CSS Class</string>
             <key>toolTip</key>
-            <string>Optional CSS classes, separated by a blank</string>
+            <string>Optional CSS classes, separated by blank</string>
         </dict>
         <dict>
             <key>type</key>
@@ -76,12 +76,6 @@
     </array>
     <key>templates</key>
     <array>
-        <dict>
-            <key>filename</key>
-            <string>each.html</string>
-            <key>type</key>
-            <string>html</string>
-        </dict>
     </array>
 </dict>
 </plist>
