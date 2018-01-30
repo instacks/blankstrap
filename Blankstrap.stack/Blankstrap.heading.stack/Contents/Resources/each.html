@@ -1,0 +1,6 @@
+<%id=heading% %[if %( "%id=base_id%" !="" )% ]% id="%id=base_id%" %[endif]% class="%id=align_css_class% %id=display_css_class% %id=base_css_class%">
+    %html="Heading"%
+    %[if %id=secondary% ]%
+        <small class="text-muted">%html="Secondary Text"%</small>
+    %[endif]%
+</%id=heading%>

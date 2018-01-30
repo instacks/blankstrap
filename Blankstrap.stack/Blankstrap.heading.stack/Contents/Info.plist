@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>author/copyright info</key>
+    <string>Blankstrap</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.blankstrap.heading</string>
+    <key>CFBundleVersion</key>
+    <string>1.0.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>author</key>
+    <string>Blankstrap</string>
+    <key>group</key>
+    <string>Blankstrap</string>
+    <key>RWAddonAuthor</key>
+    <string>Blankstrap</string>
+    <key>RWAddonManagerIconAsset</key>
+    <string>icon</string>
+    <key>RWAddonSupportURL</key>
+    <string>http://blankstrap.com</string>
+    <key>helpURL</key>
+    <string>http://blankstrap.com</string>
+    <key>infoURL</key>
+    <string>http://blankstrap.com</string>
+    <key>icon</key>
+    <string>icon</string>
+    <key>minAPIVersion</key>
+    <integer>10</integer>
+    <key>preprocessor</key>
+    <true/>
+    <key>inheritsFrom</key>
+    <string>com.blankstrap.base</string>
+    <key>title</key>
+    <string>Heading</string>
+    <key>subtitle</key>
+    <string>Blankstrap Heading</string>
+    <key>customItems</key>
+    <array>
+        <dict>
+            <key>id</key>
+            <string>heading</string>
+            <key>type</key>
+            <string>select</string>
+            <key>default</key>
+            <string>h1</string>
+            <key>title</key>
+            <string>Heading Type</string>
+            <key>toolTip</key>
+            <string>Heading Type</string>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>title</key>
+                    <string>Heading 1</string>
+                    <key>value</key>
+                    <string>h1</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Heading 2</string>
+                    <key>value</key>
+                    <string>h2</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Heading 3</string>
+                    <key>value</key>
+                    <string>h3</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Heading 4</string>
+                    <key>value</key>
+                    <string>h4</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Heading 5</string>
+                    <key>value</key>
+                    <string>h5</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Heading 6</string>
+                    <key>value</key>
+                    <string>h6</string>
+                </dict>
+            </array>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>align_css_class</string>
+            <key>type</key>
+            <string>select</string>
+            <key>default</key>
+            <string></string>
+            <key>title</key>
+            <string>Alignment</string>
+            <key>toolTip</key>
+            <string>Alignment</string>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>title</key>
+                    <string>Default</string>
+                    <key>value</key>
+                    <string></string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Left</string>
+                    <key>value</key>
+                    <string>text-left</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Center</string>
+                    <key>value</key>
+                    <string>text-center</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Right</string>
+                    <key>value</key>
+                    <string>text-right</string>
+                </dict>
+            </array>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>display_css_class</string>
+            <key>type</key>
+            <string>select</string>
+            <key>default</key>
+            <string></string>
+            <key>title</key>
+            <string>Display Type</string>
+            <key>toolTip</key>
+            <string>Display Type</string>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>title</key>
+                    <string>None</string>
+                    <key>value</key>
+                    <string></string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Display 1</string>
+                    <key>value</key>
+                    <string>display-1</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Display 2</string>
+                    <key>value</key>
+                    <string>display-2</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Display 3</string>
+                    <key>value</key>
+                    <string>display-3</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Display 4</string>
+                    <key>value</key>
+                    <string>display-4</string>
+                </dict>
+            </array>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>secondary</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <false/>
+            <key>title</key>
+            <string>Secondary Text</string>
+            <key>toolTip</key>
+            <string>Secondary Text</string>
+        </dict>
+    </array>
+    <key>libraries</key>
+    <array>
+    </array>
+    <key>tags</key>
+    <array>
+        <string>Blankstrap</string>
+        <string>Content</string>
+        <string>Container</string>
+        <string>Jumbotron</string>
+    </array>
+    <key>templates</key>
+    <array>
+        <dict>
+            <key>filename</key>
+            <string>each.html</string>
+            <key>type</key>
+            <string>html</string>
+        </dict>
+        <dict>
+            <key>filename</key>
+            <string>each.css</string>
+            <key>type</key>
+            <string>css</string>
+        </dict>
+    </array>
+</dict>
+</plist>
