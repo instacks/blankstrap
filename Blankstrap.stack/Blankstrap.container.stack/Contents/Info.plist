@@ -38,6 +38,33 @@
     <string>Blankstrap Container</string>
     <key>customItems</key>
     <array>
+        <dict>
+            <key>id</key>
+            <string>css_class</string>
+            <key>type</key>
+            <string>select</string>
+            <key>default</key>
+            <string>container</string>
+            <key>title</key>
+            <string>Container Type</string>
+            <key>toolTip</key>
+            <string>Container Type</string>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>title</key>
+                    <string>Container</string>
+                    <key>value</key>
+                    <string>container</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Fluid Container</string>
+                    <key>value</key>
+                    <string>container-fluid</string>
+                </dict>
+            </array>
+        </dict>
     </array>
     <key>libraries</key>
     <array>
