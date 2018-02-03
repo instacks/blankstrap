@@ -831,9 +831,9 @@
 		<string>&lt;ul&gt;%items%&lt;/ul&gt;</string>
 	</dict>
 	<key>RWThemeAuthor</key>
-	<string>inStacks Software</string>
+	<string>Blankstrap</string>
 	<key>RWAddonAuthor</key>
-	<string>inStacks Software</string>
+	<string>Blankstrap</string>
 	<key>RWThemeCapabilities</key>
 	<dict>
 		<key>RWSupportsContentOnlySubPages</key>
@@ -865,7 +865,7 @@
 	<key>RWThemeShortName</key>
 	<string>Blankstrap</string>
 	<key>RWAddonSupportURL</key>
-	<string>https://github.com/jrondorf/Blankstrap</string>
+	<string>http://blankstrap.com</string>
 	<key>RWVersion</key>
 	<integer>1</integer>
 </dict>
