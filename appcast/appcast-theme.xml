@@ -10,9 +10,9 @@
 <sparkle:releaseNotesLink>https://github.com/jrondorf/Blankstrap</sparkle:releaseNotesLink>
 <pubDate>Sat, 03 Feb 2018 12:00:00 +0000</pubDate>
 <enclosure
- url="https://github.com/jrondorf/Blankstrap/releases/download/1.0.1/Blankstrap.rapidweavertheme.zip"
- sparkle:version="101"
- sparkle:shortVersionString="1.0.1"
+ url="https://github.com/jrondorf/Blankstrap/releases/download/1.0.2/Blankstrap.rapidweavertheme.zip"
+ sparkle:version="102"
+ sparkle:shortVersionString="1.0.2"
  length="1"
  type="application/octet-stream" />
 </item>
