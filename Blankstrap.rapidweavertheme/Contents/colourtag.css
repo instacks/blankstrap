@@ -20,6 +20,10 @@
     margin-left: inherit;
 }
 
+#blankstrap-nav-container .navbar-nav .nav-item {
+    margin-right: auto;
+}
+
 .album-wrapper {
     display: flex;
     flex-wrap: wrap;
