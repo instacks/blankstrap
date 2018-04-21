@@ -831,9 +831,9 @@
 		<string>&lt;ul&gt;%items%&lt;/ul&gt;</string>
 	</dict>
 	<key>RWThemeAuthor</key>
-	<string>Blankstrap</string>
+	<string>inStacks Software</string>
 	<key>RWAddonAuthor</key>
-	<string>Blankstrap</string>
+	<string>inStacks Software</string>
 	<key>RWThemeCapabilities</key>
 	<dict>
 		<key>RWSupportsContentOnlySubPages</key>

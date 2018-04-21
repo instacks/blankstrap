@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>RWAddonAuthor</key>
-	<string>Blankstrap</string>
+	<string>inStacks Software</string>
 	<key>RWAddonManagerIconAsset</key>
 	<string>icon</string>
 	<key>RWAddonSupportURL</key>
@@ -13,13 +13,13 @@
 	<key>CFBundleIdentifier</key>
 	<string>blankstrap</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.2</string>
+	<string>1.1.0</string>
 	<key>CFBundleVersion</key>
-	<string>102</string>
+	<string>110</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Blankstrap</string>
 	<key>author/copyright info</key>
-	<string>Blankstrap</string>
+	<string>inStacks Software</string>
 	<key>SUFeedURL</key>
 	<string>https://raw.githubusercontent.com/jrondorf/Blankstrap/master/appcast/appcast-theme.xml</string>
 	<key>RWThemeSDKVersion</key>
