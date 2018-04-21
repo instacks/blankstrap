@@ -10,7 +10,7 @@
 			<key>Dictionary</key>
 			<dict>
 				<key>build</key>
-				<string>4135</string>
+				<string>4142</string>
 				<key>stacks3</key>
 				<data>
 				YnBsaXN0MDDUAQIDBAUGv8BYJHZlcnNpb25YJG9iamVj
@@ -73,7 +73,7 @@
 				AAAAAAAAAAAAAAAAAAW+
 				</data>
 				<key>version</key>
-				<string>3.5.7b3</string>
+				<string>3.5.9b3</string>
 			</dict>
 			<key>Files</key>
 			<array/>
