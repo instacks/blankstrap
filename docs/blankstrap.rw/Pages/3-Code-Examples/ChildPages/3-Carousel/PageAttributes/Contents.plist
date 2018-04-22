@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creator</key>
+	<string></string>
+	<key>SandwichFillings</key>
+	<array>
+		<dict>
+			<key>Dictionary</key>
+			<dict>
+				<key>ChangedStatuses</key>
+				<dict>
+					<key>default</key>
+					<true/>
+					<key>file:///Users/d459/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Blankstrap/docs/</key>
+					<false/>
+					<key>file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
+					<true/>
+				</dict>
+				<key>ColourStyles</key>
+				<dict>
+					<key>Affero</key>
+					<dict/>
+					<key>Blankstrap</key>
+					<dict/>
+					<key>BootSnap3</key>
+					<dict/>
+					<key>Bravo</key>
+					<dict/>
+					<key>Lunar</key>
+					<dict/>
+				</dict>
+				<key>CreditRapidWeaver</key>
+				<true/>
+				<key>CustomCSS</key>
+				<string>/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item &gt; img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap &lt;hr&gt; more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+</string>
+				<key>CustomCopyrightUsed</key>
+				<false/>
+				<key>CustomSiteTitleUsed</key>
+				<false/>
+				<key>CustomSloganUsed</key>
+				<false/>
+				<key>DefaultLinkTarget</key>
+				<string></string>
+				<key>FilenameExtension</key>
+				<string>html</string>
+				<key>FolderName</key>
+				<string>carousel</string>
+				<key>HasCustomThemeStyle</key>
+				<false/>
+				<key>ImageFormat</key>
+				<string>Original</string>
+				<key>ImageQuality</key>
+				<string>High</string>
+				<key>IndexFilename</key>
+				<string>index.html</string>
+				<key>OutputFormat</key>
+				<string>Default</string>
+				<key>OutputXMLDeclaration</key>
+				<false/>
+				<key>PluginHasPerformedMigrationToSharedData</key>
+				<true/>
+				<key>RobotsShouldFollowLinks</key>
+				<true/>
+				<key>RobotsShouldIndexPage</key>
+				<true/>
+				<key>SidebarEnabled</key>
+				<integer>1</integer>
+				<key>TextEncoding</key>
+				<string>utf-8</string>
+				<key>ThemeStyles</key>
+				<dict>
+					<key>Blankstrap</key>
+					<array>
+						<string>Bootswatch Themes.United</string>
+						<string>Content Container.Container</string>
+						<string>Navigation Bar Background Colors.Primary</string>
+						<string>Navigation Bar Colors.navbar-inverse bg-primary</string>
+						<string>Navigation Bar Container.Content Fluid</string>
+						<string>Navigation Bar Text Colors.Light</string>
+						<string>Navigation Bar.Display Logo in Navigation Bar</string>
+						<string>Navigation Bar.Display Navigation Bar</string>
+						<string>Navigation Bar.Fixed Navigation Bar</string>
+						<string>Other Settings.Display Logo in Navigation Bar</string>
+						<string>Other Settings.Display Navigation Bar</string>
+						<string>Other Settings.Include Font Awesome</string>
+						<string>Other Settings.Overflow Visible</string>
+						<string>Styles.Materia</string>
+					</array>
+				</dict>
+			</dict>
+			<key>Files</key>
+			<array/>
+			<key>Subsandwiches</key>
+			<array/>
+		</dict>
+	</array>
+	<key>Type</key>
+	<string>Page Attributes</string>
+</dict>
+</plist>

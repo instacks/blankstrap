@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creator</key>
+	<string></string>
+	<key>SandwichFillings</key>
+	<array>
+		<dict>
+			<key>Dictionary</key>
+			<dict>
+				<key>ChangedStatuses</key>
+				<dict>
+					<key>default</key>
+					<true/>
+					<key>file:///Users/d459/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Blankstrap/docs/</key>
+					<false/>
+					<key>file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
+					<true/>
+				</dict>
+				<key>ColourStyles</key>
+				<dict>
+					<key>Affero</key>
+					<dict/>
+					<key>Blankstrap</key>
+					<dict/>
+					<key>BootSnap3</key>
+					<dict/>
+					<key>Bravo</key>
+					<dict/>
+					<key>Lunar</key>
+					<dict/>
+				</dict>
+				<key>CreditRapidWeaver</key>
+				<true/>
+				<key>CustomBody</key>
+				<string>&lt;script src="https://unpkg.com/feather-icons/dist/feather.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+      feather.replace()
+    &lt;/script&gt;
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+      var ctx = document.getElementById("myChart");
+      var myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          datasets: [{
+            data: [15339, 21345, 18483, 24003, 23489, 24092, 12034],
+            lineTension: 0,
+            backgroundColor: 'transparent',
+            borderColor: '#007bff',
+            borderWidth: 4,
+            pointBackgroundColor: '#007bff'
+          }]
+        },
+        options: {
+          scales: {
+            yAxes: [{
+              ticks: {
+                beginAtZero: false
+              }
+            }]
+          },
+          legend: {
+            display: false,
+          }
+        }
+      });
+    &lt;/script&gt;</string>
+				<key>CustomCSS</key>
+				<string>body {
+  font-size: .875rem;
+}
+
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 48px; /* Height of navbar */
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #999;
+}
+
+.sidebar .nav-link.active {
+  color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, .25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+/*
+ * Utilities
+ */
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+</string>
+				<key>CustomCopyrightUsed</key>
+				<false/>
+				<key>CustomSiteTitleUsed</key>
+				<false/>
+				<key>CustomSloganUsed</key>
+				<false/>
+				<key>DefaultLinkTarget</key>
+				<string></string>
+				<key>FilenameExtension</key>
+				<string>html</string>
+				<key>FolderName</key>
+				<string>dashboard</string>
+				<key>HasCustomThemeStyle</key>
+				<true/>
+				<key>ImageFormat</key>
+				<string>Original</string>
+				<key>ImageQuality</key>
+				<string>High</string>
+				<key>IndexFilename</key>
+				<string>index.html</string>
+				<key>OutputFormat</key>
+				<string>Default</string>
+				<key>OutputXMLDeclaration</key>
+				<false/>
+				<key>PluginHasPerformedMigrationToSharedData</key>
+				<true/>
+				<key>RobotsShouldFollowLinks</key>
+				<true/>
+				<key>RobotsShouldIndexPage</key>
+				<true/>
+				<key>SidebarEnabled</key>
+				<integer>1</integer>
+				<key>TextEncoding</key>
+				<string>utf-8</string>
+				<key>ThemeStyles</key>
+				<dict>
+					<key>Blankstrap</key>
+					<array>
+						<string>Bootswatch Themes.United</string>
+						<string>Content Container.Container</string>
+						<string>Navigation Bar Background Colors.Primary</string>
+						<string>Navigation Bar Colors.navbar-inverse bg-primary</string>
+						<string>Navigation Bar Container.Content Fluid</string>
+						<string>Navigation Bar Text Colors.Light</string>
+						<string>Navigation Bar.Display Logo in Navigation Bar</string>
+						<string>Other Settings.Display Logo in Navigation Bar</string>
+						<string>Other Settings.Display Navigation Bar</string>
+						<string>Other Settings.Include Font Awesome</string>
+						<string>Other Settings.Overflow Visible</string>
+						<string>Styles.Materia</string>
+					</array>
+				</dict>
+			</dict>
+			<key>Files</key>
+			<array/>
+			<key>Subsandwiches</key>
+			<array/>
+		</dict>
+	</array>
+	<key>Type</key>
+	<string>Page Attributes</string>
+</dict>
+</plist>
