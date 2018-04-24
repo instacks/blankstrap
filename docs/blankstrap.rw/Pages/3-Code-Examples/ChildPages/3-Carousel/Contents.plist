@@ -15,6 +15,8 @@
 				<string>Blankstrap</string>
 				<key>ID</key>
 				<string>page16</string>
+				<key>MostRecentlySelectedStyleName</key>
+				<string>Theme Default</string>
 				<key>PageTitle</key>
 				<string>Carousel</string>
 				<key>PluginClassName</key>
@@ -33,7 +35,7 @@
 					<key>file:///Users/d459/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Blankstrap/docs/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2018-04-22T07:40:20Z</date>
+						<date>2018-04-24T06:57:25Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -42,11 +44,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								3Dqc+8wXjBaH
-								CPMaJFmuYA==
+								qhaiGYd2qGTz
+								JCLk/eDP1w==
 								</data>
 								<key>Size</key>
-								<integer>16171</integer>
+								<integer>16281</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
