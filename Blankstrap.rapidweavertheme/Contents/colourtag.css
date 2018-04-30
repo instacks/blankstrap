@@ -13,7 +13,7 @@
 }
 
 .blankstrap-hide {
-	display: none;
+    display: none;
 }
 
 #blankstrap-nav-container .navbar-nav .nav-item + .nav-item {
@@ -29,4 +29,12 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: baseline;
+}
+
+#blankstrap-footer {
+    display: none;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: 1em;
+    border-top: 1px solid;
 }

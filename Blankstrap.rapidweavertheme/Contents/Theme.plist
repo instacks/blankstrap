@@ -685,6 +685,32 @@
 				<key>GroupDisplayName</key>
 				<dict>
 					<key>en</key>
+					<string>Footer</string>
+				</dict>
+				<key>GroupMembers</key>
+				<array>
+					<dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>js/footer.js</string>
+						</array>
+						<key>Name</key>
+						<string>Display Footer</string>
+						<key>Type</key>
+						<string>Javascript</string>
+					</dict>
+				</array>
+				<key>GroupName</key>
+				<string>Footer</string>
+				<key>GroupSelectionLimit</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>GroupDisplayName</key>
+				<dict>
+					<key>en</key>
 					<string>Colors</string>
 				</dict>
 				<key>GroupMembers</key>
