@@ -12,7 +12,9 @@
 			<key>Files</key>
 			<array/>
 			<key>Subsandwiches</key>
-			<array/>
+			<array>
+				<string>C4BDCB70-61CF-4CEB-B9E4-FD94C263183F</string>
+			</array>
 		</dict>
 	</array>
 	<key>Type</key>
