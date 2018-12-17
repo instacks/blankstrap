@@ -38,3 +38,21 @@
     padding-top: 1em;
     border-top: 1px solid;
 }
+
+/*!
+ * headroom.js v0.9.4 - Give your page some headroom. Hide your header until you need it
+ * Copyright (c) 2017 Nick Williams - http://wicky.nillia.ms/headroom.js
+ * License: MIT
+ */
+.headroom {
+    transition: transform .25s ease-in-out;
+    will-change: transform;
+}
+
+.headroom--pinned {
+    transform: translateY(0);
+}
+
+.headroom--unpinned {
+    transform: translateY(-100%);
+}

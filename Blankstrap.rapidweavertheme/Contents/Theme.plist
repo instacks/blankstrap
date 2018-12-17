@@ -442,6 +442,18 @@
 						<false/>
 						<key>Files</key>
 						<array>
+							<string>js/headroom.min.js</string>
+						</array>
+						<key>Name</key>
+						<string>Hide Fixed Navigation Bar on Scroll</string>
+						<key>Type</key>
+						<string>Javascript</string>
+					</dict>
+					<dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
 							<string>css/display-logo.css</string>
 						</array>
 						<key>Name</key>
@@ -706,6 +718,49 @@
 				<string>Footer</string>
 				<key>GroupSelectionLimit</key>
 				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>GroupMembers</key>
+				<array>
+					<dict>
+						<key>Enabled</key>
+						<true/>
+						<key>Files</key>
+						<array>
+							<string>css/width_pixels.css</string>
+						</array>
+						<key>Name</key>
+						<string>Pixels</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/width_percentage.css</string>
+						</array>
+						<key>Name</key>
+						<string>Percentage</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>Default</key>
+						<string>1140</string>
+						<key>Name</key>
+						<string>Maximum Width</string>
+						<key>Tag</key>
+						<string>%site_width%</string>
+						<key>Type</key>
+						<string>Number</string>
+					</dict>
+				</array>
+				<key>GroupName</key>
+				<string>Content Width (Container)</string>
+				<key>GroupSelectionLimit</key>
+				<integer>1</integer>
 			</dict>
 			<dict>
 				<key>GroupDisplayName</key>
