@@ -1921,7 +1921,7 @@
 				<key>SiteAttributes</key>
 				<dict>
 					<key>AddCopyrightMailTo</key>
-					<true/>
+					<false/>
 					<key>AnonymiseThirdPartyRequests</key>
 					<false/>
 					<key>BaseURL</key>
@@ -1933,7 +1933,7 @@
 					<key>ContactText</key>
 					<string>Contact Me</string>
 					<key>CopyrightText</key>
-					<string>© 2017</string>
+					<string>&lt;div style="text-align: center !important;"&gt;Made with &lt;i class="fa fa-coffee fa-lg fa-fw"&gt;&lt;/i&gt; by &lt;a href="https://instacks.com"&gt;inStacks Software&lt;/a&gt; | &lt;a href="https://instacks.com/contact/"&gt;Contact&lt;/a&gt;&lt;/div&gt;</string>
 					<key>CopyrightTextUsed</key>
 					<true/>
 					<key>CruftlessLinksEnabled</key>
@@ -1959,11 +1959,110 @@
 					<key>PrivacyMessageDismissButtonTitle</key>
 					<string>Dismiss</string>
 					<key>PublishingDestinations</key>
-					<array/>
+					<array>
+						<dict>
+							<key>anonymous</key>
+							<false/>
+							<key>automaticallyConfigured</key>
+							<false/>
+							<key>backupFrequency</key>
+							<integer>0</integer>
+							<key>connectionMode</key>
+							<integer>0</integer>
+							<key>enablePublicKeyAuthentication</key>
+							<false/>
+							<key>fileSystemPathBookmark</key>
+							<data>
+							Ym9va2gDAAAAAAQQMAAA
+							ADR+N7jcWl0OzYBrcZ2k
+							m6qcHnu1aUMDtYm0xJRI
+							5lHPZAIAAAQAAAADAwAA
+							AAgAKAUAAAABAQAAVXNl
+							cnMAAAAEAAAAAQEAAGQ0
+							NTkHAAAAAQEAAExpYnJh
+							cnkAEAAAAAEBAABNb2Jp
+							bGUgRG9jdW1lbnRzEwAA
+							AAEBAABjb21+YXBwbGV+
+							Q2xvdWREb2NzAAsAAAAB
+							AQAARGV2ZWxvcG1lbnQA
+							CgAAAAEBAABCbGFua3N0
+							cmFwAAAEAAAAAQEAAGRv
+							Y3MgAAAAAQYAABAAAAAg
+							AAAALAAAADwAAABUAAAA
+							cAAAAIQAAACYAAAACAAA
+							AAQDAAA2YgYAAAAAAAgA
+							AAAEAwAAU6MJAAAAAAAI
+							AAAABAMAAFijCQAAAAAA
+							CAAAAAQDAADh3AkAAAAA
+							AAgAAAAEAwAAEN0JAAAA
+							AAAIAAAABAMAAMDuCQAA
+							AAAACAAAAAQDAACB95AA
+							AAAAAAgAAAAEAwAAG/iQ
+							AAAAAAAgAAAAAQYAAMwA
+							AADcAAAA7AAAAPwAAAAM
+							AQAAHAEAACwBAAA8AQAA
+							CAAAAAAEAABBv60g+AAA
+							ABgAAAABAgAAAgAAAAAA
+							AAAPAAAAAAAAAAAAAAAA
+							AAAACAAAAAQDAAAGAAAA
+							AAAAAAQAAAADAwAA9QEA
+							AAgAAAABCQAAZmlsZTov
+							Ly8MAAAAAQEAAE1hY2lu
+							dG9zaCBIRAgAAAAEAwAA
+							AFAGXjoAAAAIAAAAAAQA
+							AEG+JmX9AAAAJAAAAAEB
+							AAAzRDQyRjYxMC0wMEVE
+							LTMwNUYtQjIwNi1ENzJE
+							MEMzOThCRTIYAAAAAQIA
+							AIEAAAABAAAA7xMAAAEA
+							AAAAAAAAAAAAAAEAAAAB
+							AQAALwAAAAAAAAABBQAA
+							zAAAAP7///8BAAAAAAAA
+							ABAAAAAEEAAApAAAAAAA
+							AAAFEAAATAEAAAAAAAAQ
+							EAAAhAEAAAAAAABAEAAA
+							dAEAAAAAAAACIAAAUAIA
+							AAAAAAAFIAAAwAEAAAAA
+							AAAQIAAA0AEAAAAAAAAR
+							IAAABAIAAAAAAAASIAAA
+							5AEAAAAAAAATIAAA9AEA
+							AAAAAAAgIAAAMAIAAAAA
+							AAAwIAAAXAIAAAAAAAAB
+							wAAApAEAAAAAAAARwAAA
+							IAAAAAAAAAASwAAAtAEA
+							AAAAAAAQ0AAABAAAAAAA
+							AAA=
+							</data>
+							<key>hasPublishedContent</key>
+							<false/>
+							<key>ignoreCertificateErrors</key>
+							<false/>
+							<key>label</key>
+							<string>Local Destination</string>
+							<key>maxConnections</key>
+							<integer>6</integer>
+							<key>path</key>
+							<string></string>
+							<key>server</key>
+							<string></string>
+							<key>serverConfigurationVersions</key>
+							<array/>
+							<key>type</key>
+							<integer>0</integer>
+							<key>useSSLOption</key>
+							<integer>2</integer>
+							<key>user</key>
+							<string></string>
+							<key>websiteAddress</key>
+							<string></string>
+						</dict>
+					</array>
 					<key>PublishingSettingsConfigured</key>
 					<true/>
 					<key>RememberPrivacyMessageDismissed</key>
 					<true/>
+					<key>SelectedPublishingDestinationIndex</key>
+					<integer>0</integer>
 					<key>SettingsPlugins</key>
 					<array/>
 					<key>ShowBreadcrumbTrail</key>

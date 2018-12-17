@@ -13,13 +13,7 @@
 				<dict>
 					<key>default</key>
 					<true/>
-					<key>file:///Users/d459/Developer/Blankstrap/docs/</key>
-					<true/>
 					<key>file:///Users/d459/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Blankstrap/docs/</key>
-					<true/>
-					<key>file:///Users/d459/Sites/Blankstrap/</key>
-					<true/>
-					<key>file:///Users/d459/Sites/settings/</key>
 					<true/>
 					<key>file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
 					<true/>
@@ -28,10 +22,6 @@
 				<dict/>
 				<key>CreditRapidWeaver</key>
 				<true/>
-				<key>CustomCSS</key>
-				<string>body {
-	font-size: 1rem;
-}	</string>
 				<key>CustomCopyrightUsed</key>
 				<false/>
 				<key>CustomSiteTitleUsed</key>
@@ -42,6 +32,8 @@
 				<string></string>
 				<key>FilenameExtension</key>
 				<string>html</string>
+				<key>FolderName</key>
+				<string>codeexamples</string>
 				<key>HasCustomThemeStyle</key>
 				<false/>
 				<key>ImageFormat</key>

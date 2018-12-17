@@ -13,25 +13,11 @@
 				<dict>
 					<key>default</key>
 					<true/>
-					<key>file:///Users/d459/Developer/Blankstrap/docs/</key>
-					<true/>
-					<key>file:///Users/d459/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Blankstrap/docs/</key>
-					<true/>
-					<key>file:///Users/d459/Sites/Blankstrap/</key>
-					<true/>
-					<key>file:///Users/d459/Sites/settings/</key>
-					<true/>
-					<key>file:///Users/jannis/Library/Mobile%20Documents/com~apple~CloudDocs/Development/Github/Blankstrap/docs/</key>
-					<true/>
 				</dict>
 				<key>ColourStyles</key>
 				<dict/>
 				<key>CreditRapidWeaver</key>
 				<true/>
-				<key>CustomCSS</key>
-				<string>body {
-	font-size: 1rem;
-}	</string>
 				<key>CustomCopyrightUsed</key>
 				<false/>
 				<key>CustomSiteTitleUsed</key>
@@ -40,8 +26,12 @@
 				<false/>
 				<key>DefaultLinkTarget</key>
 				<string></string>
+				<key>Enabled</key>
+				<true/>
 				<key>FilenameExtension</key>
 				<string>html</string>
+				<key>FolderName</key>
+				<string>offsite-2</string>
 				<key>HasCustomThemeStyle</key>
 				<false/>
 				<key>ImageFormat</key>
@@ -52,8 +42,6 @@
 				<string>index.html</string>
 				<key>OutputXMLDeclaration</key>
 				<false/>
-				<key>PluginExtension</key>
-				<string>html</string>
 				<key>PluginHasPerformedMigrationToSharedData</key>
 				<true/>
 				<key>RobotsShouldFollowLinks</key>

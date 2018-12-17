@@ -17,10 +17,11 @@
 			<key>Subsandwiches</key>
 			<array>
 				<string>1-003Ci-class003D0022fa-fa-home-fa-lg-fa-fw0022003E003C002Fi003E-Home</string>
-				<string>2-RW-Examples</string>
-				<string>3-Code-Examples</string>
+				<string>2-003Ci-class003D0022fa-fa-desktop-fa-lg-fa-fw0022003E003C002Fi003E-RW-Pages</string>
+				<string>3-003Ci-class003D0022fa-fa-code-fa-lg-fa-fw0022003E003C002Fi003E-Code</string>
 				<string>4-003Ci-class003D0022fa-fa-github-fa-lg-fa-fw0022003E003C002Fi003E-GitHub</string>
-				<string>5-Impressum</string>
+				<string>5-003Ci-class003D0022fa-fa-address-card-o-fa-lg-fa-fw0022003E003C002Fi003E-Imprint</string>
+				<string>6-003Ci-class003D0022fa-fa-eye-slash-fa-lg-fa-fw0022003E003C002Fi003E-Privacy-Policy</string>
 			</array>
 		</dict>
 	</array>
