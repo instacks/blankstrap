@@ -25,7 +25,7 @@
     <key>infoURL</key>
     <string>http://blankstrap.com</string>
     <key>SUFeedURL</key>
-    <string>https://raw.githubusercontent.com/jrondorf/Blankstrap/master/appcast/appcast-stack.xml</string>
+    <string>https://raw.githubusercontent.com/instacks/Blankstrap/master/appcast/appcast-stack.xml</string>
     <key>icon</key>
     <string>icon</string>
     <key>minAPIVersion</key>
