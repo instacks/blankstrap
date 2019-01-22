@@ -13,15 +13,15 @@
 	<key>CFBundleIdentifier</key>
 	<string>blankstrap</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.2.0</string>
+	<string>1.2.1</string>
 	<key>CFBundleVersion</key>
-	<string>120</string>
+	<string>121</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Blankstrap</string>
 	<key>author/copyright info</key>
 	<string>inStacks Software</string>
 	<key>SUFeedURL</key>
-	<string>https://raw.githubusercontent.com/instacks/Blankstrap/master/appcast/appcast-theme.xml</string>
+	<string>https://raw.githubusercontent.com/instacks/blankstrap/master/appcast/appcast-theme.xml</string>
 	<key>RWThemeSDKVersion</key>
 	<string>7.0</string>
 </dict>
