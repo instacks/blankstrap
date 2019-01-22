@@ -10,9 +10,9 @@
 <sparkle:releaseNotesLink>http://blankstrap.com</sparkle:releaseNotesLink>
 <pubDate>Fri, 28 Dec 2018 12:00:00 +0000</pubDate>
 <enclosure
- url="https://github.com/instacks/blankstrap/releases/download/1.2.1/Blankstrap.rapidweavertheme.zip"
- sparkle:version="121"
- sparkle:shortVersionString="1.2.1"
+ url="https://github.com/instacks/blankstrap/releases/download/1.2.2/Blankstrap.rapidweavertheme.zip"
+ sparkle:version="122"
+ sparkle:shortVersionString="1.2.2"
  length="1"
  type="application/octet-stream" />
 </item>
