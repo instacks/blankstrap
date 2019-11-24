@@ -5,6 +5,7 @@
 	<key>expandedItems</key>
 	<array>
 		<string>page5</string>
+		<string>page8</string>
 	</array>
 	<key>pageInspectorVisible</key>
 	<true/>
@@ -13,12 +14,12 @@
 	<key>projectViewWidth</key>
 	<real>228</real>
 	<key>selectedInspectorTab</key>
-	<string>pageSettings</string>
+	<string>info</string>
 	<key>selectedItems</key>
 	<array>
 		<string>page0</string>
 	</array>
 	<key>selectedMode</key>
-	<integer>0</integer>
+	<integer>1</integer>
 </dict>
 </plist>

@@ -1,6 +1,7 @@
 .stacks_div {
   position: relative;
-  display: block; }
+  display: block;
+}
 
 .stacks_out {
   position: relative;
@@ -10,7 +11,8 @@
   padding: 0;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .stacks_in {
   position: relative;
@@ -18,13 +20,16 @@
   margin: 0;
   padding: 0;
   border: 0;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .stacks_in > p {
-  margin-top: 0; }
+  margin-top: 0;
+}
 
 .stacks_empty .stacks_in {
-  display: none; }
+  display: none;
+}
 
 .stacks_top {
   position: relative;
@@ -32,7 +37,8 @@
   margin: 0;
   padding: 0;
   border: 0;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .centered_image {
   position: relative;
@@ -40,7 +46,8 @@
   text-align: center;
   width: auto;
   height: auto;
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 .centered_image .imageStyle {
   position: relative;
@@ -48,54 +55,79 @@
   margin: 0 auto;
   width: auto;
   height: auto;
-  max-width: 100%; }
+  max-width: 100%;
+}
+
+.imageStyle.stacksImage {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
 
 .stacks_float_left {
   float: left;
-  margin-right: 20px; }
+  margin-right: 20px;
+}
 
 .stacks_float_right {
   float: right;
-  margin-left: 20px; }
+  margin-left: 20px;
+}
 
 .stacks_clearer {
   position: relative;
   display: block;
-  clear: both; }
+  clear: both;
+}
 
 .stacks_clear_left {
   position: relative;
   display: block;
-  clear: left; }
+  clear: left;
+}
 
 .stacks_clear_right {
   position: relative;
   display: block;
-  clear: right; }
+  clear: right;
+}
 
 @media only screen and (min-width: 771px) {
   .stacks_l_hidden {
-    display: none; } }
+    display: none;
+  }
+}
 @media only screen and (max-width: 770px) and (min-width: 441px) {
   .stacks_m_hidden {
-    display: none; } }
+    display: none;
+  }
+}
 @media only screen and (max-width: 440px) {
   .stacks_s_hidden {
-    display: none; } }
+    display: none;
+  }
+}
 .s3_row,
 .s3_column {
   -webkit-box-sizing: border-box !important;
   -moz-box-sizing: border-box !important;
-  box-sizing: border-box !important; }
+  box-sizing: border-box !important;
+}
 
 .s3_row {
-  width: auto; }
+  width: auto;
+}
 
 .s3_column {
-  float: left; }
+  float: left;
+}
 
 .s3_column_right {
-  float: right; }
+  float: right;
+}
 
 
 
