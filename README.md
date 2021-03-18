@@ -1,3 +1,3 @@
-# Blankstrap
+# Blankstrap 5
 
-Blank Bootstrap 4 Theme for RapidWeaver
+Blank Bootstrap 5 Theme for RapidWeaver
