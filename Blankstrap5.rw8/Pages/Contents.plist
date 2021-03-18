@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creator</key>
+	<string></string>
+	<key>SandwichFillings</key>
+	<array>
+		<dict>
+			<key>Dictionary</key>
+			<dict>
+				<key>HomePage</key>
+				<string>1-Home</string>
+			</dict>
+			<key>Files</key>
+			<array/>
+			<key>Subsandwiches</key>
+			<array>
+				<string>1-Home</string>
+				<string>2-Page-1</string>
+				<string>3-Page-2</string>
+				<string>4-Page-6</string>
+				<string>5-003Ci-class003D0022fas-fa-code-branch0022003E003C002Fi003E-Github</string>
+				<string>6-003Ci-class003D0022fas-fa-address-card0022003E003C002Fi003E-Imprint</string>
+				<string>7-003Ci-class003D0022fas-fa-eye-slash0022003E003C002Fi003E-Privacy-Policy</string>
+			</array>
+		</dict>
+	</array>
+	<key>Type</key>
+	<string>Pages</string>
+</dict>
+</plist>

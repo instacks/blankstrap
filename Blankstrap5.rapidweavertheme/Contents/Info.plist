@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RWAddonAuthor</key>
+	<string>inStacks Software</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>icon</string>
+	<key>RWAddonSupportURL</key>
+	<string>https://github.com/instacks/blankstrap</string>
+    <key>RWThemeIsResponsive</key>
+    <true/>
+	<key>CFBundleIdentifier</key>
+	<string>blankstrap5</string>
+	<key>CFBundleShortVersionString</key>
+	<string>5.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>500</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>inStacks Software</string>
+	<key>author/copyright info</key>
+	<string>Futural UG (haftungsbeschraenkt)</string>
+	<key>SUFeedURL</key>
+	<string>https://raw.githubusercontent.com/instacks/blankstrap/master/appcast/appcast-theme-5.xml</string>
+	<key>RWThemeSDKVersion</key>
+	<string>7.0</string>
+</dict>
+</plist>

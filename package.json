@@ -1,0 +1,27 @@
+{
+  "name": "blankstrap",
+  "version": "5.0.0",
+  "description": "Blank Bootstrap 5 Theme for RapidWeaver",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/instacks/blankstrap.git"
+  },
+  "author": "Futural UG (haftungsbeschraenkt)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/instacks/blankstrap/issues"
+  },
+  "homepage": "https://github.com/instacks/blankstrap#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "bootstrap": "^5.0.0-alpha3",
+    "popper.js": "^1.16.1"
+  }
+}
