@@ -1,72 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>http://blankstrap.com/index.html</loc>
+		<loc>https://instacks.github.io/blankstrap/index.html</loc>
 	</url>
 	<url>
-		<loc>http://blankstrap.com/rwexamples/index.html</loc>
+		<loc>https://instacks.github.io/blankstrap/page1/index.html</loc>
 	</url>
 	<url>
-		<loc>http://blankstrap.com/rwexamples/blog/index.html</loc>
+		<loc>https://instacks.github.io/blankstrap/page2/index.html</loc>
 	</url>
 	<url>
-		<loc>http://blankstrap.com/rwexamples/photos/index.html</loc>
+		<loc>https://instacks.github.io/blankstrap/page2/page3/index.html</loc>
 	</url>
 	<url>
-		<loc>http://blankstrap.com/rwexamples/photos/files/page4-1000-full.html</loc>
+		<loc>https://instacks.github.io/blankstrap/page2/page4/index.html</loc>
 	</url>
 	<url>
-		<loc>http://blankstrap.com/rwexamples/photos/files/page4-1001-full.html</loc>
+		<loc>https://instacks.github.io/blankstrap/page2/page5/index.html</loc>
 	</url>
 	<url>
-		<loc>http://blankstrap.com/rwexamples/photos/files/page4-1002-full.html</loc>
+		<loc>https://instacks.github.io/blankstrap/page6/index.html</loc>
 	</url>
 	<url>
-		<loc>http://blankstrap.com/rwexamples/photos/files/page4-1003-full.html</loc>
+		<loc>https://instacks.github.io/blankstrap/page6/page7/index.html</loc>
 	</url>
 	<url>
-		<loc>http://blankstrap.com/rwexamples/photos/files/page4-1004-full.html</loc>
+		<loc>https://instacks.github.io/blankstrap/page6/page8/index.html</loc>
 	</url>
 	<url>
-		<loc>http://blankstrap.com/rwexamples/photos/files/page4-1005-full.html</loc>
-	</url>
-	<url>
-		<loc>http://blankstrap.com/rwexamples/photos/files/page4-1006-full.html</loc>
-	</url>
-	<url>
-		<loc>http://blankstrap.com/rwexamples/photos/files/page4-1007-full.html</loc>
-	</url>
-	<url>
-		<loc>http://blankstrap.com/rwexamples/photos/files/page4-1008-full.html</loc>
-	</url>
-	<url>
-		<loc>http://blankstrap.com/rwexamples/photos/files/page4-1009-full.html</loc>
-	</url>
-	<url>
-		<loc>http://blankstrap.com/rwexamples/photos/files/page4-1010-full.html</loc>
-	</url>
-	<url>
-		<loc>http://blankstrap.com/rwexamples/photos/files/page4-1011-full.html</loc>
-	</url>
-	<url>
-		<loc>http://blankstrap.com/codeexamples/index.html</loc>
-	</url>
-	<url>
-		<loc>http://blankstrap.com/codeexamples/album/index.html</loc>
-	</url>
-	<url>
-		<loc>http://blankstrap.com/codeexamples/blog/index.html</loc>
-	</url>
-	<url>
-		<loc>http://blankstrap.com/codeexamples/carousel/index.html</loc>
-	</url>
-	<url>
-		<loc>http://blankstrap.com/codeexamples/checkout/index.html</loc>
-	</url>
-	<url>
-		<loc>http://blankstrap.com/codeexamples/pricing/index.html</loc>
-	</url>
-	<url>
-		<loc>http://blankstrap.com/codeexamples/product/index.html</loc>
+		<loc>https://instacks.github.io/blankstrap/page6/page9/index.html</loc>
 	</url>
 </urlset>
