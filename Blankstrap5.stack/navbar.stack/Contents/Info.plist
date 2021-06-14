@@ -27,7 +27,7 @@
     <key>icon</key>
     <string>icon</string>
     <key>minAPIVersion</key>
-    <integer>10</integer>
+    <integer>11</integer>
     <key>preprocessor</key>
     <true/>
     <key>inheritsFrom</key>
@@ -132,8 +132,6 @@
                     <string></string>
                 </dict>
             </array>
-            <key>scope</key>
-            <string>page</string>
         </dict>
     </array>
     <key>assets</key>

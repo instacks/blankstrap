@@ -27,7 +27,7 @@
     <key>icon</key>
     <string>icon</string>
     <key>minAPIVersion</key>
-    <integer>10</integer>
+    <integer>11</integer>
     <key>preprocessor</key>
     <true/>
     <key>inheritsFrom</key>
@@ -63,9 +63,9 @@
                 </dict>
                 <dict>
                     <key>title</key>
-                    <string>Left</string>
+                    <string>Start</string>
                     <key>value</key>
-                    <string>text-left</string>
+                    <string>text-start</string>
                 </dict>
                 <dict>
                     <key>title</key>
@@ -75,15 +75,9 @@
                 </dict>
                 <dict>
                     <key>title</key>
-                    <string>Right</string>
+                    <string>End</string>
                     <key>value</key>
-                    <string>text-right</string>
-                </dict>
-                <dict>
-                    <key>title</key>
-                    <string>Justify</string>
-                    <key>value</key>
-                    <string>text-justify</string>
+                    <string>text-end</string>
                 </dict>
             </array>
         </dict>

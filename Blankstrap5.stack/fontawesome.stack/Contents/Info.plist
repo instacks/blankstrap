@@ -5,7 +5,7 @@
     <key>author/copyright info</key>
     <string>Futural UG (haftungsbeschraenkt)</string>
     <key>CFBundleIdentifier</key>
-    <string>com.instacks.blankstrap5.column</string>
+    <string>com.instacks.fontawesome.core</string>
     <key>CFBundleVersion</key>
     <string>5.0.0</string>
     <key>CFBundleShortVersionString</key>
@@ -30,21 +30,23 @@
     <integer>11</integer>
     <key>preprocessor</key>
     <true/>
-    <key>hidden</key>
-    <true/>
-    <key>inheritsFrom</key>
-    <string>com.instacks.blankstrap5.div</string>
     <key>inline</key>
     <true/>
     <key>title</key>
-    <string>Column</string>
+    <string>Font Awesome 4</string>
     <key>subtitle</key>
-    <string>Column</string>
+    <string>Font Awesome 4</string>
     <key>customItems</key>
     <array>
     </array>
     <key>assets</key>
     <array>
+        <dict>
+            <key>filename</key>
+            <string>fontawesome</string>
+            <key>siteAsset</key>
+            <true/>
+        </dict>
     </array>
     <key>libraries</key>
     <array>
@@ -53,12 +55,26 @@
     <array>
         <string>Blankstrap 5</string>
         <string>Bootstrap</string>
-        <string>Grid</string>
-        <string>Row</string>
-        <string>B5 Column</string>
+        <string>B5 Font Awesome</string>
     </array>
     <key>templates</key>
     <array>
+        <dict>
+            <key>filename</key>
+            <string>page.html</string>
+            <key>type</key>
+            <string>html</string>
+            <key>scope</key>
+            <string>page</string>
+        </dict>
+        <dict>
+            <key>filename</key>
+            <string>pageBodyBelow.html</string>
+            <key>type</key>
+            <string>html</string>
+            <key>scope</key>
+            <string>pageBodyBelow</string>
+        </dict>
         <dict>
             <key>type</key>
             <string>html</string>

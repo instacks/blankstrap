@@ -27,7 +27,7 @@
     <key>icon</key>
     <string>icon</string>
     <key>minAPIVersion</key>
-    <integer>10</integer>
+    <integer>11</integer>
     <key>preprocessor</key>
     <true/>
     <key>inline</key>
@@ -38,20 +38,6 @@
     <string>Blankstrap 5 Core</string>
     <key>customItems</key>
     <array>
-        <dict>
-            <key>id</key>
-            <string>fontawesome</string>
-            <key>type</key>
-            <string>checkbox</string>
-            <key>default</key>
-            <false/>
-            <key>title</key>
-            <string>Font Awesome 5</string>
-            <key>toolTip</key>
-            <string>Load Font Awesome 5 Library</string>
-            <key>scope</key>
-            <string>page</string>
-        </dict>
     </array>
     <key>assets</key>
     <array>

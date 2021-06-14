@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var a = dropdownItem.querySelector('a')
         a.classList.add('dropdown-toggle');
         a.setAttribute('href', '#');
-        a.setAttribute('data-toggle', 'dropdown');
+        a.setAttribute('data-bs-toggle', 'dropdown');
         a.setAttribute('aria-haspopup', 'true');
         a.setAttribute('aria-expanded', 'false');
     });

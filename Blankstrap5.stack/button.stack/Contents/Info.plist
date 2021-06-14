@@ -27,7 +27,7 @@
     <key>icon</key>
     <string>icon</string>
     <key>minAPIVersion</key>
-    <integer>10</integer>
+    <integer>11</integer>
     <key>preprocessor</key>
     <true/>
     <key>inheritsFrom</key>
@@ -165,51 +165,6 @@
                     <string>btn-lg</string>
                 </dict>
             </array>
-        </dict>
-        <dict>
-            <key>id</key>
-            <string>align</string>
-            <key>type</key>
-            <string>select</string>
-            <key>default</key>
-            <string></string>
-            <key>title</key>
-            <string>Alignment</string>
-            <key>toolTip</key>
-            <string>Alignment</string>
-            <key>items</key>
-            <array>
-                <dict>
-                    <key>title</key>
-                    <string>Default</string>
-                    <key>value</key>
-                    <string></string>
-                </dict>
-                <dict>
-                    <key>title</key>
-                    <string>Left</string>
-                    <key>value</key>
-                    <string>float-left</string>
-                </dict>
-                <dict>
-                    <key>title</key>
-                    <string>Right</string>
-                    <key>value</key>
-                    <string>float-right</string>
-                </dict>
-            </array>
-        </dict>
-        <dict>
-            <key>id</key>
-            <string>block</string>
-            <key>type</key>
-            <string>checkbox</string>
-            <key>default</key>
-            <false/>
-            <key>title</key>
-            <string>Full Width</string>
-            <key>toolTip</key>
-            <string>Span full width of parent (block level)</string>
         </dict>
     </array>
     <key>assets</key>
