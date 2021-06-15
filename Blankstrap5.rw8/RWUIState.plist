@@ -11,12 +11,12 @@
 	<key>projectViewVisible</key>
 	<true/>
 	<key>projectViewWidth</key>
-	<real>200</real>
+	<real>218.5</real>
 	<key>selectedInspectorTab</key>
-	<string>info</string>
+	<string>pageSettings</string>
 	<key>selectedItems</key>
 	<array>
-		<string>page0</string>
+		<string>page9</string>
 	</array>
 	<key>selectedMode</key>
 	<integer>0</integer>
