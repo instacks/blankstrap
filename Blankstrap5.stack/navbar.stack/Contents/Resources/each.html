@@ -1,5 +1,5 @@
 %%[[if edit]]%%
-<nav id="blankstrap-nav" class="navbar navbar-expand-lg %id=text_color% %id=background_color% %id=css%">
+<nav id="blankstrap-nav" class="navbar %id=expand% %id=text_color% %id=background_color% %id=css%">
     <div id="blankstrap-nav-container" class="%id=container%">
         <a class="navbar-brand text-decoration-none" href="#" aria-label="Site Title">
             Logo
@@ -15,7 +15,7 @@
 </nav>
 %%[[endif]]%%
 %%[[if !edit]]%%
-<nav id="blankstrap-nav" class="navbar navbar-expand-lg %id=text_color% %id=background_color% %id=css% %[if %( "%id=fixed%" != "" )% ]%fixed-top%[endif]%">
+<nav id="blankstrap-nav" class="navbar %id=expand% %id=text_color% %id=background_color% %id=css% %[if %( "%id=fixed%" != "" )% ]%fixed-top%[endif]%">
     <div id="blankstrap-nav-container" class="%id=container%">
         <a class="navbar-brand text-decoration-none" href="%base_url%" aria-label="%site_title%">
             %logo%

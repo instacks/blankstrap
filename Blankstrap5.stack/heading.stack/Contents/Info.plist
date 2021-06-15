@@ -48,7 +48,7 @@
             <key>default</key>
             <string>h1</string>
             <key>title</key>
-            <string>Heading Type</string>
+            <string>Heading</string>
             <key>toolTip</key>
             <string>Heading Type</string>
             <key>items</key>
@@ -99,7 +99,7 @@
             <key>default</key>
             <string></string>
             <key>title</key>
-            <string>Display Type</string>
+            <string>Display</string>
             <key>toolTip</key>
             <string>Display Type</string>
             <key>items</key>

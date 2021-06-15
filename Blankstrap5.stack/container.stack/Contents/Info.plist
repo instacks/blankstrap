@@ -41,6 +41,8 @@
     <key>customItems</key>
     <array>
         <dict>
+            <key>group</key>
+            <string>Container</string>
             <key>id</key>
             <string>container</string>
             <key>type</key>
@@ -48,9 +50,9 @@
             <key>default</key>
             <string>container</string>
             <key>title</key>
-            <string>Container</string>
+            <string>Width</string>
             <key>toolTip</key>
-            <string>Container type</string>
+            <string>Width</string>
             <key>items</key>
             <array>
                 <dict>
@@ -58,6 +60,36 @@
                     <string>Container</string>
                     <key>value</key>
                     <string>container</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Container Small</string>
+                    <key>value</key>
+                    <string>container-sm</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Container Medium</string>
+                    <key>value</key>
+                    <string>container-md</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Container Large</string>
+                    <key>value</key>
+                    <string>container-lg</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Container Extra Large</string>
+                    <key>value</key>
+                    <string>container-xl</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Container Extra Extra Large</string>
+                    <key>value</key>
+                    <string>container-xxl</string>
                 </dict>
                 <dict>
                     <key>title</key>

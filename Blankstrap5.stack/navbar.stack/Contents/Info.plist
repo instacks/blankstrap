@@ -42,66 +42,6 @@
     <array>
         <dict>
             <key>id</key>
-            <string>background_color</string>
-            <key>type</key>
-            <string>select</string>
-            <key>default</key>
-            <string>bg-dark</string>
-            <key>title</key>
-            <string>Backgrnd Color</string>
-            <key>toolTip</key>
-            <string>Background color</string>
-            <key>items</key>
-            <array>
-                <dict>
-                    <key>title</key>
-                    <string>Light</string>
-                    <key>value</key>
-                    <string>bg-light</string>
-                </dict>
-                <dict>
-                    <key>title</key>
-                    <string>Dark</string>
-                    <key>value</key>
-                    <string>bg-dark</string>
-                </dict>
-                <dict>
-                    <key>title</key>
-                    <string>Primary</string>
-                    <key>value</key>
-                    <string>bg-primary</string>
-                </dict>
-            </array>
-        </dict>
-        <dict>
-            <key>id</key>
-            <string>text_color</string>
-            <key>type</key>
-            <string>select</string>
-            <key>default</key>
-            <string>navbar-dark</string>
-            <key>title</key>
-            <string>Text Color</string>
-            <key>toolTip</key>
-            <string>Text color</string>
-            <key>items</key>
-            <array>
-                <dict>
-                    <key>title</key>
-                    <string>Light</string>
-                    <key>value</key>
-                    <string>navbar-dark</string>
-                </dict>
-                <dict>
-                    <key>title</key>
-                    <string>Dark</string>
-                    <key>value</key>
-                    <string>navbar-light</string>
-                </dict>
-            </array>
-        </dict>
-        <dict>
-            <key>id</key>
             <string>fixed</string>
             <key>type</key>
             <string>select</string>
@@ -128,6 +68,165 @@
                 <dict>
                     <key>title</key>
                     <string>Not fixed</string>
+                    <key>value</key>
+                    <string></string>
+                </dict>
+            </array>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>expand</string>
+            <key>type</key>
+            <string>select</string>
+            <key>default</key>
+            <string>navbar-expand-lg</string>
+            <key>title</key>
+            <string>Expand</string>
+            <key>toolTip</key>
+            <string>Expand Width</string>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>title</key>
+                    <string>Expand Small</string>
+                    <key>value</key>
+                    <string>navbar-expand-sm</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Expand Medium</string>
+                    <key>value</key>
+                    <string>navbar-expand-md</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Expand Large</string>
+                    <key>value</key>
+                    <string>navbar-expand-lg</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Expand Extra Large</string>
+                    <key>value</key>
+                    <string>navbar-expand-xl</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Expand Extra Extra Large</string>
+                    <key>value</key>
+                    <string>navbar-expand-xxl</string>
+                </dict>
+            </array>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>text_color</string>
+            <key>type</key>
+            <string>select</string>
+            <key>default</key>
+            <string>navbar-light</string>
+            <key>title</key>
+            <string>Text Color</string>
+            <key>toolTip</key>
+            <string>Text Color</string>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>title</key>
+                    <string>Dark</string>
+                    <key>value</key>
+                    <string>navbar-light</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Light</string>
+                    <key>value</key>
+                    <string>navbar-dark</string>
+                </dict>
+            </array>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>background_color</string>
+            <key>type</key>
+            <string>select</string>
+            <key>default</key>
+            <string>bg-light</string>
+            <key>title</key>
+            <string>Back Color</string>
+            <key>toolTip</key>
+            <string>Background Color</string>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>title</key>
+                    <string>Light</string>
+                    <key>value</key>
+                    <string>bg-light</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Dark</string>
+                    <key>value</key>
+                    <string>bg-dark</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Primary</string>
+                    <key>value</key>
+                    <string>bg-primary</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Secondary</string>
+                    <key>value</key>
+                    <string>bg-secondary</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Success</string>
+                    <key>value</key>
+                    <string>bg-success</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Danger</string>
+                    <key>value</key>
+                    <string>bg-danger</string>
+                </dict>                
+                <dict>
+                    <key>title</key>
+                    <string>Warning</string>
+                    <key>value</key>
+                    <string>bg-warning</string>
+                </dict>                
+                <dict>
+                    <key>title</key>
+                    <string>Info</string>
+                    <key>value</key>
+                    <string>bg-info</string>
+                </dict>                
+                <dict>
+                    <key>title</key>
+                    <string>Body</string>
+                    <key>value</key>
+                    <string>bg-body</string>
+                </dict>                
+                <dict>
+                    <key>title</key>
+                    <string>White</string>
+                    <key>value</key>
+                    <string>bg-white</string>
+                </dict>                
+                <dict>
+                    <key>title</key>
+                    <string>Transparent</string>
+                    <key>value</key>
+                    <string>bg-transparent</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>None</string>
                     <key>value</key>
                     <string></string>
                 </dict>
