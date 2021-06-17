@@ -266,14 +266,6 @@
             <key>filename</key>
             <string>each.js</string>
         </dict>
-        <dict>
-            <key>filename</key>
-            <string>pageBodyBelow.html</string>
-            <key>type</key>
-            <string>html</string>
-            <key>scope</key>
-            <string>pageBodyBelow</string>
-        </dict>
     </array>
 </dict>
 </plist>

@@ -5,7 +5,7 @@
     <key>author/copyright info</key>
     <string>Futural UG (haftungsbeschraenkt)</string>
     <key>CFBundleIdentifier</key>
-    <string>com.instacks.blankstrap5.html</string>
+    <string>com.instacks.blankstrap5.element</string>
     <key>CFBundleVersion</key>
     <string>5.0.0</string>
     <key>CFBundleShortVersionString</key>
@@ -30,55 +30,50 @@
     <integer>11</integer>
     <key>preprocessor</key>
     <true/>
-    <key>inheritsFrom</key>
-    <string>com.instacks.blankstrap5.element</string>
     <key>inline</key>
     <true/>
+    <key>hidden</key>
+    <true/>
     <key>title</key>
-    <string>HTML</string>
+    <string>Element</string>
     <key>subtitle</key>
-    <string>HTML</string>
+    <string>Element</string>
     <key>customItems</key>
     <array>
         <dict>
             <key>group</key>
-            <string>Text</string>
+            <string>Element</string>
             <key>id</key>
-            <string>align</string>
+            <string>css</string>
             <key>type</key>
-            <string>select</string>
+            <string>multi-2</string>
             <key>default</key>
             <string></string>
             <key>title</key>
-            <string>Alignment</string>
+            <string>CSS Classes</string>
             <key>toolTip</key>
-            <string>Alignment</string>
-            <key>items</key>
+            <string>Extra CSS classes to add to the stack's div in HTML.</string>
+            <key>subtitles</key>
             <array>
-                <dict>
-                    <key>title</key>
-                    <string>Default</string>
-                    <key>value</key>
-                    <string></string>
-                </dict>
-                <dict>
-                    <key>title</key>
-                    <string>Start</string>
-                    <key>value</key>
-                    <string>text-start</string>
-                </dict>
-                <dict>
-                    <key>title</key>
-                    <string>Center</string>
-                    <key>value</key>
-                    <string>text-center</string>
-                </dict>
-                <dict>
-                    <key>title</key>
-                    <string>End</string>
-                    <key>value</key>
-                    <string>text-end</string>
-                </dict>
+                <string>Extra CSS classes for the stack.</string>
+            </array>
+        </dict>
+        <dict>
+            <key>group</key>
+            <string>Element</string>
+            <key>id</key>
+            <string>attributes</string>
+            <key>type</key>
+            <string>multi-2</string>
+            <key>default</key>
+            <string></string>
+            <key>title</key>
+            <string>Attributes</string>
+            <key>toolTip</key>
+            <string>Additional attributes to add to the stack's div in HTML.</string>
+            <key>subtitles</key>
+            <array>
+                <string>Additional attributes for the stack.</string>
             </array>
         </dict>
     </array>
@@ -92,9 +87,7 @@
     <array>
         <string>Blankstrap 5</string>
         <string>Bootstrap</string>
-        <string>Code</string>
-        <string>Text</string>
-        <string>B5 HTML</string>
+        <string>B5 Div</string>
     </array>
     <key>templates</key>
     <array>
@@ -103,18 +96,6 @@
             <string>html</string>
             <key>filename</key>
             <string>each.html</string>
-        </dict>
-        <dict>
-            <key>type</key>
-            <string>css</string>
-            <key>filename</key>
-            <string>each.css</string>
-        </dict>
-        <dict>
-            <key>type</key>
-            <string>js</string>
-            <key>filename</key>
-            <string>each.js</string>
         </dict>
     </array>
 </dict>

@@ -33,7 +33,7 @@
     <key>hidden</key>
     <true/>
     <key>inheritsFrom</key>
-    <string>com.instacks.blankstrap5.div</string>
+    <string>com.instacks.blankstrap5.element</string>
     <key>inline</key>
     <true/>
     <key>title</key>
@@ -42,6 +42,18 @@
     <string>Column</string>
     <key>customItems</key>
     <array>
+        <dict>
+            <key>id</key>
+            <string>column</string>
+            <key>type</key>
+            <string>input</string>
+            <key>default</key>
+            <string>col</string>
+            <key>title</key>
+            <string>Column Width</string>
+            <key>toolTip</key>
+            <string>Column width CSS classes to add to the stack's div in HTML.</string>
+        </dict>
     </array>
     <key>assets</key>
     <array>

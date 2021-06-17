@@ -31,7 +31,7 @@
     <key>preprocessor</key>
     <true/>
     <key>inheritsFrom</key>
-    <string>com.instacks.blankstrap5.div</string>
+    <string>com.instacks.blankstrap5.element</string>
     <key>inline</key>
     <true/>
     <key>title</key>

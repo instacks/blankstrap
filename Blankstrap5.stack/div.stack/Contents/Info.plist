@@ -30,6 +30,8 @@
     <integer>11</integer>
     <key>preprocessor</key>
     <true/>
+    <key>inheritsFrom</key>
+    <string>com.instacks.blankstrap5.element</string>
     <key>inline</key>
     <true/>
     <key>title</key>
@@ -39,21 +41,66 @@
     <key>customItems</key>
     <array>
         <dict>
-            <key>group</key>
-            <string>HTML</string>
             <key>id</key>
-            <string>css</string>
+            <string>tag</string>
             <key>type</key>
-            <string>multi-2</string>
+            <string>select</string>
             <key>default</key>
-            <string></string>
+            <string>div</string>
             <key>title</key>
-            <string>CSS Classes</string>
+            <string>Tag</string>
             <key>toolTip</key>
-            <string>Extra CSS classes to add to the stack's div in HTML.</string>
-            <key>subtitles</key>
+            <string>Tag</string>
+            <key>items</key>
             <array>
-                <string>Extra CSS classes for the stack.</string>
+                <dict>
+                    <key>title</key>
+                    <string>address</string>
+                    <key>value</key>
+                    <string>address</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>article</string>
+                    <key>value</key>
+                    <string>article</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>aside</string>
+                    <key>value</key>
+                    <string>aside</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>div</string>
+                    <key>value</key>
+                    <string>div</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>footer</string>
+                    <key>value</key>
+                    <string>footer</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>header</string>
+                    <key>value</key>
+                    <string>header</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>main</string>
+                    <key>value</key>
+                    <string>main</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>section</string>
+                    <key>value</key>
+                    <string>section</string>
+                </dict>
             </array>
         </dict>
     </array>
