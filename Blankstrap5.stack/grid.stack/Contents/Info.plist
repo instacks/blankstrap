@@ -7,9 +7,9 @@
     <key>CFBundleIdentifier</key>
     <string>com.instacks.blankstrap5.grid</string>
     <key>CFBundleVersion</key>
-    <string>5.0.0</string>
+    <string>5.0.1</string>
     <key>CFBundleShortVersionString</key>
-    <string>5.0.0</string>
+    <string>5.0.1</string>
     <key>author</key>
     <string>inStacks Software</string>
     <key>group</key>
@@ -35,9 +35,9 @@
     <key>inline</key>
     <true/>
     <key>title</key>
-    <string>Grid</string>
+    <string>Grid - Row</string>
     <key>subtitle</key>
-    <string>Grid</string>
+    <string>Grid - Row</string>
     <key>customItems</key>
     <array>
     </array>

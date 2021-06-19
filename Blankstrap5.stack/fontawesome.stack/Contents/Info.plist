@@ -7,9 +7,9 @@
     <key>CFBundleIdentifier</key>
     <string>com.instacks.fontawesome.core</string>
     <key>CFBundleVersion</key>
-    <string>5.0.0</string>
+    <string>5.0.1</string>
     <key>CFBundleShortVersionString</key>
-    <string>5.0.0</string>
+    <string>5.0.1</string>
     <key>author</key>
     <string>inStacks Software</string>
     <key>group</key>
@@ -33,9 +33,9 @@
     <key>inline</key>
     <true/>
     <key>title</key>
-    <string>Font Awesome 4</string>
+    <string>Font Awesome 5</string>
     <key>subtitle</key>
-    <string>Font Awesome 4</string>
+    <string>Font Awesome 5</string>
     <key>customItems</key>
     <array>
     </array>

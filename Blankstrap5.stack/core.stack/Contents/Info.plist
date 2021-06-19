@@ -7,9 +7,9 @@
     <key>CFBundleIdentifier</key>
     <string>com.instacks.blankstrap5.core</string>
     <key>CFBundleVersion</key>
-    <string>5.0.0</string>
+    <string>5.0.1</string>
     <key>CFBundleShortVersionString</key>
-    <string>5.0.0</string>
+    <string>5.0.1</string>
     <key>author</key>
     <string>inStacks Software</string>
     <key>group</key>
@@ -38,6 +38,52 @@
     <string>Blankstrap 5 Core</string>
     <key>customItems</key>
     <array>
+        <dict>
+            <key>id</key>
+            <string>style</string>
+            <key>type</key>
+            <string>select</string>
+            <key>default</key>
+            <string>default</string>
+            <key>title</key>
+            <string>Style</string>
+            <key>toolTip</key>
+            <string>Bootstrap styling</string>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>title</key>
+                    <string>Default</string>
+                    <key>value</key>
+                    <string>default</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Custom CSS File</string>
+                    <key>value</key>
+                    <string>custom</string>
+                </dict>
+            </array>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>custom</string>
+            <key>type</key>
+            <string>link</string>
+            <key>default</key>
+            <string></string>
+            <key>title</key>
+            <string>Custom CSS File</string>
+            <key>toolTip</key>
+            <string>Custom CSS File</string>
+            <key>enable</key>
+            <dict>
+                <key>id</key>
+                <string>style</string>
+                <key>value</key>
+                <string>custom</string>
+            </dict>
+        </dict>
     </array>
     <key>assets</key>
     <array>
