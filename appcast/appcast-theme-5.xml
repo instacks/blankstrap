@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel>
 <title>Blankstrap Theme for RapidWeaver</title>
-<link>http://blankstrap.com</link>
+<link>https://github.com/instacks/blankstrap</link>
 <description>Blankstrap Theme for RapidWeaver</description>
 <language>en</language>
 <item>
 <title>Blankstrap Theme for RapidWeaver Update</title>
-<sparkle:releaseNotesLink>http://blankstrap.com</sparkle:releaseNotesLink>
-<pubDate>Thu, 12 Dec 2019 12:00:00 +0000</pubDate>
+<sparkle:releaseNotesLink>https://github.com/instacks/blankstrap</sparkle:releaseNotesLink>
+<pubDate>Sat, 19 Jun 2021 12:00:00 +0000</pubDate>
 <enclosure
  url="https://github.com/instacks/blankstrap/releases/download/5.0.1/Blankstrap5.rapidweavertheme.zip"
  sparkle:version="501"
