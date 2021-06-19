@@ -9,13 +9,13 @@
 <title>instacks Stack Update</title>
 <sparkle:releaseNotesLink>https://github.com/instacks/blankstrap</sparkle:releaseNotesLink>
 <description>
-# Blankstrap Stack Version 5.0.0
+# Blankstrap Stack Version 5.0.1
 
 </description>
 <pubDate>Mon, 1 Jan 2018 12:00:00 +0000</pubDate>
-<enclosure url="https://github.com/instacks/blankstrap/releases/download/5.0.0/Blankstrap5.stack.zip"
- sparkle:version="5.0.0"
- sparkle:shortVersionString="5.0.0"
+<enclosure url="https://github.com/instacks/blankstrap/releases/download/5.0.1/Blankstrap5.stack.zip"
+ sparkle:version="5.0.1"
+ sparkle:shortVersionString="5.0.1"
  length="1"
  type="application/octet-stream" />
 </item>
