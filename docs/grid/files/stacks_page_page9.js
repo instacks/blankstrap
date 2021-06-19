@@ -1,7 +1,7 @@
 
 var stacks = {};
-stacks.stacks_in_94_6 = {};
-stacks.stacks_in_94_6 = (function(stack) {document.addEventListener('DOMContentLoaded', function () {
+stacks.stacks_in_17_6 = {};
+stacks.stacks_in_17_6 = (function(stack) {document.addEventListener('DOMContentLoaded', function () {
     var dropdowns = document.querySelector('#blankstrap-nav .navbar-nav').querySelectorAll('.dropdown');
     dropdowns.forEach(function(dropdownItem, i){
         var a = dropdownItem.querySelector('a')
@@ -35,4 +35,4 @@ stacks.stacks_in_94_6 = (function(stack) {document.addEventListener('DOMContentL
     //
 });
 
-return stack;})(stacks.stacks_in_94_6);
+return stack;})(stacks.stacks_in_17_6);

@@ -165,11 +165,11 @@
 					<key>hasChangedGlobalBody</key>
 					<true/>
 					<key>hasChangedGlobalCSS</key>
-					<true/>
+					<false/>
 					<key>hasChangedGlobalHeader</key>
 					<true/>
 					<key>hasChangedGlobalJavascript</key>
-					<true/>
+					<false/>
 					<key>hasChangedGlobalPrefix</key>
 					<true/>
 					<key>iconPackage</key>
