@@ -8,11 +8,11 @@
 <item>
 <title>Blankstrap Theme for RapidWeaver Update</title>
 <sparkle:releaseNotesLink>https://github.com/instacks/blankstrap</sparkle:releaseNotesLink>
-<pubDate>Sat, 19 Jun 2021 12:00:00 +0000</pubDate>
+<pubDate>Wed, 23 Jun 2021 12:00:00 +0000</pubDate>
 <enclosure
- url="https://github.com/instacks/blankstrap/releases/download/5.0.1/Blankstrap5.rapidweavertheme.zip"
- sparkle:version="501"
- sparkle:shortVersionString="5.0.1"
+ url="https://github.com/instacks/blankstrap/releases/download/5.0.2/Blankstrap5.rapidweavertheme.zip"
+ sparkle:version="502"
+ sparkle:shortVersionString="5.0.2"
  length="1"
  type="application/octet-stream" />
 </item>
