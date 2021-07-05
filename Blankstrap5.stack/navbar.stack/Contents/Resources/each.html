@@ -5,32 +5,28 @@
             Logo
             Site Title
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="navbarSupportedContent" class="collapse navbar-collapse justify-content-end">
-        </div>
-    </div>
-</nav>
 %%[[endif]]%%
 %%[[if !edit]]%%
+%[if %( "%id=fixed%" == "fixed-headroom" )% ]%
+<script src="%siteAssetPath%/blankstrap5/js/headroom.min.js"></script>
+%[endif]%
 <nav id="blankstrap-nav" class="navbar %id=expand% %id=text_color% %id=background_color% %id=css% %[if %( "%id=fixed%" != "" )% ]%fixed-top%[endif]%" %id=attributes%>
     <div id="blankstrap-nav-container" class="%id=container%">
         <a class="navbar-brand text-decoration-none" href="%base_url%" aria-label="%site_title%">
             %logo%
             %site_title%
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div id="navbarSupportedContent" class="collapse navbar-collapse justify-content-end">
             %navigation%
+            %%[[endif]]%%
+            %[if %id=content_area% ]%
+            %slice%
+            %[endif]%
+            %%[[if !edit]]%%
         </div>
+%%[[endif]]%%
     </div>
 </nav>
-%%[[endif]]%%
-%[if %( "%id=fixed%" == "fixed-headroom" )% ]%
-<script src="%siteAssetPath%/blankstrap5/js/headroom.min.js"></script>
-%[endif]%

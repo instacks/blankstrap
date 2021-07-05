@@ -232,6 +232,18 @@
                 </dict>
             </array>
         </dict>
+        <dict>
+            <key>id</key>
+            <string>content_area</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <false/>
+            <key>title</key>
+            <string>Additional content area</string>
+            <key>toolTip</key>
+            <string>Additional content area</string>
+        </dict>
     </array>
     <key>assets</key>
     <array>
