@@ -13,9 +13,11 @@
 			<array/>
 			<key>Subsandwiches</key>
 			<array>
-				<string>1-Sub-1</string>
-				<string>2-Sub-2</string>
-				<string>3-Sub-3</string>
+				<string>1-Initial-Setup</string>
+				<string>2-Navigation</string>
+				<string>3-Container</string>
+				<string>4-Modal</string>
+				<string>5-Grid</string>
 			</array>
 		</dict>
 	</array>

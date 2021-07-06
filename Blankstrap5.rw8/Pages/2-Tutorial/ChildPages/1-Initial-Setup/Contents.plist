@@ -10,13 +10,13 @@
 			<key>Dictionary</key>
 			<dict>
 				<key>CreatedDate</key>
-				<date>2020-04-09T15:17:16Z</date>
+				<date>2020-04-09T15:17:49Z</date>
 				<key>ID</key>
-				<string>page2</string>
+				<string>page3</string>
 				<key>MostRecentlySelectedStyleName</key>
 				<string>Theme Default</string>
 				<key>PageTitle</key>
-				<string>Subpages</string>
+				<string>Initial Setup</string>
 				<key>PluginClassName</key>
 				<string>YHStacksPlugin</string>
 				<key>PluginMetadata</key>
@@ -35,7 +35,6 @@
 			<array/>
 			<key>Subsandwiches</key>
 			<array>
-				<string>ChildPages</string>
 				<string>Data</string>
 				<string>PageAttributes</string>
 			</array>
