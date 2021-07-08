@@ -7,9 +7,9 @@
     <key>CFBundleIdentifier</key>
     <string>com.instacks.blankstrap5.modal</string>
     <key>CFBundleVersion</key>
-    <string>5.0.2</string>
+    <string>5.0.3</string>
     <key>CFBundleShortVersionString</key>
-    <string>5.0.2</string>
+    <string>5.0.3</string>
     <key>author</key>
     <string>inStacks Software</string>
     <key>group</key>
@@ -41,63 +41,149 @@
     <key>customItems</key>
     <array>
         <dict>
-            <key>group</key>
-            <string>Container</string>
             <key>id</key>
-            <string>container</string>
+            <string>modal-size</string>
             <key>type</key>
             <string>select</string>
             <key>default</key>
-            <string>container</string>
+            <string></string>
             <key>title</key>
-            <string>Width</string>
+            <string>Size</string>
             <key>toolTip</key>
-            <string>Width</string>
+            <string>Modal size</string>
             <key>items</key>
             <array>
                 <dict>
                     <key>title</key>
-                    <string>Container</string>
+                    <string>Small</string>
                     <key>value</key>
-                    <string>container</string>
+                    <string>modal-sm</string>
                 </dict>
                 <dict>
                     <key>title</key>
-                    <string>Container Small</string>
+                    <string>Default</string>
                     <key>value</key>
-                    <string>container-sm</string>
+                    <string></string>
                 </dict>
                 <dict>
                     <key>title</key>
-                    <string>Container Medium</string>
+                    <string>Large</string>
                     <key>value</key>
-                    <string>container-md</string>
+                    <string>modal-lg</string>
                 </dict>
                 <dict>
                     <key>title</key>
-                    <string>Container Large</string>
+                    <string>Extra large</string>
                     <key>value</key>
-                    <string>container-lg</string>
+                    <string>modal-xl</string>
                 </dict>
                 <dict>
                     <key>title</key>
-                    <string>Container Extra Large</string>
-                    <key>value</key>
-                    <string>container-xl</string>
+                    <string>-</string>
                 </dict>
                 <dict>
                     <key>title</key>
-                    <string>Container Extra Extra Large</string>
+                    <string>Fullscreen Always</string>
                     <key>value</key>
-                    <string>container-xxl</string>
+                    <string>modal-fullscreen</string>
                 </dict>
                 <dict>
                     <key>title</key>
-                    <string>Container Fluid</string>
+                    <string>Fullscreen Small</string>
                     <key>value</key>
-                    <string>container-fluid</string>
+                    <string>modal-fullscreen-sm-down</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Fullscreen Medium</string>
+                    <key>value</key>
+                    <string>modal-fullscreen-md-down</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Fullscreen Large</string>
+                    <key>value</key>
+                    <string>modal-fullscreen-lg-down</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Fullscreen Extra Large</string>
+                    <key>value</key>
+                    <string>modal-fullscreen-xl-down</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Fullscreen Extra Extra Large</string>
+                    <key>value</key>
+                    <string>modal-fullscreen-xxl-down</string>
                 </dict>
             </array>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>modal-header</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <true/>
+            <key>title</key>
+            <string>Display Modal Header</string>
+            <key>toolTip</key>
+            <string>Display modal header area</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>modal-title</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <true/>
+            <key>title</key>
+            <string>Display Modal Title</string>
+            <key>toolTip</key>
+            <string>Display modal title</string>
+            <key>enable</key>
+            <dict>
+                <key>id</key>
+                <string>modal-header</string>
+                <key>value</key>
+                <true/>
+            </dict>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>modal-header-close</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <true/>
+            <key>title</key>
+            <string>Display Modal Title Close Button</string>
+            <key>toolTip</key>
+            <string>Display modal title close button</string>
+            <key>enable</key>
+            <dict>
+                <key>id</key>
+                <string>modal-header</string>
+                <key>value</key>
+                <true/>
+            </dict>
+        </dict>
+        <dict>
+            <key>type</key>
+            <string>divider</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>modal-footer</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <true/>
+            <key>title</key>
+            <string>Display Modal Footer</string>
+            <key>toolTip</key>
+            <string>Display modal footer area</string>
         </dict>
     </array>
     <key>assets</key>

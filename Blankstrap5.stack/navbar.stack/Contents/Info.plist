@@ -7,9 +7,9 @@
     <key>CFBundleIdentifier</key>
     <string>com.instacks.blankstrap5.navbar</string>
     <key>CFBundleVersion</key>
-    <string>5.0.2</string>
+    <string>5.0.3</string>
     <key>CFBundleShortVersionString</key>
-    <string>5.0.2</string>
+    <string>5.0.3</string>
     <key>author</key>
     <string>inStacks Software</string>
     <key>group</key>
@@ -117,6 +117,43 @@
                     <string>navbar-expand-xxl</string>
                 </dict>
             </array>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>justify-content</string>
+            <key>type</key>
+            <string>select</string>
+            <key>default</key>
+            <string>justify-content-end</string>
+            <key>title</key>
+            <string>Justify Content</string>
+            <key>toolTip</key>
+            <string>Justify navigation content</string>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>title</key>
+                    <string>Start</string>
+                    <key>value</key>
+                    <string>justify-content-start</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Center</string>
+                    <key>value</key>
+                    <string>justify-content-center</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>End</string>
+                    <key>value</key>
+                    <string>justify-content-end</string>
+                </dict>
+            </array>
+        </dict>
+        <dict>
+            <key>type</key>
+            <string>divider</string>
         </dict>
         <dict>
             <key>id</key>
@@ -231,6 +268,10 @@
                     <string></string>
                 </dict>
             </array>
+        </dict>
+        <dict>
+            <key>type</key>
+            <string>divider</string>
         </dict>
         <dict>
             <key>id</key>

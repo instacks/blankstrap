@@ -15,6 +15,17 @@
 				<dict/>
 				<key>RWFileReferences</key>
 				<dict>
+					<key>733525A2-46D7-4713-AA94-76D8A8414ACE</key>
+					<dict>
+						<key>fileName</key>
+						<string>CleanShot 2021-07-08 at 12.21.26.jpg</string>
+						<key>identifier</key>
+						<string>733525A2-46D7-4713-AA94-76D8A8414ACE</string>
+						<key>lastResolvablePath</key>
+						<string>/var/folders/jt/bkcmn6bn683_351s8_1ysdq80000gp/T/com.realmacsoftware.rapidweaver8/com.realmacsoftware.rapidweaver8-5977/3Pn04P/CleanShot 2021-07-08 at 12.21.26.jpg</string>
+						<key>storedInsideDocument</key>
+						<true/>
+					</dict>
 					<key>EA44038D-13F5-48F2-A0F2-F4F559615523</key>
 					<dict>
 						<key>fileName</key>
@@ -23,17 +34,6 @@
 						<string>EA44038D-13F5-48F2-A0F2-F4F559615523</string>
 						<key>lastResolvablePath</key>
 						<string>/var/folders/dt/09vd5qy94yd_v_43f9ch03cr0000gn/T/com.realmacsoftware.rapidweaver8/com.realmacsoftware.rapidweaver8-33870/6i44WK/icon@2x.png</string>
-						<key>storedInsideDocument</key>
-						<true/>
-					</dict>
-					<key>F9046FAB-26A7-456B-8419-6BDD9B4476CC</key>
-					<dict>
-						<key>fileName</key>
-						<string>icon@2x.png</string>
-						<key>identifier</key>
-						<string>F9046FAB-26A7-456B-8419-6BDD9B4476CC</string>
-						<key>lastResolvablePath</key>
-						<string>/var/folders/dt/09vd5qy94yd_v_43f9ch03cr0000gn/T/com.realmacsoftware.rapidweaver8/com.realmacsoftware.rapidweaver8-11223/cbgTDe/icon@2x.png</string>
 						<key>storedInsideDocument</key>
 						<true/>
 					</dict>
@@ -55,32 +55,33 @@
 				W09yaWdpbmFsVVJMXFB1Ymxpc2hlZFVSTF1QdWJsaXNo
 				ZWREYXRlXxAPQ2hhbmdlZFN0YXR1c2VzWklkZW50aWZp
 				ZXJZVGltZVN0YW1wWUZpbGVUb2tlbgiAEYASgACAAIAP
-				gAuACoANgAxfECQ3Q0I3RkMxMC0wMjMxLTQzRUYtQkJC
-				Ri03MjU1MTlFN0ZBQkVbaWNvbkAyeC5wbmdfECRGOTA0
-				NkZBQi0yNkE3LTQ1NkItODQxOS02QkREOUI0NDc2Q0PS
-				SA9JSldOUy50aW1lI0HCIDbDzjOmgA7SJidMTVZOU0Rh
+				gAuACoANgAxfECQyRThBNkFBMS1GNjU5LTQ1REEtOTk1
+				RC0zNTRENDRGNjc3RjZbaWNvbkAyeC5wbmdfECRFQTQ0
+				MDM4RC0xM0Y1LTQ4RjItQTBGMi1GNEY1NTk2MTU1MjPS
+				SA9JSldOUy50aW1lI0HCItrRDsAigA7SJidMTVZOU0Rh
 				dGWiTCvTDQ4PT1BRoKCAENImJ1NUXxATTlNNdXRhYmxl
-				RGljdGlvbmFyeaNTVStcTlNEaWN0aW9uYXJ5XxAzL1Vz
-				ZXJzL2Q0NTkvRGV2ZWxvcGVyL2JsYW5rc3RyYXA1L2lj
-				b25zL2ljb25AMngucG5n0iYnWFleUldTaXRlUmVzb3Vy
-				Y2WiWiteUldTaXRlUmVzb3VyY2XaMjMPNDU2Fzc4OTpd
-				PD09YWJjZGUIgBmAEoAAgACAGIAVgBSAF4AWXxAkMkU4
-				QTZBQTEtRjY1OS00NURBLTk5NUQtMzU0RDQ0RjY3N0Y2
-				W2ljb25AMngucG5nXxAkRUE0NDAzOEQtMTNGNS00OEYy
-				LUEwRjItRjRGNTU5NjE1NTIz0kgPakojQcIi2tEOwCKA
-				DtMNDg9tblGgoIAQXxBdL1VzZXJzL2Q0NTkvRGV2ZWxv
-				cGVyL2JsYW5rc3RyYXA1L0JsYW5rc3RyYXA1LnN0YWNr
-				L2NvcmUuc3RhY2svQ29udGVudHMvUmVzb3VyY2VzL2lj
-				b25AMngucG5n0iYncnNcUldTaXRlRm9sZGVyonQrXFJX
-				U2l0ZUZvbGRlctImJ1V2olUrAAgAEQAaACQAKQAyADcA
-				SQBMAFEAUwByAHgAfwCHAJIAmQCbAJ0AnwChAKMAqACz
-				ALgAvgDJANIA1ADWANgA2gDcAQMBFQEaARsBHQEiAS0B
-				NgFFAUkBUQFaAV8BYgFkAWYBaAF9AYwBmAGlAbMBxQHQ
-				AdoB5AHlAecB6QHrAe0B7wHxAfMB9QH3Ah4CKgJRAlYC
-				XgJnAmkCbgJ1AngCfwKAAoECgwKIAp4CogKvAuUC6gL5
-				AvwDCwMgAyEDIwMlAycDKQMrAy0DLwMxAzMDWgNmA40D
-				kgObA50DpAOlA6YDqAQIBA0EGgQdBCoELwAAAAAAAAIB
-				AAAAAAAAAHcAAAAAAAAAAAAAAAAAAAQy
+				RGljdGlvbmFyeaNTVStcTlNEaWN0aW9uYXJ5XxBdL1Vz
+				ZXJzL2Q0NTkvRGV2ZWxvcGVyL2JsYW5rc3RyYXA1L0Js
+				YW5rc3RyYXA1LnN0YWNrL2NvcmUuc3RhY2svQ29udGVu
+				dHMvUmVzb3VyY2VzL2ljb25AMngucG5n0iYnWFleUldT
+				aXRlUmVzb3VyY2WiWiteUldTaXRlUmVzb3VyY2XaMjMP
+				NDU2Fzc4OTpdPD09YWJjZGUIgBmAEoAAgACAGIAVgBSA
+				F4AWXxAkQkRGNzczQUEtQTk1RS00MjcyLTkzRUMtMDAy
+				MUEwMDNFQjQ4XxAkQ2xlYW5TaG90IDIwMjEtMDctMDgg
+				YXQgMTIuMjEuMjYuanBnXxAkNzMzNTI1QTItNDZENy00
+				NzEzLUFBOTQtNzZEOEE4NDE0QUNF0kgPakojQcNLhJcS
+				aTqADtMNDg9tblGgoIAQXxA6L1VzZXJzL2phbm5pcy9E
+				ZXNrdG9wL0NsZWFuU2hvdCAyMDIxLTA3LTA4IGF0IDEy
+				LjIxLjI2LmpwZ9ImJ3JzXFJXU2l0ZUZvbGRlcqJ0K1xS
+				V1NpdGVGb2xkZXLSJidVdqJVKwAIABEAGgAkACkAMgA3
+				AEkATABRAFMAcgB4AH8AhwCSAJkAmwCdAJ8AoQCjAKgA
+				swC4AL4AyQDSANQA1gDYANoA3AEDARUBGgEbAR0BIgEt
+				ATYBRQFJAVEBWgFfAWIBZAFmAWgBfQGMAZgBpQGzAcUB
+				0AHaAeQB5QHnAekB6wHtAe8B8QHzAfUB9wIeAioCUQJW
+				Al4CZwJpAm4CdQJ4An8CgAKBAoMCiAKeAqICrwMPAxQD
+				IwMmAzUDSgNLA00DTwNRA1MDVQNXA1kDWwNdA4QDqwPS
+				A9cD4APiA+kD6gPrA+0EKgQvBDwEPwRMBFEAAAAAAAAC
+				AQAAAAAAAAB3AAAAAAAAAAAAAAAAAAAEVA==
 				</data>
 				<key>SiteAttributes</key>
 				<dict>

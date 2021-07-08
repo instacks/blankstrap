@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://instacks.github.io/blankstrap/index.html</loc>
+		<loc>https://instacks.github.io/blankstrap/documentation.html</loc>
 	</url>
 	<url>
-		<loc>https://instacks.github.io/blankstrap/grid/index.html</loc>
+		<loc>https://instacks.github.io/blankstrap/download/index.html</loc>
 	</url>
 	<url>
-		<loc>https://instacks.github.io/blankstrap/sub/index.html</loc>
+		<loc>https://instacks.github.io/blankstrap/navigation/index.html</loc>
 	</url>
 	<url>
-		<loc>https://instacks.github.io/blankstrap/sub/sub1/index.html</loc>
+		<loc>https://instacks.github.io/blankstrap/styling/index.html</loc>
 	</url>
 	<url>
-		<loc>https://instacks.github.io/blankstrap/sub/sub2/index.html</loc>
+		<loc>https://instacks.github.io/blankstrap/container/index.html</loc>
 	</url>
 	<url>
-		<loc>https://instacks.github.io/blankstrap/sub/sub3/index.html</loc>
+		<loc>https://instacks.github.io/blankstrap/typography/index.html</loc>
+	</url>
+	<url>
+		<loc>https://instacks.github.io/blankstrap/modal/index.html</loc>
+	</url>
+	<url>
+		<loc>https://instacks.github.io/blankstrap/icon/index.html</loc>
 	</url>
 </urlset>

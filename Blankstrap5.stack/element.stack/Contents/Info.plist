@@ -7,9 +7,9 @@
     <key>CFBundleIdentifier</key>
     <string>com.instacks.blankstrap5.element</string>
     <key>CFBundleVersion</key>
-    <string>5.0.2</string>
+    <string>5.0.3</string>
     <key>CFBundleShortVersionString</key>
-    <string>5.0.2</string>
+    <string>5.0.3</string>
     <key>author</key>
     <string>inStacks Software</string>
     <key>group</key>
@@ -40,6 +40,20 @@
     <string>Element</string>
     <key>customItems</key>
     <array>
+        <dict>
+            <key>group</key>
+            <string>Element</string>
+            <key>id</key>
+            <string>uid</string>
+            <key>type</key>
+            <string>input</string>
+            <key>default</key>
+            <string></string>
+            <key>title</key>
+            <string>Unique ID</string>
+            <key>toolTip</key>
+            <string>Identifier (ID) which must be unique in the whole document.</string>
+        </dict>
         <dict>
             <key>group</key>
             <string>Element</string>

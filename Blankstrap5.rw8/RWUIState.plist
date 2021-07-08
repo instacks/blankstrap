@@ -7,7 +7,7 @@
 		<string>page2</string>
 	</array>
 	<key>pageInspectorVisible</key>
-	<false/>
+	<true/>
 	<key>projectViewVisible</key>
 	<true/>
 	<key>projectViewWidth</key>
@@ -16,7 +16,7 @@
 	<string>info</string>
 	<key>selectedItems</key>
 	<array>
-		<string>page1</string>
+		<string>page4</string>
 	</array>
 	<key>selectedMode</key>
 	<integer>0</integer>

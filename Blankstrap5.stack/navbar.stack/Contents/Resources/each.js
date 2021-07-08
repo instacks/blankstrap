@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var dropdowns = document.querySelector('#blankstrap-nav .navbar-nav').querySelectorAll('.dropdown');
+    var dropdowns = document.querySelector('#%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar .navbar-nav').querySelectorAll('.dropdown');
     dropdowns.forEach(function(dropdownItem, i){
         var a = dropdownItem.querySelector('a')
         a.classList.add('dropdown-toggle');
@@ -26,10 +26,10 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
     //%[if %( "%id=fixed%" == "fixed" )% ]%
-    document.querySelector('body').style['padding-top'] = getComputedStyle(document.querySelector('#blankstrap-nav'))['height'];
+    document.querySelector('body').style['padding-top'] = getComputedStyle(document.querySelector('#%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar'))['height'];
     //%[endif]%
     //%[if %( "%id=fixed%" == "fixed-headroom" )% ]%
-    document.querySelector('body').style['padding-top'] = getComputedStyle(document.querySelector('#blankstrap-nav'))['height'];
-    new Headroom(document.querySelector("#blankstrap-nav")).init();
+    document.querySelector('body').style['padding-top'] = getComputedStyle(document.querySelector('#%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar'))['height'];
+    new Headroom(document.querySelector("#%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar")).init();
     //%[endif]%
 });

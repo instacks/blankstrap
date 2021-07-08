@@ -7,9 +7,9 @@
     <key>CFBundleIdentifier</key>
     <string>com.instacks.blankstrap5.button</string>
     <key>CFBundleVersion</key>
-    <string>5.0.2</string>
+    <string>5.0.3</string>
     <key>CFBundleShortVersionString</key>
-    <string>5.0.2</string>
+    <string>5.0.3</string>
     <key>author</key>
     <string>inStacks Software</string>
     <key>group</key>
@@ -42,15 +42,84 @@
     <array>
         <dict>
             <key>id</key>
+            <string>type</string>
+            <key>type</key>
+            <string>select</string>
+            <key>default</key>
+            <string>link</string>
+            <key>title</key>
+            <string>Type</string>
+            <key>toolTip</key>
+            <string>Type</string>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>title</key>
+                    <string>Link</string>
+                    <key>value</key>
+                    <string>link</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Open Modal</string>
+                    <key>value</key>
+                    <string>modal-open</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Close Modal</string>
+                    <key>value</key>
+                    <string>modal-close</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Submit Form</string>
+                    <key>value</key>
+                    <string>submit</string>
+                </dict>
+            </array>
+        </dict>
+        <dict>
+            <key>id</key>
             <string>link</string>
             <key>type</key>
             <string>link</string>
             <key>default</key>
-            <string></string>
+            <string>#</string>
             <key>title</key>
             <string>Link</string>
             <key>toolTip</key>
             <string>Link</string>
+            <key>enable</key>
+            <dict>
+                <key>id</key>
+                <string>type</string>
+                <key>value</key>
+                <string>link</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>modal</string>
+            <key>type</key>
+            <string>input</string>
+            <key>default</key>
+            <string>#</string>
+            <key>title</key>
+            <string>Modal ID</string>
+            <key>toolTip</key>
+            <string>Modal ID to open</string>
+            <key>enable</key>
+            <dict>
+                <key>id</key>
+                <string>type</string>
+                <key>value</key>
+                <string>modal-open</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>type</key>
+            <string>divider</string>
         </dict>
         <dict>
             <key>id</key>

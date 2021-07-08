@@ -1,3 +1,1 @@
-<a href="%id=link -href%" class="btn btn-%[if %id=outline% ]%outline-%[endif]%%id=color% %id=size% %id=css%" %id=attributes%>
-    %html="Button"%
-</a>
+<a %[if %("%id=uid%" != "")%]%id="%id=uid%"%[endif]% %[if %("%id=type%" == "link")%]%href="%id=link -href%"%[endif]% class="btn btn-%[if %id=outline% ]%outline-%[endif]%%id=color% %id=size% %id=css%" %id=attributes% %[if %("%id=type%" == "modal-open")%]%data-bs-toggle="modal" data-bs-target="%id=modal%"%[endif]% %[if %("%id=type%" == "modal-close")%]%data-bs-dismiss="modal"%[endif]%>%html="Button"%</a>
