@@ -13,8 +13,8 @@
 			<array/>
 			<key>Subsandwiches</key>
 			<array>
-				<string>1-Download-and-Setup</string>
-				<string>2-Initial-Setup-and-Navigation</string>
+				<string>1-Download-and-Initial-Setup</string>
+				<string>2-Navigation-Bar</string>
 				<string>3-Theming-and-Styling</string>
 				<string>4-Container-and-Grid</string>
 				<string>5-Text-and-Buttons</string>
