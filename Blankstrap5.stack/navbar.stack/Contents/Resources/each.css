@@ -9,9 +9,8 @@
     height: auto;
     width: auto;
     max-height: 32px;
-    /*vertical-align: top !important;*/
-    display: inline-block !important;
-    margin-right: 1rem;
+    vertical-align: top;
+    margin-right: 0.5rem;
 }
 %[if %( "%id=fixed%" == "fixed-headroom" )% ]%
 .headroom {

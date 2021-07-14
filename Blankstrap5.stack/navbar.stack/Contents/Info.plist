@@ -46,7 +46,7 @@
             <key>type</key>
             <string>select</string>
             <key>default</key>
-            <string>fixed</string>
+            <string></string>
             <key>title</key>
             <string>Fixed</string>
             <key>toolTip</key>
@@ -55,105 +55,23 @@
             <array>
                 <dict>
                     <key>title</key>
-                    <string>Fixed</string>
+                    <string>Fixed/Sticky</string>
                     <key>value</key>
                     <string>fixed</string>
                 </dict>
                 <dict>
                     <key>title</key>
-                    <string>Fixed, hide on scroll</string>
+                    <string>Fixed/Sticky - Hide on Scroll</string>
                     <key>value</key>
                     <string>fixed-headroom</string>
                 </dict>
                 <dict>
                     <key>title</key>
-                    <string>Not fixed</string>
+                    <string>Not Fixed/Sticky</string>
                     <key>value</key>
                     <string></string>
                 </dict>
             </array>
-        </dict>
-        <dict>
-            <key>id</key>
-            <string>expand</string>
-            <key>type</key>
-            <string>select</string>
-            <key>default</key>
-            <string>navbar-expand-lg</string>
-            <key>title</key>
-            <string>Expand</string>
-            <key>toolTip</key>
-            <string>Expand Width</string>
-            <key>items</key>
-            <array>
-                <dict>
-                    <key>title</key>
-                    <string>Expand Small</string>
-                    <key>value</key>
-                    <string>navbar-expand-sm</string>
-                </dict>
-                <dict>
-                    <key>title</key>
-                    <string>Expand Medium</string>
-                    <key>value</key>
-                    <string>navbar-expand-md</string>
-                </dict>
-                <dict>
-                    <key>title</key>
-                    <string>Expand Large</string>
-                    <key>value</key>
-                    <string>navbar-expand-lg</string>
-                </dict>
-                <dict>
-                    <key>title</key>
-                    <string>Expand Extra Large</string>
-                    <key>value</key>
-                    <string>navbar-expand-xl</string>
-                </dict>
-                <dict>
-                    <key>title</key>
-                    <string>Expand Extra Extra Large</string>
-                    <key>value</key>
-                    <string>navbar-expand-xxl</string>
-                </dict>
-            </array>
-        </dict>
-        <dict>
-            <key>id</key>
-            <string>justify-content</string>
-            <key>type</key>
-            <string>select</string>
-            <key>default</key>
-            <string>justify-content-end</string>
-            <key>title</key>
-            <string>Justify Content</string>
-            <key>toolTip</key>
-            <string>Justify navigation content</string>
-            <key>items</key>
-            <array>
-                <dict>
-                    <key>title</key>
-                    <string>Start</string>
-                    <key>value</key>
-                    <string>justify-content-start</string>
-                </dict>
-                <dict>
-                    <key>title</key>
-                    <string>Center</string>
-                    <key>value</key>
-                    <string>justify-content-center</string>
-                </dict>
-                <dict>
-                    <key>title</key>
-                    <string>End</string>
-                    <key>value</key>
-                    <string>justify-content-end</string>
-                </dict>
-            </array>
-        </dict>
-        <dict>
-            <key>type</key>
-            <string>divider</string>
         </dict>
         <dict>
             <key>id</key>
@@ -179,6 +97,12 @@
                     <string>Light</string>
                     <key>value</key>
                     <string>navbar-dark</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>None</string>
+                    <key>value</key>
+                    <string></string>
                 </dict>
             </array>
         </dict>
@@ -270,6 +194,151 @@
             </array>
         </dict>
         <dict>
+            <key>id</key>
+            <string>logo</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <true/>
+            <key>title</key>
+            <string>Display Logo</string>
+            <key>toolTip</key>
+            <string>Display logo image</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>title</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <true/>
+            <key>title</key>
+            <string>Display Title</string>
+            <key>toolTip</key>
+            <string>Display title</string>
+        </dict>
+        <dict>
+            <key>type</key>
+            <string>divider</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>toggler</string>
+            <key>type</key>
+            <string>select</string>
+            <key>default</key>
+            <string>end</string>
+            <key>title</key>
+            <string>Toggler Location</string>
+            <key>toolTip</key>
+            <string>Display menu toggler at start or end of navigation bar</string>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>title</key>
+                    <string>Hide</string>
+                    <key>value</key>
+                    <string></string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Start</string>
+                    <key>value</key>
+                    <string>start</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>End</string>
+                    <key>value</key>
+                    <string>end</string>
+                </dict>
+            </array>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>expand</string>
+            <key>type</key>
+            <string>select</string>
+            <key>default</key>
+            <string>navbar-expand-lg</string>
+            <key>title</key>
+            <string>Expand</string>
+            <key>toolTip</key>
+            <string>Expand the navigation at which breakpoint</string>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>title</key>
+                    <string>Do not expand</string>
+                    <key>value</key>
+                    <string></string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Expand Small</string>
+                    <key>value</key>
+                    <string>navbar-expand-sm</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Expand Medium</string>
+                    <key>value</key>
+                    <string>navbar-expand-md</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Expand Large</string>
+                    <key>value</key>
+                    <string>navbar-expand-lg</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Expand Extra Large</string>
+                    <key>value</key>
+                    <string>navbar-expand-xl</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Expand Extra Extra Large</string>
+                    <key>value</key>
+                    <string>navbar-expand-xxl</string>
+                </dict>
+            </array>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>justify-content</string>
+            <key>type</key>
+            <string>select</string>
+            <key>default</key>
+            <string>justify-content-end</string>
+            <key>title</key>
+            <string>Justify Content</string>
+            <key>toolTip</key>
+            <string>Justify navigation content</string>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>title</key>
+                    <string>Start</string>
+                    <key>value</key>
+                    <string>justify-content-start</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Center</string>
+                    <key>value</key>
+                    <string>justify-content-center</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>End</string>
+                    <key>value</key>
+                    <string>justify-content-end</string>
+                </dict>
+            </array>
+        </dict>
+        <dict>
             <key>type</key>
             <string>divider</string>
         </dict>
@@ -281,9 +350,9 @@
             <key>default</key>
             <false/>
             <key>title</key>
-            <string>Additional content area</string>
+            <string>Additional Content Area Links</string>
             <key>toolTip</key>
-            <string>Additional content area</string>
+            <string>Display additional content area at end of navigation links</string>
         </dict>
     </array>
     <key>assets</key>

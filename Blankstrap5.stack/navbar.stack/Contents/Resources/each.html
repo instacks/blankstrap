@@ -2,34 +2,52 @@
 <div class="blankstrap5-core-missing-warning"><p>Blankstrap 5 Stack must be added to the page.</p></div>
 %%[[endif]]%%
 %%[[if edit]]%%
-<nav class="navbar %id=expand% %id=text_color% %id=background_color% %id=css%" %id=attributes%>
-    <div id="blankstrap-nav-container" class="%id=container%">
-        <a class="navbar-brand text-decoration-none" href="#" aria-label="Site Title">
-            Logo
-            Site Title
+<nav class="navbar navbar-expand-xxl %id=text_color% %id=background_color% %id=css%>
+    <div class="%id=container%">
+        %[if %( "%id=toggler%" == "start" )% ]%
+        <button class="navbar-toggler">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        %[endif]%
+        <a class="navbar-brand text-decoration-none">
+            %[if %id=logo% ]%Logo%[endif]%
+            %[if %id=title% ]%Title%[endif]%
         </a>
+        %[if %( "%id=toggler%" == "end" )% ]%
+        <button class="navbar-toggler">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        %[endif]%
+        <div>
 %%[[endif]]%%
+
+%%[[if !edit]]%%
+<nav id="%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar" class="navbar %id=expand% %id=text_color% %id=background_color% %id=css% %[if %( "%id=fixed%" != "" )% ]%fixed-top%[endif]%" %id=attributes%>
+    <div id="%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar-container" class="%id=container%">
+        %[if %( "%id=toggler%" == "start" )% ]%
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar-content" aria-controls="%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        %[endif]%
+        <a class="navbar-brand text-decoration-none" href="%base_url%" aria-label="%site_title%">
+            %[if %id=logo% ]%%logo%%[endif]%
+            %[if %id=title% ]%%site_title%%[endif]%
+        </a>
+        %[if %( "%id=toggler%" == "end" )% ]%
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar-content" aria-controls="%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        %[endif]%
+        <div id="%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar-content" class="collapse navbar-collapse %id=justify-content%">
+            %navigation%
+%%[[endif]]%%
+            %[if %id=content_area% ]%%slice%%[endif]%
+        </div>
+    </div>
+</nav>
+
 %%[[if !edit]]%%
 %[if %( "%id=fixed%" == "fixed-headroom" )% ]%
 <script src="%siteAssetPath%/blankstrap5/js/headroom.min.js"></script>
 %[endif]%
-<nav id="%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar" class="navbar %id=expand% %id=text_color% %id=background_color% %id=css% %[if %( "%id=fixed%" != "" )% ]%fixed-top%[endif]%" %id=attributes%>
-    <div id="%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar-container" class="%id=container%">
-        <a class="navbar-brand text-decoration-none" href="%base_url%" aria-label="%site_title%">
-            %logo%
-            %site_title%
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar-content" aria-controls="%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar-content" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar-content" class="collapse navbar-collapse %id=justify-content%">
-            %navigation%
-            %%[[endif]]%%
-            %[if %id=content_area% ]%
-            %slice%
-            %[endif]%
-            %%[[if !edit]]%%
-        </div>
 %%[[endif]]%%
-    </div>
-</nav>
