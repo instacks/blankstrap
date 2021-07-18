@@ -5,7 +5,7 @@
     font-weight: bold;
 }
 %%[[endif]]%%
-#%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar img {
+#%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%-navbar img {
     height: auto;
     width: auto;
     max-height: 32px;

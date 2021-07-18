@@ -40,65 +40,54 @@
     <string>Carousel</string>
     <key>customItems</key>
     <array>
-        <!-- <dict>
-            <key>group</key>
-            <string>Container</string>
+        <dict>
             <key>id</key>
-            <string>container</string>
+            <string>control</string>
             <key>type</key>
-            <string>select</string>
+            <string>checkbox</string>
             <key>default</key>
-            <string>container</string>
+            <true/>
             <key>title</key>
-            <string>Width</string>
+            <string>Controls</string>
             <key>toolTip</key>
-            <string>Width</string>
-            <key>items</key>
-            <array>
-                <dict>
-                    <key>title</key>
-                    <string>Container</string>
-                    <key>value</key>
-                    <string>container</string>
-                </dict>
-                <dict>
-                    <key>title</key>
-                    <string>Container Small</string>
-                    <key>value</key>
-                    <string>container-sm</string>
-                </dict>
-                <dict>
-                    <key>title</key>
-                    <string>Container Medium</string>
-                    <key>value</key>
-                    <string>container-md</string>
-                </dict>
-                <dict>
-                    <key>title</key>
-                    <string>Container Large</string>
-                    <key>value</key>
-                    <string>container-lg</string>
-                </dict>
-                <dict>
-                    <key>title</key>
-                    <string>Container Extra Large</string>
-                    <key>value</key>
-                    <string>container-xl</string>
-                </dict>
-                <dict>
-                    <key>title</key>
-                    <string>Container Extra Extra Large</string>
-                    <key>value</key>
-                    <string>container-xxl</string>
-                </dict>
-                <dict>
-                    <key>title</key>
-                    <string>Container Fluid</string>
-                    <key>value</key>
-                    <string>container-fluid</string>
-                </dict>
-            </array>
-        </dict> -->
+            <string>Display controls</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>indicator</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <true/>
+            <key>title</key>
+            <string>Indicators</string>
+            <key>toolTip</key>
+            <string>Display indicators</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>fade</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <false/>
+            <key>title</key>
+            <string>Crossfade</string>
+            <key>toolTip</key>
+            <string>Fade slides</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>dark</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <false/>
+            <key>title</key>
+            <string>Dark Variant</string>
+            <key>toolTip</key>
+            <string>Display in darker colors</string>
+        </dict>
     </array>
     <key>assets</key>
     <array>
@@ -131,6 +120,14 @@
             <string>js</string>
             <key>filename</key>
             <string>each.js</string>
+        </dict>
+        <dict>
+            <key>type</key>
+            <string>js</string>
+            <key>filename</key>
+            <string>page.js</string>
+            <key>scope</key>
+            <string>page</string>
         </dict>
     </array>
 </dict>

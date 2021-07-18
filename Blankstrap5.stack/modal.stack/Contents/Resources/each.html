@@ -1,4 +1,4 @@
-<div %[if %("%id=uid%" != "")%]%id="%id=uid%"%[endif]% class="%%[[if !edit]]%%modal fade%%[[endif]]%% %id=css%" %id=attributes% tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+<div id="%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%-modal" class="%%[[if !edit]]%%modal fade%%[[endif]]%% %id=css%" %id=attributes% tabindex="-1" aria-labelledby="modal" aria-hidden="true">
     <div class="%%[[if !edit]]%%modal-dialog %id=modal-size%%%[[endif]]%%">
         <div class="%%[[if !edit]]%%modal-content%%[[endif]]%%">
             %[if %id=modal-header% ]%

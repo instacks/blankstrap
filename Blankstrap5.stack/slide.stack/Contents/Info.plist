@@ -48,11 +48,47 @@
     <array>
         <dict>
             <key>id</key>
+            <string>warehouse</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <false/>
+            <key>title</key>
+            <string>Remote / Warehouse Image</string>
+            <key>toolTip</key>
+            <string>Use a remote located or warehoused instead of a local image</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>warehouse-image</string>
+            <key>type</key>
+            <string>link</string>
+            <key>title</key>
+            <string>Warehoused Img</string>
+            <key>toolTip</key>
+            <string>Remote located or warehoused image</string>
+            <key>enable</key>
+            <dict>
+                <key>id</key>
+                <string>warehouse</string>
+                <key>value</key>
+                <true/>
+            </dict>
+        </dict>
+        <dict>
+            <key>id</key>
             <string>image</string>
             <key>type</key>
             <string>image</string>
             <key>title</key>
             <string>Image</string>
+            <key>enable</key>
+            <dict>
+                <key>id</key>
+                <string>warehouse</string>
+                <key>value</key>
+                <false/>
+            </dict>
         </dict>
         <dict>
             <key>id</key>
@@ -112,14 +148,6 @@
             <string>js</string>
             <key>filename</key>
             <string>each.js</string>
-        </dict>
-        <dict>
-            <key>type</key>
-            <string>js</string>
-            <key>filename</key>
-            <string>page.js</string>
-            <key>scope</key>
-            <string>page</string>
         </dict>
     </array>
 </dict>

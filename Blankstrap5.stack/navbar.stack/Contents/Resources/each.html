@@ -20,12 +20,11 @@
         %[endif]%
         <div>
 %%[[endif]]%%
-
 %%[[if !edit]]%%
-<nav id="%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar" class="navbar %id=expand% %id=text_color% %id=background_color% %id=css% %[if %( "%id=fixed%" != "" )% ]%fixed-top%[endif]%" %id=attributes%>
-    <div id="%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar-container" class="%id=container%">
+<nav id="%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%-navbar" class="navbar %id=expand% %id=text_color% %id=background_color% %id=css% %[if %( "%id=fixed%" != "" )% ]%fixed-top%[endif]%" %id=attributes%>
+    <div id="%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%-navbar-container" class="%id=container%">
         %[if %( "%id=toggler%" == "start" )% ]%
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar-content" aria-controls="%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%-navbar-content" aria-controls="%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%-navbar-content" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         %[endif]%
@@ -34,18 +33,17 @@
             %[if %id=title% ]%%site_title%%[endif]%
         </a>
         %[if %( "%id=toggler%" == "end" )% ]%
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar-content" aria-controls="%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%-navbar-content" aria-controls="%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%-navbar-content" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         %[endif]%
-        <div id="%[if %("%id=uid%" != "")%]%%id=uid%-%[endif]%navbar-content" class="collapse navbar-collapse %id=justify-content%">
+        <div id="%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%-navbar-content" class="collapse navbar-collapse %id=justify-content%">
             %navigation%
 %%[[endif]]%%
             %[if %id=content_area% ]%%slice%%[endif]%
         </div>
     </div>
 </nav>
-
 %%[[if !edit]]%%
 %[if %( "%id=fixed%" == "fixed-headroom" )% ]%
 <script src="%siteAssetPath%/blankstrap5/js/headroom.min.js"></script>
