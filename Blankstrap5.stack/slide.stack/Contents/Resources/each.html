@@ -1,0 +1,25 @@
+<div %[if %("%id=uid%" != "")%]%id="%id=uid%"%[endif]% class="%%[[if !edit]]%%carousel-item%%[[endif]]%% %id=css%" %id=attributes%>
+    %%[[if edit]]%%
+    %[if %("%id=image -src%" == "")%]%
+    <div style="color: red !important;" class="stacks-description">Add an image.<br><i class="stacks-fa stacks-fa-image"></i></div>
+    %[else]%
+    <img src="%id=image -src%" style="max-width: 10rem;margin-left: auto;em;margin-right: auto;display: block;margin-left: auto;" alt="%id=alt%">
+    %[endif]%
+    %%[[endif]]%%
+    %%[[if !edit]]%%
+    <img src="%id=image -src%" class="d-block w-100" alt="%id=alt%">
+    %%[[endif]]%%
+    %[if %id=caption% ]%
+    <div class="%%[[if !edit]]%%carousel-caption d-none d-md-block%%[[endif]]%%">
+    %slice%
+    </div>
+    %[endif]%
+</div>
+
+
+
+
+
+
+
+

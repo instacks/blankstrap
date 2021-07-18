@@ -5,7 +5,7 @@
     <key>author/copyright info</key>
     <string>Futural UG (haftungsbeschraenkt)</string>
     <key>CFBundleIdentifier</key>
-    <string>com.instacks.blankstrap5.column</string>
+    <string>com.instacks.blankstrap5.slide</string>
     <key>CFBundleVersion</key>
     <string>5.0.4</string>
     <key>CFBundleShortVersionString</key>
@@ -34,29 +34,49 @@
     <true/>
     <key>childOf</key>
     <array>
-        <string>com.instacks.blankstrap5.grid</string>
+        <string>com.instacks.blankstrap5.carousel</string>
     </array>
     <key>inheritsFrom</key>
     <string>com.instacks.blankstrap5.element</string>
     <key>inline</key>
     <true/>
     <key>title</key>
-    <string>Column</string>
+    <string>Slide</string>
     <key>subtitle</key>
-    <string>Column</string>
+    <string>Slide</string>
     <key>customItems</key>
     <array>
         <dict>
             <key>id</key>
-            <string>column</string>
+            <string>image</string>
+            <key>type</key>
+            <string>image</string>
+            <key>title</key>
+            <string>Image</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>alt</string>
             <key>type</key>
             <string>input</string>
             <key>default</key>
-            <string>col</string>
+            <string></string>
             <key>title</key>
-            <string>Column Width</string>
+            <string>Alt Text</string>
             <key>toolTip</key>
-            <string>Column width CSS classes to add to the stack's div in HTML.</string>
+            <string>Alternative image text</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>caption</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <false/>
+            <key>title</key>
+            <string>Slide Caption</string>
+            <key>toolTip</key>
+            <string>Slice caption</string>
         </dict>
     </array>
     <key>assets</key>
@@ -92,6 +112,14 @@
             <string>js</string>
             <key>filename</key>
             <string>each.js</string>
+        </dict>
+        <dict>
+            <key>type</key>
+            <string>js</string>
+            <key>filename</key>
+            <string>page.js</string>
+            <key>scope</key>
+            <string>page</string>
         </dict>
     </array>
 </dict>

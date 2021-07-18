@@ -5,7 +5,7 @@
     <key>author/copyright info</key>
     <string>Futural UG (haftungsbeschraenkt)</string>
     <key>CFBundleIdentifier</key>
-    <string>com.instacks.blankstrap5.column</string>
+    <string>com.instacks.blankstrap5.carousel</string>
     <key>CFBundleVersion</key>
     <string>5.0.4</string>
     <key>CFBundleShortVersionString</key>
@@ -30,34 +30,75 @@
     <integer>11</integer>
     <key>preprocessor</key>
     <true/>
-    <key>hidden</key>
-    <true/>
-    <key>childOf</key>
-    <array>
-        <string>com.instacks.blankstrap5.grid</string>
-    </array>
     <key>inheritsFrom</key>
     <string>com.instacks.blankstrap5.element</string>
     <key>inline</key>
     <true/>
     <key>title</key>
-    <string>Column</string>
+    <string>Carousel</string>
     <key>subtitle</key>
-    <string>Column</string>
+    <string>Carousel</string>
     <key>customItems</key>
     <array>
-        <dict>
+        <!-- <dict>
+            <key>group</key>
+            <string>Container</string>
             <key>id</key>
-            <string>column</string>
+            <string>container</string>
             <key>type</key>
-            <string>input</string>
+            <string>select</string>
             <key>default</key>
-            <string>col</string>
+            <string>container</string>
             <key>title</key>
-            <string>Column Width</string>
+            <string>Width</string>
             <key>toolTip</key>
-            <string>Column width CSS classes to add to the stack's div in HTML.</string>
-        </dict>
+            <string>Width</string>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>title</key>
+                    <string>Container</string>
+                    <key>value</key>
+                    <string>container</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Container Small</string>
+                    <key>value</key>
+                    <string>container-sm</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Container Medium</string>
+                    <key>value</key>
+                    <string>container-md</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Container Large</string>
+                    <key>value</key>
+                    <string>container-lg</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Container Extra Large</string>
+                    <key>value</key>
+                    <string>container-xl</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Container Extra Extra Large</string>
+                    <key>value</key>
+                    <string>container-xxl</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Container Fluid</string>
+                    <key>value</key>
+                    <string>container-fluid</string>
+                </dict>
+            </array>
+        </dict> -->
     </array>
     <key>assets</key>
     <array>
@@ -69,9 +110,7 @@
     <array>
         <string>Blankstrap 5</string>
         <string>Bootstrap</string>
-        <string>Grid</string>
-        <string>Row</string>
-        <string>B5 Column</string>
+        <string>B5 Carousel</string>
     </array>
     <key>templates</key>
     <array>
