@@ -13,12 +13,12 @@
 	<key>projectViewWidth</key>
 	<real>331</real>
 	<key>selectedInspectorTab</key>
-	<string>pageSettings</string>
+	<string>info</string>
 	<key>selectedItems</key>
 	<array>
-		<string>page1</string>
+		<string>page9</string>
 	</array>
 	<key>selectedMode</key>
-	<integer>0</integer>
+	<integer>1</integer>
 </dict>
 </plist>

@@ -2,7 +2,7 @@
 var stacks = {};
 stacks.stacks_in_7_6 = {};
 stacks.stacks_in_7_6 = (function(stack) {document.addEventListener('DOMContentLoaded', function () {
-    var dropdowns = document.querySelector('#testnav-navbar .navbar-nav').querySelectorAll('.dropdown');
+    var dropdowns = document.querySelector('#testnav .navbar-nav').querySelectorAll('.dropdown');
     dropdowns.forEach(function(dropdownItem, i){
         var a = dropdownItem.querySelector('a')
         a.classList.add('dropdown-toggle');
@@ -30,9 +30,8 @@ stacks.stacks_in_7_6 = (function(stack) {document.addEventListener('DOMContentLo
     });
     //
     //
-    document.querySelector('body').style['padding-top'] = getComputedStyle(document.querySelector('#testnav-navbar'))['height'];
-    new Headroom(document.querySelector("#testnav-navbar")).init();
+    document.querySelector('body').style['padding-top'] = getComputedStyle(document.querySelector('#testnav'))['height'];
+    new Headroom(document.querySelector("#testnav")).init();
     //
 });
-
 return stack;})(stacks.stacks_in_7_6);

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var dropdowns = document.querySelector('#%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%-navbar .navbar-nav').querySelectorAll('.dropdown');
+    var dropdowns = document.querySelector('#%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]% .navbar-nav').querySelectorAll('.dropdown');
     dropdowns.forEach(function(dropdownItem, i){
         var a = dropdownItem.querySelector('a')
         a.classList.add('dropdown-toggle');
@@ -26,10 +26,10 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
     //%[if %( "%id=fixed%" == "fixed" )% ]%
-    document.querySelector('body').style['padding-top'] = getComputedStyle(document.querySelector('#%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%-navbar'))['height'];
+    document.querySelector('body').style['padding-top'] = getComputedStyle(document.querySelector('#%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%'))['height'];
     //%[endif]%
     //%[if %( "%id=fixed%" == "fixed-headroom" )% ]%
-    document.querySelector('body').style['padding-top'] = getComputedStyle(document.querySelector('#%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%-navbar'))['height'];
-    new Headroom(document.querySelector("#%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%-navbar")).init();
+    document.querySelector('body').style['padding-top'] = getComputedStyle(document.querySelector('#%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%'))['height'];
+    new Headroom(document.querySelector("#%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%")).init();
     //%[endif]%
 });

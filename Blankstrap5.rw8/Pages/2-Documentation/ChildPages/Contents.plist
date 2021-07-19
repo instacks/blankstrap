@@ -17,9 +17,11 @@
 				<string>2-Navigation-Bar</string>
 				<string>3-Theming-and-Styling</string>
 				<string>4-Container-and-Grid</string>
-				<string>5-Text-and-Buttons</string>
-				<string>6-Modal</string>
-				<string>7-Icons</string>
+				<string>5-Text-and-Button</string>
+				<string>6-Carousel</string>
+				<string>7-Accordion</string>
+				<string>8-Modal</string>
+				<string>9-Icons</string>
 			</array>
 		</dict>
 	</array>

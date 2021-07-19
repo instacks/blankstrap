@@ -9,13 +9,15 @@
 <title>instacks Stack Update</title>
 <sparkle:releaseNotesLink>https://github.com/instacks/blankstrap/releases/latest</sparkle:releaseNotesLink>
 <description>
-# Blankstrap Stack Version 5.0.4
+# Blankstrap Stack Version 5.0.5
+
+- Adding carousel and accordion
 
 </description>
-<pubDate>Thu, 08 Jul 2021 12:00:00 +0000</pubDate>
+<pubDate>Tue, 20 Jul 2021 12:00:00 +0000</pubDate>
 <enclosure url="https://github.com/instacks/blankstrap/releases/latest/download/Blankstrap5.stack.zip"
- sparkle:version="5.0.4"
- sparkle:shortVersionString="5.0.4"
+ sparkle:version="5.0.5"
+ sparkle:shortVersionString="5.0.5"
  length="1"
  type="application/octet-stream" />
 </item>

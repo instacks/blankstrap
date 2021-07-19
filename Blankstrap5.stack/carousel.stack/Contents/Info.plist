@@ -7,9 +7,9 @@
     <key>CFBundleIdentifier</key>
     <string>com.instacks.blankstrap5.carousel</string>
     <key>CFBundleVersion</key>
-    <string>5.0.4</string>
+    <string>5.0.5</string>
     <key>CFBundleShortVersionString</key>
-    <string>5.0.4</string>
+    <string>5.0.5</string>
     <key>author</key>
     <string>inStacks Software</string>
     <key>group</key>
@@ -100,6 +100,7 @@
         <string>Blankstrap 5</string>
         <string>Bootstrap</string>
         <string>B5 Carousel</string>
+        <string>Slide</string>
     </array>
     <key>templates</key>
     <array>
