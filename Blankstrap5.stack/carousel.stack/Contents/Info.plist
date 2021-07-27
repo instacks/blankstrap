@@ -42,6 +42,62 @@
     <array>
         <dict>
             <key>id</key>
+            <string>responsive_height_1</string>
+            <key>type</key>
+            <string>number-3</string>
+            <key>default</key>
+            <array>
+                <integer>20</integer>
+                <integer>25</integer>
+                <integer>30</integer>
+            </array>
+            <key>units</key>
+            <string>rem</string>
+            <key>min</key>
+            <integer>1</integer>
+            <key>max</key>
+            <integer>1000</integer>
+            <key>title</key>
+            <string>Resp. Height</string>
+            <key>subtitles</key>
+            <array>
+                <string>xs</string>
+                <string>sm</string>
+                <string>md</string>
+            </array>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>responsive_height_2</string>
+            <key>type</key>
+            <string>number-3</string>
+            <key>default</key>
+            <array>
+                <integer>35</integer>
+                <integer>40</integer>
+                <integer>50</integer>
+            </array>
+            <key>units</key>
+            <string>rem</string>
+            <key>min</key>
+            <integer>1</integer>
+            <key>max</key>
+            <integer>1000</integer>
+            <key>title</key>
+            <string>Resp. Height</string>
+            <key>subtitles</key>
+            <array>
+                <string>lg</string>
+                <string>xl</string>
+                <string>xxl</string>
+            </array>
+        </dict>
+        <dict>
+            <key>type</key>
+            <string>divider</string>
+        </dict>
+        <dict>
+            <key>id</key>
             <string>control</string>
             <key>type</key>
             <string>checkbox</string>
@@ -87,6 +143,34 @@
             <string>Dark Variant</string>
             <key>toolTip</key>
             <string>Display in darker colors</string>
+        </dict>
+        <dict>
+            <key>type</key>
+            <string>divider</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>center</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <true/>
+            <key>title</key>
+            <string>Center Image</string>
+            <key>toolTip</key>
+            <string>Center image</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>parallax</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <false/>
+            <key>title</key>
+            <string>Parallax Image on Desktop</string>
+            <key>toolTip</key>
+            <string>Parallax image on desktop devices (not on mobile)</string>
         </dict>
     </array>
     <key>assets</key>

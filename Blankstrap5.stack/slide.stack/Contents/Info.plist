@@ -54,9 +54,9 @@
             <key>default</key>
             <false/>
             <key>title</key>
-            <string>Remote / Warehouse Image</string>
+            <string>Use Warehouse Image</string>
             <key>toolTip</key>
-            <string>Use a remote located or warehoused instead of a local image</string>
+            <string>Use a warehouse (remote located, resource) image instead of a local image</string>
         </dict>
         <dict>
             <key>id</key>
@@ -64,9 +64,9 @@
             <key>type</key>
             <string>link</string>
             <key>title</key>
-            <string>Warehoused Img</string>
+            <string>Warehouse Img</string>
             <key>toolTip</key>
-            <string>Remote located or warehoused image</string>
+            <string>Warehouse (remote located, resource) image</string>
             <key>enable</key>
             <dict>
                 <key>id</key>
@@ -91,16 +91,24 @@
             </dict>
         </dict>
         <dict>
-            <key>id</key>
-            <string>alt</string>
             <key>type</key>
-            <string>input</string>
+            <string>divider</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>content</string>
+            <key>type</key>
+            <string>checkbox</string>
             <key>default</key>
-            <string></string>
+            <false/>
             <key>title</key>
-            <string>Alt Text</string>
+            <string>Slide Content Area</string>
             <key>toolTip</key>
-            <string>Alternative image text</string>
+            <string>Slice content area</string>
+        </dict>
+        <dict>
+            <key>type</key>
+            <string>divider</string>
         </dict>
         <dict>
             <key>id</key>
@@ -110,9 +118,9 @@
             <key>default</key>
             <false/>
             <key>title</key>
-            <string>Slide Caption</string>
+            <string>Slide Caption Area</string>
             <key>toolTip</key>
-            <string>Slice caption</string>
+            <string>Slice caption area</string>
         </dict>
     </array>
     <key>assets</key>
