@@ -19,3 +19,155 @@
 .headroom--unpinned {
     transform: translateY(-100%);
 }
+
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+#stacks_in_219 .carousel-inner .carousel-item {
+    height: 20rem;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #stacks_in_219 .carousel-inner .carousel-item {
+        height: 25rem;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #stacks_in_219 .carousel-inner .carousel-item {
+        height: 30rem;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #stacks_in_219 .carousel-inner .carousel-item {
+        height: 35rem;
+    }
+}
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #stacks_in_219 .carousel-inner .carousel-item {
+        height: 40rem;
+    }
+}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    #stacks_in_219 .carousel-inner .carousel-item {
+        height: 50rem;
+    }
+}
+
+#stacks_in_219 .carousel-inner .carousel-item {
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media (hover: hover) {
+    #stacks_in_219 .carousel-inner .carousel-item {
+        background-attachment: fixed;
+    }
+}
+
+
+#stacks_in_220 {
+    
+    background-image: url(https://source.unsplash.com/random/1920x1080?sig=5);
+    
+}
+
+#stacks_in_227 {
+    
+    background-image: url(https://source.unsplash.com/random/1920x1080?sig=4);
+    
+}
+
+#stacks_in_233 {
+    
+    background-image: url(https://source.unsplash.com/random/1920x1080?sig=3);
+    
+}
+
+#stacks_in_239 {
+    
+    background-image: url(https://source.unsplash.com/random/1920x1080?sig=2);
+    
+}
+
+#stacks_in_245 {
+    
+    background-image: url(https://source.unsplash.com/random/1920x1080?sig=1);
+    
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+#stacks_in_12 .carousel-inner .carousel-item {
+    height: 20rem;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #stacks_in_12 .carousel-inner .carousel-item {
+        height: 25rem;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #stacks_in_12 .carousel-inner .carousel-item {
+        height: 30rem;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #stacks_in_12 .carousel-inner .carousel-item {
+        height: 35rem;
+    }
+}
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #stacks_in_12 .carousel-inner .carousel-item {
+        height: 40rem;
+    }
+}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    #stacks_in_12 .carousel-inner .carousel-item {
+        height: 50rem;
+    }
+}
+
+#stacks_in_12 .carousel-inner .carousel-item {
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+#stacks_in_40 {
+    
+    background-image: url(https://source.unsplash.com/random/1920x1080?sig=1);
+    
+}
+
+#stacks_in_38 {
+    
+    background-image: url(https://source.unsplash.com/random/1920x1080?sig=2);
+    
+}
+
+#stacks_in_39 {
+    
+    background-image: url(https://source.unsplash.com/random/1920x1080?sig=3);
+    
+}
+
+#stacks_in_79 {
+    
+    background-image: url(https://source.unsplash.com/random/1920x1080?sig=4);
+    
+}
+
+#stacks_in_73 {
+    
+    background-image: url(https://source.unsplash.com/random/1920x1080?sig=5);
+    
+}
