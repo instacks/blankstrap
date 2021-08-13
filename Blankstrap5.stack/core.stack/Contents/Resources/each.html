@@ -5,6 +5,13 @@
 %%[[if preview]]%%
 <div class="blankstrap5-theme-missing-warning"><p>Blankstrap 5 Theme must be selected for the page.</p></div>
 %%[[endif]]%%
-%[if %( "%id=style%" == "custom" )% ]%
-<link rel="stylesheet" href="%id=custom -href%">
+%[if %( "%id=style%" == "custom" )% ]%%[if %( "%id=custom -href%" != "" )% ]%
+<!-- <link href="%id=custom -href%" rel="stylesheet" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)"> -->
+<link href="%id=custom -href%" rel="stylesheet">
+%[endif]%%[endif]%
+%[if %( "%id=style_dark%" == "default" )% ]%
+<link href="%siteAssetPath%/blankstrap5/css/bootstrap-night.min.css" rel="stylesheet" media="(prefers-color-scheme: dark)">
 %[endif]%
+%[if %( "%id=style_dark%" == "custom" )% ]%%[if %( "%id=custom_dark -href%" != "" )% ]%
+<link href="%id=custom_dark -href%" rel="stylesheet" media="(prefers-color-scheme: dark)">
+%[endif]%%[endif]%

@@ -9,15 +9,17 @@
 <title>instacks Stack Update</title>
 <sparkle:releaseNotesLink>https://github.com/instacks/blankstrap/releases/latest</sparkle:releaseNotesLink>
 <description>
-# Blankstrap Stack Version 5.0.6
+# Blankstrap Stack Version 5.1.0
 
-- Adding carousel and accordion
+- Bootstrap 5.1.0
+- Sidebar Navigation
+- Support for Dark Themes and Theme Builders
 
 </description>
-<pubDate>Sat, 31 Jul 2021 12:00:00 +0000</pubDate>
+<pubDate>Thu, 12 Aug 2021 12:00:00 +0000</pubDate>
 <enclosure url="https://github.com/instacks/blankstrap/releases/latest/download/Blankstrap5.stack.zip"
- sparkle:version="5.0.6"
- sparkle:shortVersionString="5.0.6"
+ sparkle:version="5.1.0"
+ sparkle:shortVersionString="5.1.0"
  length="1"
  type="application/octet-stream" />
 </item>

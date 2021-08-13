@@ -7,9 +7,9 @@
     <key>CFBundleIdentifier</key>
     <string>com.instacks.blankstrap5.button</string>
     <key>CFBundleVersion</key>
-    <string>5.0.6</string>
+    <string>5.1.0</string>
     <key>CFBundleShortVersionString</key>
-    <string>5.0.6</string>
+    <string>5.1.0</string>
     <key>author</key>
     <string>inStacks Software</string>
     <key>group</key>
@@ -181,6 +181,12 @@
                     <string>Dark</string>
                     <key>value</key>
                     <string>dark</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Transparent</string>
+                    <key>value</key>
+                    <string>transparent</string>
                 </dict>
                 <dict>
                     <key>title</key>

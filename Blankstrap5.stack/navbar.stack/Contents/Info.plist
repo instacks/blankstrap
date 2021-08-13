@@ -7,9 +7,9 @@
     <key>CFBundleIdentifier</key>
     <string>com.instacks.blankstrap5.navbar</string>
     <key>CFBundleVersion</key>
-    <string>5.0.6</string>
+    <string>5.1.0</string>
     <key>CFBundleShortVersionString</key>
-    <string>5.0.6</string>
+    <string>5.1.0</string>
     <key>author</key>
     <string>inStacks Software</string>
     <key>group</key>
@@ -218,8 +218,44 @@
             <string>Display title</string>
         </dict>
         <dict>
+            <key>id</key>
+            <string>custom_title</string>
+            <key>type</key>
+            <string>input</string>
+            <key>default</key>
+            <string></string>
+            <key>title</key>
+            <string>Custom Title</string>
+            <key>toolTip</key>
+            <string>Custom title text</string>
+        </dict>
+        <dict>
             <key>type</key>
             <string>divider</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>toggler-btn</string>
+            <key>type</key>
+            <string>input</string>
+            <key>default</key>
+            <string></string>
+            <key>title</key>
+            <string>Toggler Button</string>
+            <key>toolTip</key>
+            <string>Additional toggler button class</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>toggler-icon</string>
+            <key>type</key>
+            <string>input</string>
+            <key>default</key>
+            <string>navbar-toggler-icon</string>
+            <key>title</key>
+            <string>Toggler Icon</string>
+            <key>toolTip</key>
+            <string>Toggler icon class</string>
         </dict>
         <dict>
             <key>id</key>
@@ -234,12 +270,6 @@
             <string>Display menu toggler at start or end of navigation bar</string>
             <key>items</key>
             <array>
-                <dict>
-                    <key>title</key>
-                    <string>Hide</string>
-                    <key>value</key>
-                    <string></string>
-                </dict>
                 <dict>
                     <key>title</key>
                     <string>Start</string>
