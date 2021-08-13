@@ -7,10 +7,13 @@
 		<loc>https://instacks.github.io/blankstrap/download/index.html</loc>
 	</url>
 	<url>
+		<loc>https://instacks.github.io/blankstrap/styling/index.html</loc>
+	</url>
+	<url>
 		<loc>https://instacks.github.io/blankstrap/navigation/index.html</loc>
 	</url>
 	<url>
-		<loc>https://instacks.github.io/blankstrap/styling/index.html</loc>
+		<loc>https://instacks.github.io/blankstrap/sidebar-navigation/index.html</loc>
 	</url>
 	<url>
 		<loc>https://instacks.github.io/blankstrap/container/index.html</loc>

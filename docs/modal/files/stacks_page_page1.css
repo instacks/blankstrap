@@ -8,14 +8,3 @@
     vertical-align: top;
     margin-right: 0.5rem;
 }
-
-.headroom {
-    transition: transform .25s ease-in-out;
-    will-change: transform;
-}
-.headroom--pinned {
-    transform: translateY(0);
-}
-.headroom--unpinned {
-    transform: translateY(-100%);
-}

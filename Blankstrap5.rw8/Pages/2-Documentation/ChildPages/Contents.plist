@@ -13,15 +13,16 @@
 			<array/>
 			<key>Subsandwiches</key>
 			<array>
-				<string>1-Download-and-Initial-Setup</string>
-				<string>2-Navigation-Bar</string>
-				<string>3-Theming-and-Styling</string>
-				<string>4-Container-and-Grid</string>
-				<string>5-Text-and-Button</string>
-				<string>6-Carousel</string>
-				<string>7-Accordion</string>
-				<string>8-Modal</string>
-				<string>9-Icons</string>
+				<string>01-Download-and-Initial-Setup</string>
+				<string>02-Theming-and-Dark-Mode</string>
+				<string>03-Navigation-Bar</string>
+				<string>04-Sidebar-Navigation</string>
+				<string>05-Container-and-Grid</string>
+				<string>06-Text-and-Button</string>
+				<string>07-Carousel</string>
+				<string>08-Accordion</string>
+				<string>09-Modal</string>
+				<string>10-Icons</string>
 			</array>
 		</dict>
 	</array>
