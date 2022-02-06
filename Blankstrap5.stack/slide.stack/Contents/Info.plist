@@ -104,7 +104,7 @@
             <key>title</key>
             <string>Slide Content Area</string>
             <key>toolTip</key>
-            <string>Slice content area</string>
+            <string>Slide content area</string>
         </dict>
         <dict>
             <key>type</key>
@@ -120,7 +120,7 @@
             <key>title</key>
             <string>Slide Caption Area</string>
             <key>toolTip</key>
-            <string>Slice caption area</string>
+            <string>Slide caption area</string>
         </dict>
     </array>
     <key>assets</key>
