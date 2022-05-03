@@ -48,54 +48,6 @@
     <array>
         <dict>
             <key>id</key>
-            <string>name</string>
-            <key>type</key>
-            <string>input</string>
-            <key>default</key>
-            <string></string>
-            <key>title</key>
-            <string>Name</string>
-            <key>toolTip</key>
-            <string>Name</string>
-        </dict>
-        <dict>
-            <key>type</key>
-            <string>divider</string>
-        </dict>
-        <dict>
-            <key>id</key>
-            <string>label</string>
-            <key>type</key>
-            <string>input</string>
-            <key>default</key>
-            <string></string>
-            <key>title</key>
-            <string>Label</string>
-            <key>toolTip</key>
-            <string>Label</string>
-        </dict>
-        <dict>
-            <key>id</key>
-            <string>css_label</string>
-            <key>type</key>
-            <string>multi-2</string>
-            <key>default</key>
-            <string></string>
-            <key>title</key>
-            <string>CSS Classes</string>
-            <key>toolTip</key>
-            <string>Extra CSS classes to add to the stack's div in HTML.</string>
-            <key>subtitles</key>
-            <array>
-                <string>Extra CSS classes for the label.</string>
-            </array>
-        </dict>
-        <dict>
-            <key>type</key>
-            <string>divider</string>
-        </dict>
-        <dict>
-            <key>id</key>
             <string>type</string>
             <key>type</key>
             <string>select</string>
@@ -240,6 +192,18 @@
                     <string>week</string>
                 </dict>
             </array>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>name</string>
+            <key>type</key>
+            <string>input</string>
+            <key>default</key>
+            <string></string>
+            <key>title</key>
+            <string>Name</string>
+            <key>toolTip</key>
+            <string>Name</string>
         </dict>
         <dict>
             <key>id</key>
