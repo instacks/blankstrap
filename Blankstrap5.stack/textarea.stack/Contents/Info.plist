@@ -82,6 +82,30 @@
             <key>toolTip</key>
             <string>Required</string>
         </dict>
+        <dict>
+            <key>id</key>
+            <string>readonly</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <false/>
+            <key>title</key>
+            <string>Readonly</string>
+            <key>toolTip</key>
+            <string>Readonly</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>disabled</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <false/>
+            <key>title</key>
+            <string>Disabled</string>
+            <key>toolTip</key>
+            <string>Disabled</string>
+        </dict>
     </array>
     <key>templates</key>
     <array>
