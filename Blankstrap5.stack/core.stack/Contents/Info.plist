@@ -7,9 +7,9 @@
     <key>CFBundleIdentifier</key>
     <string>com.instacks.blankstrap5.core</string>
     <key>CFBundleVersion</key>
-    <string>5.1.0</string>
+    <string>5.3.0</string>
     <key>CFBundleShortVersionString</key>
-    <string>5.1.0</string>
+    <string>5.3.0</string>
     <key>author</key>
     <string>inStacks Software</string>
     <key>group</key>
@@ -42,7 +42,9 @@
             <key>type</key>
             <string>info</string>
             <key>title</key>
-            <string>CSS file source settings for no-preference or light color scheme.</string>
+            <string>Bootstrap CSS file source settings for light and dark color scheme.</string>
+			<key>scope</key>
+			<string>page</string>
         </dict>
         <dict>
             <key>id</key>
@@ -70,6 +72,8 @@
                     <string>custom</string>
                 </dict>
             </array>
+			<key>scope</key>
+			<string>page</string>
         </dict>
         <dict>
             <key>id</key>
@@ -82,71 +86,22 @@
             <string>Custom CSS File</string>
             <key>toolTip</key>
             <string>Custom CSS File</string>
-            <key>enable</key>
-            <dict>
-                <key>id</key>
-                <string>style</string>
-                <key>value</key>
-                <string>custom</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>type</key>
-            <string>info</string>
-            <key>title</key>
-            <string>CSS file source settings for dark color scheme.</string>
+			<key>scope</key>
+			<string>page</string>
         </dict>
         <dict>
             <key>id</key>
-            <string>style_dark</string>
+            <string>dark_mode_switch</string>
             <key>type</key>
-            <string>select</string>
+            <string>checkbox</string>
             <key>default</key>
-            <string>default</string>
+            <true/>
             <key>title</key>
-            <string>CSS File Source</string>
+            <string>Automatic Dark Mode Switch</string>
             <key>toolTip</key>
-            <string>CSS File Source</string>
-            <key>items</key>
-            <array>
-                <dict>
-                    <key>title</key>
-                    <string>None (no dark color scheme)</string>
-                    <key>value</key>
-                    <string></string>
-                </dict>
-                <dict>
-                    <key>title</key>
-                    <string>Default</string>
-                    <key>value</key>
-                    <string>default</string>
-                </dict>
-                <dict>
-                    <key>title</key>
-                    <string>Custom CSS File</string>
-                    <key>value</key>
-                    <string>custom</string>
-                </dict>
-            </array>
-        </dict>
-        <dict>
-            <key>id</key>
-            <string>custom_dark</string>
-            <key>type</key>
-            <string>link</string>
-            <key>default</key>
-            <string></string>
-            <key>title</key>
-            <string>Custom CSS File</string>
-            <key>toolTip</key>
-            <string>Custom CSS File</string>
-            <key>enable</key>
-            <dict>
-                <key>id</key>
-                <string>style_dark</string>
-                <key>value</key>
-                <string>custom</string>
-            </dict>
+            <string>Enable Automatic Dark Mode Theme Switch</string>
+			<key>scope</key>
+			<string>page</string>
         </dict>
     </array>
     <key>assets</key>

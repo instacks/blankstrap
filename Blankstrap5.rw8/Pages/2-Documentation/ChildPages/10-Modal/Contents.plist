@@ -12,11 +12,11 @@
 				<key>CreatedDate</key>
 				<date>2020-04-09T15:17:49Z</date>
 				<key>ID</key>
-				<string>page14</string>
+				<string>page1</string>
 				<key>MostRecentlySelectedStyleName</key>
 				<string>Theme Default</string>
 				<key>PageTitle</key>
-				<string>Icons</string>
+				<string>Modal</string>
 				<key>PluginClassName</key>
 				<string>YHStacksPlugin</string>
 				<key>PluginMetadata</key>
@@ -26,7 +26,7 @@
 					<key>Name</key>
 					<string>Stacks</string>
 					<key>Version</key>
-					<string>4.2.2</string>
+					<string>5.1.1</string>
 				</dict>
 				<key>PublishingManifests</key>
 				<dict/>

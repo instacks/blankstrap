@@ -1,3 +1,11 @@
-<meta name="color-scheme" content="light dark">
+<!-- %stackTitle% %stackVersion% -->
+%[if %( "%id=style%" == "custom" )% ]%
+%[if %( "%id=custom -href%" != "" )% ]%
+<link href="%id=custom -href%" rel="stylesheet">
+%[else]%
 <link href="%siteAssetPath%/blankstrap5/css/bootstrap.min.css" rel="stylesheet">
+%[endif]%
+%[else]%
+<link href="%siteAssetPath%/blankstrap5/css/bootstrap.min.css" rel="stylesheet">
+%[endif]%
 <link href="%siteAssetPath%/blankstrap5/css/blankstrap.css" rel="stylesheet">
