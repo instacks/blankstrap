@@ -10,23 +10,23 @@
 			<key>Dictionary</key>
 			<dict>
 				<key>build</key>
-				<string>6275</string>
+				<string>6312</string>
 				<key>markedImages</key>
 				<array>
 					<string>50808182-6B02-47B1-A102-041B09C7D8CC.jpg</string>
-					<string>F735CA1E-9133-4B0A-B437-F060A6981535.jpg</string>
+					<string>AA6A0FF3-3A05-49CC-ADA5-8E163BE150B7.jpg</string>
 					<string>C634A79B-7EA8-42FB-B6C7-B74D794A4263.jpg</string>
 					<string>859C89AC-AB83-49FC-9410-06E6B1CA2561.jpg</string>
 					<string>F3B54AFF-E641-4413-98D8-B1DA8CCC2CDD.jpg</string>
 					<string>3C033B75-82C2-4F9B-97D1-75F954A337A3.jpg</string>
-					<string>FDF6E1D8-7F35-4066-915B-4FE9B3338012.png</string>
-					<string>AA6A0FF3-3A05-49CC-ADA5-8E163BE150B7.jpg</string>
-					<string>C73FB842-DC28-4096-A2CB-62C81C4430EA.png</string>
-					<string>8A3CE751-36E9-4EAB-A03E-EC5F958EEA44.jpg</string>
 					<string>421E3633-6521-46A4-9B06-DF1BE9913DBB.jpg</string>
+					<string>FDF6E1D8-7F35-4066-915B-4FE9B3338012.png</string>
+					<string>C73FB842-DC28-4096-A2CB-62C81C4430EA.png</string>
+					<string>F735CA1E-9133-4B0A-B437-F060A6981535.jpg</string>
+					<string>8A3CE751-36E9-4EAB-A03E-EC5F958EEA44.jpg</string>
 				</array>
 				<key>previousImageLibraryPath</key>
-				<string>/Users/jannis/Library/Containers/com.realmacsoftware.rapidweaver8/Data/Library/Application Support/Stacks 5/Stacks Image Backup 23-06-06 #2302433AB</string>
+				<string>/Users/jannis/Library/Containers/com.realmacsoftware.rapidweaver8/Data/Library/Application Support/Stacks 5/Stacks Image Backup 24-05-06 #222310231</string>
 				<key>stacks3</key>
 				<data>
 				YnBsaXN0MDDUAAEAAgADAAQABQAGAAcADFgkdmVyc2lv
@@ -190,11 +190,11 @@
 				LAEjAHukAFoAWgBaAFqACYAJgAmACYAN0wC1AHcALAEq
 				ASsAuKCggBnSAHcALAEuAMOggCrSAGgAaQExATJeTlNN
 				dXRhYmxlQXJyYXmjATEAfQBt2AE0ABIALAE1ATYBNwE4
-				ATkBOgE7ATwBPQE+AFIBQABSVWJ1aWxkV3RvcE5vZGVV
+				ATkBOgE7ATwBPQE+AFIBQABgVWJ1aWxkV3RvcE5vZGVV
 				dGl0bGVYdmVyc2lvbjJYdmVyc2lvbjFYdmVyc2lvbjCA
-				L4AsgK+AMIAtgAuALoAL0gAsAGQAZQFEgANfECRFNUQ3
+				L4AsgK+AMIAtgAuALoAS0gAsAGQAZQFEgANfECRFNUQ3
 				NEREOC1CQjg5LTRENTktODA1OS1CRUQzRDFCODdGOUZU
-				Q29yZRADEBTfECsADwAQABEAEgATABQAFQAWABcAGAAZ
+				Q29yZRADEBffECsADwAQABEAEgATABQAFQAWABcAGAAZ
 				ABoAGwAcAB0AHgAfACAAIQAiACMAJAAlACYAJwAoACkA
 				KgArAUkALQAuACwALwAwADEAMgAzADQANQA2ADcAOAA5
 				ADkAOwFNAD0BTwA7AVEAOQFTADkAOQA5AVcAOQA7AVoB
@@ -3456,7 +3456,7 @@
 				<key>storedFiles</key>
 				<dict/>
 				<key>version</key>
-				<string>5.1.1</string>
+				<string>5.1.2</string>
 			</dict>
 			<key>Files</key>
 			<array/>
