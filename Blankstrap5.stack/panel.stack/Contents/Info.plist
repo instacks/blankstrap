@@ -7,9 +7,9 @@
     <key>CFBundleIdentifier</key>
     <string>com.instacks.blankstrap5.panel</string>
     <key>CFBundleVersion</key>
-    <string>5.3.0</string>
+    <string>5.3.3</string>
     <key>CFBundleShortVersionString</key>
-    <string>5.3.0</string>
+    <string>5.3.3</string>
     <key>author</key>
     <string>inStacks Software</string>
     <key>group</key>
@@ -46,6 +46,18 @@
     <string>Panel</string>
     <key>customItems</key>
     <array>
+        <dict>
+            <key>id</key>
+            <string>show</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <false/>
+            <key>title</key>
+            <string>Show Panel Content by Default</string>
+            <key>toolTip</key>
+            <string>Show / open panel content by default</string>
+        </dict>
     </array>
     <key>assets</key>
     <array>

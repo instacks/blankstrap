@@ -9,15 +9,15 @@
 <title>instacks Stack Update</title>
 <sparkle:releaseNotesLink>https://github.com/instacks/blankstrap/releases/latest</sparkle:releaseNotesLink>
 <description>
-# Blankstrap Stack Version 5.3.0
+# Blankstrap Stack Version 5.3.3
 
-- Bootstrap 5.3.0
+- Bootstrap 5.3.3
 
 </description>
 <pubDate>Tue, 6 Jun 2023 12:00:00 +0000</pubDate>
 <enclosure url="https://github.com/instacks/blankstrap/releases/latest/download/Blankstrap5.stack.zip"
- sparkle:version="5.3.0"
- sparkle:shortVersionString="5.3.0"
+ sparkle:version="5.3.3"
+ sparkle:shortVersionString="5.3.3"
  length="1"
  type="application/octet-stream" />
 </item>
