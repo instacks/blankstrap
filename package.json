@@ -1,7 +1,7 @@
 {
   "name": "blankstrap",
-  "version": "5.3.3",
-  "description": "Blank Bootstrap 5 Theme for RapidWeaver",
+  "version": "5.3.5",
+  "description": "Blank Bootstrap 5 Theme for Stacks",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -20,7 +20,7 @@
   "homepage": "https://github.com/instacks/blankstrap#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5",
-    "bootstrap": "^5.3.3",
+    "bootstrap": "^5",
     "bootstrap-icons": "^1"
   }
 }

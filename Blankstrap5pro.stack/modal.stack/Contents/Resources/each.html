@@ -1,0 +1,16 @@
+<div id="%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%" class="%%[[if !edit]]%%modal fade%%[[endif]]%% %id=css%" %id=attributes% tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+    <div class="%%[[if !edit]]%%modal-dialog %id=modal-size%%%[[endif]]%%">
+        <div class="%%[[if !edit]]%%modal-content%%[[endif]]%%">
+            %[if %id=modal-header% ]%
+            <div class="modal-header">
+            %[if %id=modal-title% ]%<h5 class="modal-title">%html="Modal Title"%</h5>%[endif]%
+            %[if %id=modal-header-close% ]%<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>%[endif]%
+            </div>
+            %[endif]%
+            <div class="modal-body">%slice%</div>
+            %[if %id=modal-footer% ]%
+            <div class="modal-footer">%slice%</div>
+            %[endif]%
+        </div>
+    </div>
+</div>

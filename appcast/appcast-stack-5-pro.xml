@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>instacks Stack Update</title>
+<link>http://instacks.com/</link>
+<description>instacks Stack Update</description>
+<language>en</language>
+<item>
+<title>instacks Stack Update</title>
+<sparkle:releaseNotesLink>https://github.com/instacks/blankstrap/releases/latest</sparkle:releaseNotesLink>
+<description>
+# Blankstrap Stack Version 5.3.5
+
+- Stacks 6 compatibility
+- Bootstrap 5.3.5
+
+</description>
+<pubDate>Tue, 6 Jun 2023 12:00:00 +0000</pubDate>
+<enclosure url="https://github.com/instacks/blankstrap/releases/latest/download/Blankstrap5pro.stack.zip"
+ sparkle:version="5.3.5"
+ sparkle:shortVersionString="5.3.5"
+ length="1"
+ type="application/octet-stream" />
+</item>
+</channel>
+</rss>

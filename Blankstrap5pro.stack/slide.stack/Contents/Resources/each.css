@@ -1,0 +1,9 @@
+%%[[if !edit]]%%
+#%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]% {
+    %[if %id=warehouse% ]%
+    %[if %("%id=warehouse-image -href%" != "")%]%background-image: url(%id=warehouse-image -href%);%[endif]%
+    %[else]%
+    %[if %("%id=image -src%" != "")%]%%background-image: url(%id=image -src%);%[endif]%
+    %[endif]%
+}
+%%[[endif]]%%

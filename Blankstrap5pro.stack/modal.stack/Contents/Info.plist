@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>author/copyright info</key>
+    <string>Futural UG (haftungsbeschraenkt)</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.instacks.blankstrap5.modal</string>
+    <key>CFBundleVersion</key>
+    <string>5.3.5</string>
+    <key>CFBundleShortVersionString</key>
+    <string>5.3.5</string>
+    <key>author</key>
+    <string>inStacks Software</string>
+    <key>group</key>
+    <string>Blankstrap 5</string>
+    <key>RWAddonAuthor</key>
+    <string>inStacks Software</string>
+    <key>RWAddonManagerIconAsset</key>
+    <string>icon</string>
+    <key>RWAddonSupportURL</key>
+    <string>https://github.com/instacks/blankstrap</string>
+    <key>helpURL</key>
+    <string>https://github.com/instacks/blankstrap</string>
+    <key>infoURL</key>
+    <string>https://github.com/instacks/blankstrap</string>
+    <key>icon</key>
+    <string>icon</string>
+    <key>minAPIVersion</key>
+    <integer>11</integer>
+    <key>preprocessor</key>
+    <true/>
+    <key>inheritsFrom</key>
+    <string>com.instacks.blankstrap5.element</string>
+    <key>inline</key>
+    <true/>
+    <key>title</key>
+    <string>Modal</string>
+    <key>subtitle</key>
+    <string>Modal</string>
+    <key>customItems</key>
+    <array>
+        <dict>
+            <key>id</key>
+            <string>modal-size</string>
+            <key>type</key>
+            <string>select</string>
+            <key>default</key>
+            <string></string>
+            <key>title</key>
+            <string>Size</string>
+            <key>toolTip</key>
+            <string>Modal size</string>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>title</key>
+                    <string>Small</string>
+                    <key>value</key>
+                    <string>modal-sm</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Default</string>
+                    <key>value</key>
+                    <string></string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Large</string>
+                    <key>value</key>
+                    <string>modal-lg</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Extra large</string>
+                    <key>value</key>
+                    <string>modal-xl</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>-</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Fullscreen Always</string>
+                    <key>value</key>
+                    <string>modal-fullscreen</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Fullscreen Small</string>
+                    <key>value</key>
+                    <string>modal-fullscreen-sm-down</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Fullscreen Medium</string>
+                    <key>value</key>
+                    <string>modal-fullscreen-md-down</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Fullscreen Large</string>
+                    <key>value</key>
+                    <string>modal-fullscreen-lg-down</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Fullscreen Extra Large</string>
+                    <key>value</key>
+                    <string>modal-fullscreen-xl-down</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Fullscreen Extra Extra Large</string>
+                    <key>value</key>
+                    <string>modal-fullscreen-xxl-down</string>
+                </dict>
+            </array>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>modal-header</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <true/>
+            <key>title</key>
+            <string>Display Modal Header</string>
+            <key>toolTip</key>
+            <string>Display modal header</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>modal-title</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <true/>
+            <key>title</key>
+            <string>Display Modal Title</string>
+            <key>toolTip</key>
+            <string>Display modal title</string>
+            <key>enable</key>
+            <dict>
+                <key>id</key>
+                <string>modal-header</string>
+                <key>value</key>
+                <true/>
+            </dict>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>modal-header-close</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <true/>
+            <key>title</key>
+            <string>Display Modal Title Close Button</string>
+            <key>toolTip</key>
+            <string>Display modal title close button</string>
+            <key>enable</key>
+            <dict>
+                <key>id</key>
+                <string>modal-header</string>
+                <key>value</key>
+                <true/>
+            </dict>
+        </dict>
+        <dict>
+            <key>type</key>
+            <string>divider</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>modal-footer</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <true/>
+            <key>title</key>
+            <string>Display Modal Footer</string>
+            <key>toolTip</key>
+            <string>Display modal footer area</string>
+        </dict>
+    </array>
+    <key>assets</key>
+    <array>
+    </array>
+    <key>libraries</key>
+    <array>
+    </array>
+    <key>tags</key>
+    <array>
+        <string>Blankstrap 5</string>
+        <string>Bootstrap</string>
+        <string>B5 Modal</string>
+    </array>
+    <key>templates</key>
+    <array>
+        <dict>
+            <key>type</key>
+            <string>html</string>
+            <key>filename</key>
+            <string>each.html</string>
+        </dict>
+        <dict>
+            <key>type</key>
+            <string>css</string>
+            <key>filename</key>
+            <string>each.css</string>
+        </dict>
+        <dict>
+            <key>type</key>
+            <string>js</string>
+            <key>filename</key>
+            <string>each.js</string>
+        </dict>
+    </array>
+</dict>
+</plist>

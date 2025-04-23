@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>author/copyright info</key>
+    <string>Futural UG (haftungsbeschraenkt)</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.instacks.blankstrap5.slide</string>
+    <key>CFBundleVersion</key>
+    <string>5.3.5</string>
+    <key>CFBundleShortVersionString</key>
+    <string>5.3.5</string>
+    <key>author</key>
+    <string>inStacks Software</string>
+    <key>group</key>
+    <string>Blankstrap 5</string>
+    <key>RWAddonAuthor</key>
+    <string>inStacks Software</string>
+    <key>RWAddonManagerIconAsset</key>
+    <string>icon</string>
+    <key>RWAddonSupportURL</key>
+    <string>https://github.com/instacks/blankstrap</string>
+    <key>helpURL</key>
+    <string>https://github.com/instacks/blankstrap</string>
+    <key>infoURL</key>
+    <string>https://github.com/instacks/blankstrap</string>
+    <key>icon</key>
+    <string>icon</string>
+    <key>minAPIVersion</key>
+    <integer>11</integer>
+    <key>preprocessor</key>
+    <true/>
+    <key>hidden</key>
+    <true/>
+    <key>childOf</key>
+    <array>
+        <string>com.instacks.blankstrap5.carousel</string>
+    </array>
+    <key>inheritsFrom</key>
+    <string>com.instacks.blankstrap5.element</string>
+    <key>inline</key>
+    <true/>
+    <key>title</key>
+    <string>Slide</string>
+    <key>subtitle</key>
+    <string>Slide</string>
+    <key>customItems</key>
+    <array>
+        <dict>
+            <key>id</key>
+            <string>warehouse</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <false/>
+            <key>title</key>
+            <string>Use Warehouse Image</string>
+            <key>toolTip</key>
+            <string>Use a warehouse (remote located, resource) image instead of a local image</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>warehouse-image</string>
+            <key>type</key>
+            <string>link</string>
+            <key>title</key>
+            <string>Warehouse Img</string>
+            <key>toolTip</key>
+            <string>Warehouse (remote located, resource) image</string>
+            <key>enable</key>
+            <dict>
+                <key>id</key>
+                <string>warehouse</string>
+                <key>value</key>
+                <true/>
+            </dict>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>image</string>
+            <key>type</key>
+            <string>image</string>
+            <key>title</key>
+            <string>Image</string>
+            <key>enable</key>
+            <dict>
+                <key>id</key>
+                <string>warehouse</string>
+                <key>value</key>
+                <false/>
+            </dict>
+        </dict>
+        <dict>
+            <key>type</key>
+            <string>divider</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>content</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <false/>
+            <key>title</key>
+            <string>Slide Content Area</string>
+            <key>toolTip</key>
+            <string>Slide content area</string>
+        </dict>
+        <dict>
+            <key>type</key>
+            <string>divider</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>caption</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <false/>
+            <key>title</key>
+            <string>Slide Caption Area</string>
+            <key>toolTip</key>
+            <string>Slide caption area</string>
+        </dict>
+    </array>
+    <key>assets</key>
+    <array>
+    </array>
+    <key>libraries</key>
+    <array>
+    </array>
+    <key>tags</key>
+    <array>
+        <string>Blankstrap 5</string>
+        <string>Bootstrap</string>
+        <string>B5 Carousel</string>
+        <string>Slide</string>
+    </array>
+    <key>templates</key>
+    <array>
+        <dict>
+            <key>type</key>
+            <string>html</string>
+            <key>filename</key>
+            <string>each.html</string>
+        </dict>
+        <dict>
+            <key>type</key>
+            <string>css</string>
+            <key>filename</key>
+            <string>each.css</string>
+        </dict>
+        <dict>
+            <key>type</key>
+            <string>js</string>
+            <key>filename</key>
+            <string>each.js</string>
+        </dict>
+    </array>
+</dict>
+</plist>

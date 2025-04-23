@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>author/copyright info</key>
+    <string>Futural UG (haftungsbeschraenkt)</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.instacks.blankstrap5.navbarpro</string>
+    <key>CFBundleVersion</key>
+    <string>5.3.5</string>
+    <key>CFBundleShortVersionString</key>
+    <string>5.3.5</string>
+    <key>author</key>
+    <string>inStacks Software</string>
+    <key>group</key>
+    <string>Blankstrap 5</string>
+    <key>RWAddonAuthor</key>
+    <string>inStacks Software</string>
+    <key>RWAddonManagerIconAsset</key>
+    <string>icon</string>
+    <key>RWAddonSupportURL</key>
+    <string>https://github.com/instacks/blankstrap</string>
+    <key>helpURL</key>
+    <string>https://github.com/instacks/blankstrap</string>
+    <key>infoURL</key>
+    <string>https://github.com/instacks/blankstrap</string>
+    <key>icon</key>
+    <string>icon</string>
+    <key>minAPIVersion</key>
+    <integer>11</integer>
+    <key>preprocessor</key>
+    <true/>
+    <key>inheritsFrom</key>
+    <string>com.instacks.blankstrap5.container</string>
+    <key>inline</key>
+    <true/>
+    <key>title</key>
+    <string>Navigation Bar Pro</string>
+    <key>subtitle</key>
+    <string>Navigation Bar Pro</string>
+    <key>customItems</key>
+    <array>
+        <dict>
+            <key>id</key>
+            <string>fixed</string>
+            <key>type</key>
+            <string>select</string>
+            <key>default</key>
+            <string></string>
+            <key>title</key>
+            <string>Fixed</string>
+            <key>toolTip</key>
+            <string>Fix navigation to top</string>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>title</key>
+                    <string>Fixed/Sticky</string>
+                    <key>value</key>
+                    <string>fixed</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Fixed/Sticky - Hide on Scroll</string>
+                    <key>value</key>
+                    <string>fixed-headroom</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Not Fixed/Sticky</string>
+                    <key>value</key>
+                    <string></string>
+                </dict>
+            </array>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>text_color</string>
+            <key>type</key>
+            <string>select</string>
+            <key>default</key>
+            <string>navbar-light</string>
+            <key>title</key>
+            <string>Text Color</string>
+            <key>toolTip</key>
+            <string>Text Color</string>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>title</key>
+                    <string>Dark</string>
+                    <key>value</key>
+                    <string>navbar-light</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Light</string>
+                    <key>value</key>
+                    <string>navbar-dark</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>None</string>
+                    <key>value</key>
+                    <string></string>
+                </dict>
+            </array>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>background_color</string>
+            <key>type</key>
+            <string>select</string>
+            <key>default</key>
+            <string>bg-light</string>
+            <key>title</key>
+            <string>Back Color</string>
+            <key>toolTip</key>
+            <string>Background Color</string>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>title</key>
+                    <string>Light</string>
+                    <key>value</key>
+                    <string>bg-light</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Dark</string>
+                    <key>value</key>
+                    <string>bg-dark</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Primary</string>
+                    <key>value</key>
+                    <string>bg-primary</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Secondary</string>
+                    <key>value</key>
+                    <string>bg-secondary</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Success</string>
+                    <key>value</key>
+                    <string>bg-success</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Danger</string>
+                    <key>value</key>
+                    <string>bg-danger</string>
+                </dict>                
+                <dict>
+                    <key>title</key>
+                    <string>Warning</string>
+                    <key>value</key>
+                    <string>bg-warning</string>
+                </dict>                
+                <dict>
+                    <key>title</key>
+                    <string>Info</string>
+                    <key>value</key>
+                    <string>bg-info</string>
+                </dict>                
+                <dict>
+                    <key>title</key>
+                    <string>Body</string>
+                    <key>value</key>
+                    <string>bg-body</string>
+                </dict>                
+                <dict>
+                    <key>title</key>
+                    <string>White</string>
+                    <key>value</key>
+                    <string>bg-white</string>
+                </dict>                
+                <dict>
+                    <key>title</key>
+                    <string>Transparent</string>
+                    <key>value</key>
+                    <string>bg-transparent</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>None</string>
+                    <key>value</key>
+                    <string></string>
+                </dict>
+            </array>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>logo</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <true/>
+            <key>title</key>
+            <string>Display Logo</string>
+            <key>toolTip</key>
+            <string>Display logo image</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>title</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <true/>
+            <key>title</key>
+            <string>Display Title</string>
+            <key>toolTip</key>
+            <string>Display title</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>custom_title</string>
+            <key>type</key>
+            <string>input</string>
+            <key>default</key>
+            <string></string>
+            <key>title</key>
+            <string>Custom Title</string>
+            <key>toolTip</key>
+            <string>Custom title text</string>
+        </dict>
+        <dict>
+            <key>type</key>
+            <string>divider</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>toggler-btn</string>
+            <key>type</key>
+            <string>input</string>
+            <key>default</key>
+            <string></string>
+            <key>title</key>
+            <string>Toggler Button</string>
+            <key>toolTip</key>
+            <string>Additional toggler button class</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>toggler-icon</string>
+            <key>type</key>
+            <string>input</string>
+            <key>default</key>
+            <string>navbar-toggler-icon</string>
+            <key>title</key>
+            <string>Toggler Icon</string>
+            <key>toolTip</key>
+            <string>Toggler icon class</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>toggler</string>
+            <key>type</key>
+            <string>select</string>
+            <key>default</key>
+            <string>end</string>
+            <key>title</key>
+            <string>Toggler Location</string>
+            <key>toolTip</key>
+            <string>Display menu toggler at start or end of navigation bar</string>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>title</key>
+                    <string>Start</string>
+                    <key>value</key>
+                    <string>start</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>End</string>
+                    <key>value</key>
+                    <string>end</string>
+                </dict>
+            </array>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>expand</string>
+            <key>type</key>
+            <string>select</string>
+            <key>default</key>
+            <string>navbar-expand-lg</string>
+            <key>title</key>
+            <string>Expand</string>
+            <key>toolTip</key>
+            <string>Expand the navigation at which breakpoint</string>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>title</key>
+                    <string>Do not expand</string>
+                    <key>value</key>
+                    <string></string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Expand Small</string>
+                    <key>value</key>
+                    <string>navbar-expand-sm</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Expand Medium</string>
+                    <key>value</key>
+                    <string>navbar-expand-md</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Expand Large</string>
+                    <key>value</key>
+                    <string>navbar-expand-lg</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Expand Extra Large</string>
+                    <key>value</key>
+                    <string>navbar-expand-xl</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Expand Extra Extra Large</string>
+                    <key>value</key>
+                    <string>navbar-expand-xxl</string>
+                </dict>
+            </array>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>justify-content</string>
+            <key>type</key>
+            <string>select</string>
+            <key>default</key>
+            <string>justify-content-end</string>
+            <key>title</key>
+            <string>Justify Content</string>
+            <key>toolTip</key>
+            <string>Justify navigation content</string>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>title</key>
+                    <string>Start</string>
+                    <key>value</key>
+                    <string>justify-content-start</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Center</string>
+                    <key>value</key>
+                    <string>justify-content-center</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>End</string>
+                    <key>value</key>
+                    <string>justify-content-end</string>
+                </dict>
+            </array>
+        </dict>
+        <dict>
+            <key>type</key>
+            <string>divider</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>content_area</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <false/>
+            <key>title</key>
+            <string>Additional Content Area Links</string>
+            <key>toolTip</key>
+            <string>Display additional content area at end of navigation links</string>
+        </dict>
+    </array>
+    <key>assets</key>
+    <array>
+    </array>
+    <key>libraries</key>
+    <array>
+    </array>
+    <key>tags</key>
+    <array>
+        <string>Blankstrap 5</string>
+        <string>Bootstrap</string>
+        <string>Navbar</string>
+        <string>B5 Navigation Bar</string>
+    </array>
+    <key>templates</key>
+    <array>
+        <dict>
+            <key>type</key>
+            <string>html</string>
+            <key>filename</key>
+            <string>each.html</string>
+        </dict>
+        <dict>
+            <key>type</key>
+            <string>css</string>
+            <key>filename</key>
+            <string>each.css</string>
+        </dict>
+        <dict>
+            <key>type</key>
+            <string>js</string>
+            <key>filename</key>
+            <string>each.js</string>
+        </dict>
+    </array>
+</dict>
+</plist>
