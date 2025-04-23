@@ -1,0 +1,10 @@
+
+--- 
+id: css
+description: |
+    This file is the standard CSS template.
+    You can override this template in your own theme. 
+    You should always name the file "css.css".
+    It will be processed like any other template.
+    It will be exported to a file called "stacks.css" in your theme's folder.
+---

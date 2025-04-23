@@ -1,0 +1,20 @@
+
+---
+id: nav
+detail: |
+    This is the standard navigation content. It shows
+    an example of how to use a for loop to iterate over the 
+    site's pages. for each iteration of the loop the nav_item
+    template is included and the "nav_page" variable is assigned
+    to each page object.
+---
+
+
+<!-- Navigation for site: :( site.title ): --  page: :( page.title ): -->
+<nav class="nav">
+    <ul>
+        :( for nav_page in site.pages.children ):
+            :( include "nav_item" ):
+        :( end ):
+    </ul>
+</nav>

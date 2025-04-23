@@ -1,0 +1,17 @@
+
+---
+id: theme_css
+description: |
+    Themes can override this file to add their
+    own css to the page head, or to include other css assets.
+    This file is included by the standard base css template.
+example css style tag: |
+    <style>div.border{border:1px solid red;}</style>
+example css link: |
+    <link rel="stylesheet" type="text/css" media="all" href=":(themePath):/yourCssAssetName.css" />
+---
+<style>
+    .blankstrap5-theme-missing-warning {
+        display: none;
+    }
+</style>

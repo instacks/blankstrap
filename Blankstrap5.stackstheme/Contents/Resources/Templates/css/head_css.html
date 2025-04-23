@@ -1,0 +1,26 @@
+
+---
+id: head_css
+description: |
+    This file is usually included in the theme's
+    head template (index_head.html) and it includes all of the essential css content.
+    Your theme can override this template or leave this busywork to Stacks.
+    To simply add some CSS content to the standard CSS your theme can 
+    override the css_theme template and it will be included below.
+---
+
+    <!-- Combined site-wide CSS templates of every stack on every page of the site -->
+    <link rel="stylesheet" type="text/css" media="all" href=":(siteCssPath):" />
+
+    <!-- The theme's site-wide CSS templates will be pulled in here -->
+    :(include "theme_css"):
+
+    <!-- Combined CSS templates of every stack in the layout on this page -->
+    <link rel="stylesheet" type="text/css" media="all" href=":(layoutCssPath):" />
+
+
+    <!-- Combined CSS templates of every stack on this page -->
+    <link rel="stylesheet" type="text/css" media="all" href=":(pageCssPath):" />
+
+
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>Blankstrap 5 Theme</string>
+	<key>subtitle</key>
+	<string>Bootstrap 5 Theme for Stacks</string>
+	<key>author</key>
+	<string>inStacks Software</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.instacks.blankstrap</string>
+	<key>CFBundleShortVersionString</key>
+	<string>5.3.5</string>
+	<key>CFBundleVersion</key>
+	<string>535</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>tags</key>
+	<array>
+		<string>theme</string>
+		<string>blankstrap</string>
+		<string>bootstrap</string>
+	</array>
+	<key>type</key>
+	<string>theme</string>
+	<key>preprocessor</key>
+	<true/>
+</dict>
+</plist>

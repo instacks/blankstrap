@@ -1,0 +1,19 @@
+
+--- 
+id: body
+description: |
+    This file is provided as an example.
+    This is the standard body content. Your theme should override
+    this template and include at least the standard templates below.
+    Removed:         :( include "nav" ):
+---
+
+    <body>
+        :( content.bodyAbove ):
+
+        <main class="main body content">
+            :( content.body ):
+        </main>
+        :( include "foot" ):
+    </body>
+
