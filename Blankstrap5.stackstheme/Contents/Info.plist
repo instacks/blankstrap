@@ -16,15 +16,154 @@
 	<string>535</string>
 	<key>icon</key>
 	<string>icon</string>
+	<key>type</key>
+	<string>theme</string>
+	<key>preprocessor</key>
+	<true/>
+	<key>parent</key>
+	<string>com.yourhead.stacks.theme.base</string>
+	<key>inheritsFrom</key>
+	<string>com.yourhead.stacks.theme.base</string>
+	<key>assets</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>assets</string>
+		</dict>
+	</array>
 	<key>tags</key>
 	<array>
 		<string>theme</string>
 		<string>blankstrap</string>
 		<string>bootstrap</string>
 	</array>
-	<key>type</key>
-	<string>theme</string>
-	<key>preprocessor</key>
-	<true/>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<string>showProperties</string>
+			<key>title</key>
+			<string>Show Properties</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>default</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>width</string>
+			<key>title</key>
+			<string>Max Width</string>
+			<key>type</key>
+			<string>select</string>
+			<key>default</key>
+			<integer>1100</integer>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>1000 px</string>
+					<key>value</key>
+					<integer>1000</integer>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>1100 px</string>
+					<key>value</key>
+					<integer>1100</integer>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>1200 px</string>
+					<key>value</key>
+					<integer>1200</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>height</string>
+			<key>title</key>
+			<string>height</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>default</key>
+			<integer>400</integer>
+			<key>min</key>
+			<integer>200</integer>
+			<key>max</key>
+			<integer>500</integer>
+			<key>round</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>size</string>
+			<key>title</key>
+			<string>Size</string>
+			<key>type</key>
+			<string>select</string>
+			<key>default</key>
+			<string>1.15</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Small</string>
+					<key>value</key>
+					<string>0.85</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Medium</string>
+					<key>value</key>
+					<string>1.00</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Large</string>
+					<key>value</key>
+					<string>1.15</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>opacity</string>
+			<key>title</key>
+			<string>Opacity</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>default</key>
+			<real>0.33</real>
+			<key>min</key>
+			<real>0</real>
+			<key>max</key>
+			<real>1</real>
+			<key>round</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>opacityModifier</string>
+			<key>title</key>
+			<string>Opacity Modifier</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>default</key>
+			<real>2</real>
+			<key>min</key>
+			<real>0</real>
+			<key>max</key>
+			<integer>3</integer>
+			<key>round</key>
+			<false/>
+		</dict>
+	</array>
+	<key>libraries</key>
+	<array>
+		<dict>
+		</dict>
+	</array>
 </dict>
 </plist>

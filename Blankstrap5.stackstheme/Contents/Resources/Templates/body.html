@@ -1,19 +1,75 @@
 
 --- 
 id: body
+
+colorProps:
+    allowsOpacity: true
+    prefix: "$"
+    operator: "+"
+    operand: "20"
+
+sampleThemeId: com.yourhead.stacks.theme.sample
+
 description: |
-    This file is provided as an example.
-    This is the standard body content. Your theme should override
-    this template and include at least the standard templates below.
-    Removed:         :( include "nav" ):
+    This is the body content. The base theme's html template
+    will include this automatically.
+    Most theme's will override the body to provide their own
+    custom implimentation.
+    You should copy the content from the base theme's body
+    template. it adds two important pieces of content: the 
+    content.bodyAbove, and the content.body. And it includes
+    two other important standard templates: "nav" and foot".
+    Although it's not required to do the same in your theme,
+    you will need those things to get basic standard behaviors.
+
 ---
 
-    <body>
-        :( content.bodyAbove ):
+   
 
-        <main class="main body content">
-            :( content.body ):
+
+    <body class="d-flex flex-column h-100">
+
+            :(include nav):
+            
+        <main class="container">
+            <div class="row justify-content-md-center py-5">
+                <div class="col-lg-8 col-md-10 col-sm-12">
+                
+                    <!-- 
+                        Example Debugging Block
+                        This is a debugging block. It's just
+                        displays a few of the properties. You
+                        can hide it with the checkbox in the 
+                        info-sidebar.
+                    -->
+                    :( if showProperties ):
+                        :( include "properties" ):
+                    <hr>
+                    :( endif ):
+
+                    <!-- 
+                        This is the page's primary content.
+                        You must include this content to normal 
+                        theme behavior.
+                    -->
+                    :(content.body):
+
+                </div>
+            </div>
         </main>
-        :( include "foot" ):
+
+        <!-- 
+            This is an example bootstrap footer
+        -->
+        :(include footer):
+        
+
+        <!-- 
+            This is the page's bottom content. It will
+            include the footer content as well as any
+            javascript includes.
+          -->
+          :(include foot):
+
     </body>
 
