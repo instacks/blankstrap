@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creator</key>
+	<string></string>
+	<key>SandwichFillings</key>
+	<array>
+		<dict>
+			<key>Dictionary</key>
+			<dict>
+				<key>CreatedDate</key>
+				<date>2020-04-09T07:10:03Z</date>
+				<key>CustomThemeName</key>
+				<string>Blankstrap 5</string>
+				<key>ID</key>
+				<string>page0</string>
+				<key>MostRecentlySelectedStyleName</key>
+				<string>Theme Default</string>
+				<key>PageTitle</key>
+				<string>Home</string>
+				<key>PluginClassName</key>
+				<string>YHStacksPlugin</string>
+				<key>PluginMetadata</key>
+				<dict>
+					<key>Author</key>
+					<string>YourHead Software</string>
+					<key>Name</key>
+					<string>Stacks</string>
+					<key>Version</key>
+					<string>5.3.0</string>
+				</dict>
+				<key>PublishingManifests</key>
+				<dict/>
+			</dict>
+			<key>Files</key>
+			<array/>
+			<key>Subsandwiches</key>
+			<array>
+				<string>Data</string>
+				<string>PageAttributes</string>
+			</array>
+		</dict>
+	</array>
+	<key>Type</key>
+	<string>Page</string>
+</dict>
+</plist>
