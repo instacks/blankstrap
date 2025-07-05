@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>author/copyright info</key>
+    <string>Futural UG (haftungsbeschraenkt)</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.instacks.blankstrap5.navitemdropdownitem</string>
+    <key>CFBundleVersion</key>
+    <string>5.3.7</string>
+    <key>CFBundleShortVersionString</key>
+    <string>5.3.7</string>
+    <key>author</key>
+    <string>inStacks Software</string>
+    <key>group</key>
+    <string>Blankstrap 5</string>
+    <key>RWAddonAuthor</key>
+    <string>inStacks Software</string>
+    <key>RWAddonManagerIconAsset</key>
+    <string>icon</string>
+    <key>RWAddonSupportURL</key>
+    <string>https://github.com/instacks/blankstrap</string>
+    <key>helpURL</key>
+    <string>https://github.com/instacks/blankstrap</string>
+    <key>infoURL</key>
+    <string>https://github.com/instacks/blankstrap</string>
+    <key>hidden</key>
+	<true/>
+    <key>icon</key>
+    <string>icon</string>
+    <key>minAPIVersion</key>
+    <integer>11</integer>
+    <key>preprocessor</key>
+    <true/>
+    <key>inheritsFrom</key>
+    <string>com.instacks.blankstrap5.element</string>
+    <key>inline</key>
+    <true/>
+    <key>title</key>
+    <string>Link</string>
+    <key>subtitle</key>
+    <string>Link</string>
+    <key>customItems</key>
+    <array>
+        <dict>
+            <key>id</key>
+            <string>title</string>
+            <key>type</key>
+            <string>input</string>
+            <key>default</key>
+            <string>Title</string>
+            <key>title</key>
+            <string>Title</string>
+            <key>toolTip</key>
+            <string>Title of link</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>link</string>
+            <key>type</key>
+            <string>link</string>
+            <key>default</key>
+            <string>#</string>
+            <key>title</key>
+            <string>Link</string>
+            <key>toolTip</key>
+            <string>Link</string>
+        </dict>
+    </array>
+    <key>assets</key>
+    <array>
+    </array>
+    <key>libraries</key>
+    <array>
+    </array>
+    <key>tags</key>
+    <array>
+        <string>Blankstrap 5</string>
+        <string>Bootstrap</string>
+        <string>Link</string>
+        <string>B5 Nav Item</string>
+    </array>
+    <key>templates</key>
+    <array>
+        <dict>
+            <key>type</key>
+            <string>html</string>
+            <key>filename</key>
+            <string>each.html</string>
+        </dict>
+        <dict>
+            <key>type</key>
+            <string>css</string>
+            <key>filename</key>
+            <string>each.css</string>
+        </dict>
+        <dict>
+            <key>type</key>
+            <string>js</string>
+            <key>filename</key>
+            <string>each.js</string>
+        </dict>
+    </array>
+</dict>
+</plist>

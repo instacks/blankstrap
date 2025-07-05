@@ -42,3 +42,12 @@ blankstrap.initializeNavigation = function (id, fixed) {
         new Headroom(document.querySelector(id)).init();
     }
 }
+
+blankstrap.fixNavigation = function (id, fixed) {
+    if (fixed === 'fixed') {
+        document.querySelector('body').style['padding-top'] = getComputedStyle(document.querySelector(id))['height'];
+    } else if (fixed === 'fixed-headroom') {
+        document.querySelector('body').style['padding-top'] = getComputedStyle(document.querySelector(id))['height'];
+        new Headroom(document.querySelector(id)).init();
+    }
+}

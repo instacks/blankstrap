@@ -1,0 +1,6 @@
+<li class="nav-item dropdown">
+    <a %[if %("%id=uid%" != "")%]%id="%id=uid%"%[endif]% class="nav-link dropdown-toggle %id=css%" atributes="%id=attributes%" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">%id=title%</a>
+    <ul class="%%[[if !edit]]%%dropdown-menu%%[[endif]]%%">
+        %slice -addTypes="com.instacks.blankstrap5.navitemdropdownitem,com.instacks.blankstrap5.button,com.instacks.blankstrap5.navitemdropdowndivider" -allowedTypes="com.instacks.blankstrap5.navitemdropdownitem,com.instacks.blankstrap5.button,navitemdropdowndivider" -addInit=0%
+    </ul>
+</li>

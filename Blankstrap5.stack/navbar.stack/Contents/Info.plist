@@ -7,9 +7,9 @@
     <key>CFBundleIdentifier</key>
     <string>com.instacks.blankstrap5.navbar</string>
     <key>CFBundleVersion</key>
-    <string>5.3.3</string>
+    <string>5.3.7</string>
     <key>CFBundleShortVersionString</key>
-    <string>5.3.3</string>
+    <string>5.3.7</string>
     <key>author</key>
     <string>inStacks Software</string>
     <key>group</key>
@@ -35,7 +35,7 @@
     <key>inline</key>
     <true/>
     <key>title</key>
-    <string>Navigation Bar</string>
+    <string>Navbar</string>
     <key>subtitle</key>
     <string>Navigation Bar</string>
     <key>customItems</key>
@@ -397,6 +397,7 @@
         <string>Bootstrap</string>
         <string>Navbar</string>
         <string>B5 Navigation Bar</string>
+        <string>Navigation Bar</string>
     </array>
     <key>templates</key>
     <array>

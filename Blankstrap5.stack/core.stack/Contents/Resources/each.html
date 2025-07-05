@@ -2,5 +2,5 @@
 <img class="imageStyle" src="%siteAssetPath%/blankstrap5/icon@2x.png" alt="Icon" style="max-height:128px; margin-left:auto; margin-right:auto;"/>
 %%[[endif]]%%
 %%[[if preview]]%%
-<div class="blankstrap5-theme-missing-warning"><p>Blankstrap 5 Theme must be selected for the page.</p></div>
+%[if %APIVersion% < 1500]%<div class="blankstrap5-theme-missing-warning"><p>Blankstrap 5 Theme must be selected for the page.</p></div>%[endif]%
 %%[[endif]]%%
