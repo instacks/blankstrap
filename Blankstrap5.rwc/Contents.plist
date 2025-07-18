@@ -168,7 +168,7 @@
 					<key>PublishingSettingsConfigured</key>
 					<true/>
 					<key>RWBadge</key>
-					<string>{"hiddenOnTablet":false,"imageAlt":"RapidWeaver Icon","delayDistance":30,"hiddenOnMobile":false,"hiddenOnDesktop":false,"delayMillis":1000,"transition":"slide","text":"Made in RapidWeaver","delayType":"time","openInNewWindow":true,"position":"bottomLeft","colorScheme":"auto","enabled":false,"useDefaultImage":true,"url":"https:\/\/www.realmacsoftware.com"}</string>
+					<string>{"imageAlt":"RapidWeaver Icon","colorScheme":"auto","enabled":false,"hiddenOnMobile":false,"useDefaultImage":true,"hiddenOnTablet":false,"delayDistance":30,"openInNewWindow":true,"position":"bottomLeft","url":"https:\/\/www.realmacsoftware.com","hiddenOnDesktop":false,"text":"Made in RapidWeaver","delayMillis":1000,"transition":"slide","delayType":"time"}</string>
 					<key>RememberPrivacyMessageDismissed</key>
 					<false/>
 					<key>SettingsPlugins</key>
