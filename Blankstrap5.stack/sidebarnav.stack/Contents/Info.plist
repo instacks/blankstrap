@@ -28,6 +28,8 @@
     <string>icon</string>
     <key>minAPIVersion</key>
     <integer>11</integer>
+    <key>maxStackAPIVersion</key>
+    <integer>1499</integer>
     <key>preprocessor</key>
     <true/>
     <key>inheritsFrom</key>
@@ -79,7 +81,7 @@
             <key>type</key>
             <string>select</string>
             <key>default</key>
-            <string>navbar-light</string>
+            <string></string>
             <key>title</key>
             <string>Text Color</string>
             <key>toolTip</key>
@@ -112,7 +114,7 @@
             <key>type</key>
             <string>select</string>
             <key>default</key>
-            <string>bg-light</string>
+            <string></string>
             <key>title</key>
             <string>Back Color</string>
             <key>toolTip</key>
@@ -285,8 +287,16 @@
             </array>
         </dict>
         <dict>
+            <key>id</key>
+            <string>header</string>
             <key>type</key>
-            <string>divider</string>
+            <string>input</string>
+            <key>default</key>
+            <string>Menu Title</string>
+            <key>title</key>
+            <string>Menu Header</string>
+            <key>toolTip</key>
+            <string>Menu header text</string>
         </dict>
         <dict>
             <key>id</key>
@@ -296,7 +306,7 @@
             <key>default</key>
             <false/>
             <key>title</key>
-            <string>Additional Content Area Navbar</string>
+            <string>Add. Content Nav Bar</string>
             <key>toolTip</key>
             <string>Display additional content area in navigation bar</string>
         </dict>
@@ -308,25 +318,9 @@
             <key>default</key>
             <false/>
             <key>title</key>
-            <string>Additional Content Area Links</string>
+            <string>Add. Content Nav Links</string>
             <key>toolTip</key>
             <string>Display additional content area below navigation links</string>
-        </dict>
-        <dict>
-            <key>type</key>
-            <string>divider</string>
-        </dict>
-        <dict>
-            <key>id</key>
-            <string>header</string>
-            <key>type</key>
-            <string>input</string>
-            <key>default</key>
-            <string>Menu Title</string>
-            <key>title</key>
-            <string>Menu Header</string>
-            <key>toolTip</key>
-            <string>Menu header text</string>
         </dict>
     </array>
     <key>assets</key>

@@ -1,6 +1,3 @@
-%%[[if !publish]]%%
-<div class="blankstrap5-core-missing-warning"><p>Blankstrap 5 Stack must be added to the page.</p></div>
-%%[[endif]]%%
 %%[[if edit]]%%
 <nav class="navbar navbar-expand-xxl %id=text_color% %id=background_color% %id=css%>
     <div class="%id=container%">
@@ -21,7 +18,7 @@
         %[if %( "%id=toggler%" == "start" )% ]%
         <button class="navbar-toggler %id=toggler-btn%" type="button" data-bs-toggle="collapse" data-bs-target="#%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%-content" aria-controls="%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%-content" aria-expanded="false" aria-label="Toggle navigation"><span class="%id=toggler-icon%"></span></button>
         %[endif]%
-        <a class="navbar-brand text-decoration-none" href="%base_url%" aria-label="%site_title%">%[if %id=logo% ]%%logo%%[endif]%%[if %id=title% ]%%site_title%%[endif]%%[if %( "%id=custom_title%" != "" )% ]%%id=custom_title%%[endif]%</a>
+        <a class="navbar-brand text-decoration-none" href="%baseURL%" aria-label="%site_title%">%[if %id=logo% ]%%logo%%[endif]%%[if %id=title% ]%%site_title%%[endif]%%[if %( "%id=custom_title%" != "" )% ]%%id=custom_title%%[endif]%</a>
         %[if %( "%id=toggler%" == "end" )% ]%
         <button class="navbar-toggler %id=toggler-btn%" type="button" data-bs-toggle="collapse" data-bs-target="#%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%-content" aria-controls="%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%-content" aria-expanded="false" aria-label="Toggle navigation"><span class="%id=toggler-icon%"></span></button>
         %[endif]%

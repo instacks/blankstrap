@@ -1,13 +1,10 @@
-%%[[if !publish]]%%
-<div class="blankstrap5-core-missing-warning"><p>Blankstrap 5 Stack must be added to the page.</p></div>
-%%[[endif]]%%
 %%[[if edit]]%%
 <nav class="navbar navbar-expand-xxl %id=text_color% %id=background_color% %id=css%>
     <div class="%id=container%">
         %[if %( "%id=toggler%" == "start" )% ]%
         <button class="navbar-toggler %id=toggler-btn%"><span class="%id=toggler-icon%"></span></button>
         %[endif]%
-        <a class="navbar-brand text-decoration-none">%[if %id=logo% ]%Logo%[endif]%%[if %id=title% ]%Title%[endif]%%[if %( "%id=custom_title%" != "" )% ]%%id=custom_title%%[endif]%</a>
+        <a class="navbar-brand text-decoration-none"><!--%[if %id=logo% ]%Logo%[endif]%%[if %id=title% ]%Title%[endif]%-->%[if %( "%id=custom_title%" != "" )% ]%%id=custom_title%%[endif]%</a>
         %[if %( "%id=toggler%" == "end" )% ]%
         <button class="navbar-toggler %id=toggler-btn%">
             <span class="%id=toggler-icon%"></span>
@@ -21,13 +18,13 @@
         %[if %( "%id=toggler%" == "start" )% ]%
         <button class="navbar-toggler %id=toggler-btn%" type="button" data-bs-toggle="collapse" data-bs-target="#%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%-content" aria-controls="%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%-content" aria-expanded="false" aria-label="Toggle navigation"><span class="%id=toggler-icon%"></span></button>
         %[endif]%
-        <a class="navbar-brand text-decoration-none" href="%base_url%" aria-label="%site_title%">%[if %id=logo% ]%%logo%%[endif]%%[if %id=title% ]%%site_title%%[endif]%%[if %( "%id=custom_title%" != "" )% ]%%id=custom_title%%[endif]%</a>
+        <a class="navbar-brand text-decoration-none" href="%baseURL%" aria-label="%id=custom_title%"><!--%[if %id=logo% ]%%logo%%[endif]%%[if %id=title% ]%%site_title%%[endif]%-->%[if %( "%id=custom_title%" != "" )% ]%%id=custom_title%%[endif]%</a>
         %[if %( "%id=toggler%" == "end" )% ]%
         <button class="navbar-toggler %id=toggler-btn%" type="button" data-bs-toggle="collapse" data-bs-target="#%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%-content" aria-controls="%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%-content" aria-expanded="false" aria-label="Toggle navigation"><span class="%id=toggler-icon%"></span></button>
         %[endif]%
         <div id="%[if %("%id=uid%" != "")%]%%id=uid%%[else]%%id%%[endif]%-content" class="collapse navbar-collapse %id=justify-content%">
 %%[[endif]]%%
-            <ul class="navbar-nav">%slice -addTypes="com.instacks.blankstrap5.navitem,com.instacks.blankstrap5.navitemdropdown,com.instacks.blankstrap5.button" -allowedTypes="com.instacks.blankstrap5.navitem,com.instacks.blankstrap5.navitemdropdown,com.instacks.blankstrap5.button" -addInit=0%</ul>
+            <ul class="navbar-nav">%slice -addTypes="com.instacks.blankstrap5.navitem,com.instacks.blankstrap5.button,com.instacks.blankstrap5.navitemdropdown" -allowedTypes="com.instacks.blankstrap5.navitem,com.instacks.blankstrap5.button,com.instacks.blankstrap5.navitemdropdown" -addInit=0%</ul>
             %[if %id=content_area% ]%%slice%%[endif]%
         </div>
     </div>

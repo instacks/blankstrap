@@ -1,4 +1,12 @@
+
+--- 
+id: js
+---
 /*!
+ * Blankstrap 5 JavaScript
+ */
+
+/*
  * headroom.js v0.12.0 - Give your page some headroom. Hide your header until you need it
  * Copyright (c) 2020 Nick Williams - http://wicky.nillia.ms/headroom.js
  * License: MIT
@@ -8,42 +16,6 @@
 
 window.blankstrap = {};
 
-blankstrap.initializeNavigation = function (id, fixed) {
-    var dropdowns = document.querySelector(id + ' .navbar-nav').querySelectorAll('.dropdown');
-    dropdowns.forEach(function (dropdownItem, i) {
-        var a = dropdownItem.querySelector('a')
-        a.classList.add('dropdown-toggle');
-        a.setAttribute('href', '#');
-        a.setAttribute('data-bs-toggle', 'dropdown');
-        a.setAttribute('aria-haspopup', 'true');
-        a.setAttribute('aria-expanded', 'false');
-    });
-    dropdowns.forEach(function (dropdownItem, i) {
-        var ul = dropdownItem.querySelector('ul');
-        ul.classList.add('dropdown-menu');
-        ul.classList.add('dropdown-menu-end');
-        ul.classList.remove('navbar-nav');
-        ul.setAttribute('aria-labelledby', 'navbarDropdownMenuLink');
-        var uls = dropdownItem.querySelectorAll('ul');
-        uls.forEach(function (ulItem, i) {
-            var li = ulItem.querySelector('li');
-            li.classList.remove('nav-item');
-            var lis = ulItem.querySelectorAll('li');
-            lis.forEach(function (liItem, i) {
-                var a = liItem.querySelector('a');
-                a.classList.add('dropdown-item');
-                a.classList.remove('nav-link');
-            });
-        });
-    });
-    if (fixed === 'fixed') {
-        document.querySelector('body').style['padding-top'] = getComputedStyle(document.querySelector(id))['height'];
-    } else if (fixed === 'fixed-headroom') {
-        document.querySelector('body').style['padding-top'] = getComputedStyle(document.querySelector(id))['height'];
-        new Headroom(document.querySelector(id)).init();
-    }
-}
-
 blankstrap.initializeHeight = function (id, fixed) {
     if (fixed === 'fixed') {
         document.querySelector('body').style['padding-top'] = getComputedStyle(document.querySelector(id))['height'];
@@ -52,3 +24,33 @@ blankstrap.initializeHeight = function (id, fixed) {
         new Headroom(document.querySelector(id)).init();
     }
 }
+
+/*
+ * Page Scroll Indicator - Simple Page Scroll Indicator based on Vanilla JS
+ * Copyright (c) 2018 Gregor Laan - https://github.com/gregorlaan/page-scroll-indicator
+ * License: MIT
+ */
+blankstrap.scrollProgress = function () {
+    var currentState = document.body.scrollTop || document.documentElement.scrollTop;
+    var pageHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    if (pageHeight != 0) {
+        var scrollStatePercentage = (currentState / pageHeight) * 100;
+        document.querySelector(".page-scroll-indicator > .page-scroll-indicator-progress").style.width = scrollStatePercentage + "%";
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    const navbar = document.querySelector('#blankstrapNavbar');
+    if (navbar) {
+        const fixed = navbar.getAttribute('data-blankstrap-nav-fixed');
+        if (fixed) {
+            blankstrap.initializeHeight('#blankstrapNavbar', fixed);
+        }
+    }
+    const indicator = document.querySelector('.page-scroll-indicator');
+    if (indicator) {
+        window.onscroll = function () {
+            blankstrap.scrollProgress();
+        }
+    }
+});

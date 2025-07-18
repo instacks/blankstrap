@@ -1,0 +1,18 @@
+
+--- 
+id: body
+---
+<body class="d-flex flex-column h-100">
+    :( content.bodyAbove ):
+    :( if navigation ):
+        :(include navigation):
+    :( endif ):
+    :(if enable_indicator ):
+        :(include indicator):
+    :(endif):
+    :(content.body):
+    :( if footer ):
+        :(include footer):
+    :( endif ):
+    :(include foot):
+</body>

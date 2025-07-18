@@ -28,6 +28,8 @@
     <string>icon</string>
     <key>minAPIVersion</key>
     <integer>11</integer>
+    <key>maxStackAPIVersion</key>
+    <integer>1499</integer>
     <key>preprocessor</key>
     <true/>
     <key>inheritsFrom</key>
@@ -79,7 +81,7 @@
             <key>type</key>
             <string>select</string>
             <key>default</key>
-            <string>navbar-light</string>
+            <string></string>
             <key>title</key>
             <string>Text Color</string>
             <key>toolTip</key>
@@ -112,7 +114,7 @@
             <key>type</key>
             <string>select</string>
             <key>default</key>
-            <string>bg-light</string>
+            <string></string>
             <key>title</key>
             <string>Back Color</string>
             <key>toolTip</key>
@@ -369,10 +371,6 @@
             </array>
         </dict>
         <dict>
-            <key>type</key>
-            <string>divider</string>
-        </dict>
-        <dict>
             <key>id</key>
             <string>content_area</string>
             <key>type</key>
@@ -380,7 +378,7 @@
             <key>default</key>
             <false/>
             <key>title</key>
-            <string>Additional Content Area Links</string>
+            <string>Add. Content Nav Links</string>
             <key>toolTip</key>
             <string>Display additional content area at end of navigation links</string>
         </dict>

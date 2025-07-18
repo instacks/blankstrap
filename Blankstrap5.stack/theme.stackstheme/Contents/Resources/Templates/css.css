@@ -1,0 +1,43 @@
+
+--- 
+id: css
+---
+/*
+ * Blankstrap 5 CSS
+ */
+
+/*
+ * headroom.js v0.12.0 - Give your page some headroom. Hide your header until you need it
+ * Copyright (c) 2020 Nick Williams - http://wicky.nillia.ms/headroom.js
+ * License: MIT
+ */
+.headroom {
+    /* will-change: transform; */
+    transition: transform 200ms linear;
+}
+/* .headroom--pinned {
+    transform: translateY(0%);
+} */
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
+
+/*
+ * Page Scroll Indicator - Simple Page Scroll Indicator based on Vanilla JS
+ * Copyright (c) 2018 Gregor Laan - https://github.com/gregorlaan/page-scroll-indicator
+ * License: MIT
+ */
+.page-scroll-indicator {
+    width: 100%;
+    height: :(indicator_height):px;
+    background: :(indicator_color_default):;
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+}
+
+.page-scroll-indicator-progress {
+    width: 0%;
+    height: :(indicator_height):px;
+    background: :(indicator_color_progress):;
+}

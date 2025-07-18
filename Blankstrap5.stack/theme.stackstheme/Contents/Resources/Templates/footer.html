@@ -1,0 +1,59 @@
+
+--- 
+id: footer
+copyright: 2025
+footerLinks:
+  -
+    title: Privacy
+    link: /privacy.html
+  -
+    title: Terms
+    link: /terms.html
+  -
+    title: Contact
+    link: /contact.html
+---
+<!-- include the breadcrumb -->
+<footer class="bg-light py-2 mt-auto">
+    <div class="container px-0">
+            :(include "breadcrumb"):
+    </div>
+</footer>
+
+<!-- Footer-->
+<footer class="bg-dark py-4">
+    <div class="bg-dark container px-0">
+        <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+            
+            <!--
+                This copyright either takes the value from the site settings
+                or, if that's empty, takes the value from this template's
+                YAML frontmatter.
+            -->
+            <div class="col-auto">
+                <div class="small m-0 text-white">
+                    Copyright &copy; 
+                    :( if (site.copyright.length) ):
+                        :( site.copyright ):
+                    :( else ):
+                        :(copyright):
+                    :( end ):
+                </div>
+            </div>
+
+            <!-- 
+                This is just an example of how to use a list of values
+                either from the YAML frontmatter in this template or
+                from your own custom controls
+            -->
+            <div class="col-auto">
+                :(for footerLink in footerLinks):
+                    :(if __index > 0 ):
+                        <span class="text-white mx-1">&middot;</span>
+                    :(end):
+                    <a class="link-light small" href=":(footerLink.link):">:(footerLink.title):</a>
+                :(end):
+            </div>
+        </div>
+    </div>
+</footer>

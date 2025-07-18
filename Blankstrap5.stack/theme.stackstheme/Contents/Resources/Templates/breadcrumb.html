@@ -1,0 +1,16 @@
+
+--- 
+id: breadcrumb
+---
+<!-- A Bootstrap Breadcrumb -->
+    <ul class="breadcrumb">
+        :( for (crumb in breadcrumb) ):
+
+            :( if crumb.current ):
+        <li class="breadcrumb-item active" aria-current="page">:( crumb.title ):</li>
+            :( else ):
+        <li class="breadcrumb-item"><a href=":( crumb.href ):">:( crumb.title ):</a></li>
+            :( end ):
+
+        :( end ):
+    </ul>

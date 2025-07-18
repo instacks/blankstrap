@@ -2,45 +2,176 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>author/copyright info</key>
-    <string>Futural UG (haftungsbeschraenkt)</string>
     <key>CFBundleIdentifier</key>
-    <string>com.instacks.blankstrap5.sidebarnavpro</string>
-    <key>CFBundleVersion</key>
-    <string>5.3.5</string>
-    <key>CFBundleShortVersionString</key>
-    <string>5.3.5</string>
-    <key>author</key>
-    <string>inStacks Software</string>
-    <key>group</key>
-    <string>Blankstrap 5</string>
-    <key>RWAddonAuthor</key>
-    <string>inStacks Software</string>
-    <key>RWAddonManagerIconAsset</key>
-    <string>icon</string>
-    <key>RWAddonSupportURL</key>
-    <string>https://github.com/instacks/blankstrap</string>
-    <key>helpURL</key>
-    <string>https://github.com/instacks/blankstrap</string>
-    <key>infoURL</key>
-    <string>https://github.com/instacks/blankstrap</string>
+    <string>com.instacks.blankstrap5.theme</string>
+    <key>title</key>
+    <string>Blankstrap 5 Theme</string>
+    <key>subtitle</key>
+    <string>Blank Bootstrap 5 Theme for Stacks 6</string>
     <key>icon</key>
     <string>icon</string>
-    <key>minAPIVersion</key>
-    <integer>11</integer>
+    <key>CFBundleVersion</key>
+    <string>5.3.7</string>
+    <key>CFBundleShortVersionString</key>
+    <string>5.3.7</string>
+    <key>author</key>
+    <string>inStacks Software</string>
+    <key>type</key>
+    <string>theme</string>
     <key>preprocessor</key>
     <true/>
+    <key>parent</key>
+    <string>com.yourhead.stacks.theme.base</string>
     <key>inheritsFrom</key>
-    <string>com.instacks.blankstrap5.container</string>
-    <key>inline</key>
-    <true/>
-    <key>title</key>
-    <string>Side Navbar Pro</string>
-    <key>subtitle</key>
-    <string>Sidebar Navigation Pro</string>
+    <string>com.yourhead.stacks.theme.base</string>
+    <key>assets</key>
+    <array>
+        <dict>
+            <key>filename</key>
+            <string>css</string>
+        </dict>
+        <dict>
+            <key>filename</key>
+            <string>js</string>
+        </dict>
+    </array>
+    <key>tags</key>
+    <array>
+        <string>theme</string>
+        <string>bootstrap</string>
+        <string>blankstrap</string>
+    </array>
     <key>customItems</key>
     <array>
         <dict>
+            <key>group</key>
+            <string>Light and Dark Color Scheme</string>
+            <key>id</key>
+            <string>custom</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <false/>
+            <key>title</key>
+            <string>Use Custom Bootstrap CSS File</string>
+            <key>toolTip</key>
+            <string>Use Custom Bootstrap CSS File</string>
+        </dict>
+        <dict>
+            <key>group</key>
+            <string>Light and Dark Color Scheme</string>
+            <key>id</key>
+            <string>custom_css_file</string>
+            <key>type</key>
+            <string>input</string>
+            <key>default</key>
+            <string></string>
+            <key>title</key>
+            <string>CSS File Source</string>
+            <key>toolTip</key>
+            <string>Custom Bootstrap CSS File Source</string>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>custom</string>
+				<key>value</key>
+				<true/>
+			</dict>
+        </dict>
+        <dict>
+            <key>group</key>
+            <string>Light and Dark Color Scheme</string>
+            <key>id</key>
+            <string>dark_mode_switch</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <true/>
+            <key>title</key>
+            <string>Automatic Dark Mode Switch</string>
+            <key>toolTip</key>
+            <string>Enable Automatic Dark Mode Theme Switch</string>
+        </dict>
+        <dict>
+            <key>group</key>
+            <string>Navigation</string>
+            <key>id</key>
+            <string>navigation</string>
+            <key>title</key>
+            <string>Show Theme Navigation</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <false/>
+        </dict>
+        <dict>
+            <key>group</key>
+            <string>Navigation</string>
+            <key>id</key>
+            <string>container</string>
+            <key>type</key>
+            <string>select</string>
+            <key>default</key>
+            <string>container</string>
+            <key>title</key>
+            <string>Width</string>
+            <key>toolTip</key>
+            <string>Width</string>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>title</key>
+                    <string>Container</string>
+                    <key>value</key>
+                    <string>container</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Container Small</string>
+                    <key>value</key>
+                    <string>container-sm</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Container Medium</string>
+                    <key>value</key>
+                    <string>container-md</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Container Large</string>
+                    <key>value</key>
+                    <string>container-lg</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Container Extra Large</string>
+                    <key>value</key>
+                    <string>container-xl</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Container Extra Extra Large</string>
+                    <key>value</key>
+                    <string>container-xxl</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>Container Fluid</string>
+                    <key>value</key>
+                    <string>container-fluid</string>
+                </dict>
+                <dict>
+                    <key>title</key>
+                    <string>None</string>
+                    <key>value</key>
+                    <string></string>
+                </dict>
+            </array>
+        </dict>
+        <dict>
+            <key>group</key>
+            <string>Navigation</string>
             <key>id</key>
             <string>fixed</string>
             <key>type</key>
@@ -74,6 +205,8 @@
             </array>
         </dict>
         <dict>
+            <key>group</key>
+            <string>Navigation</string>
             <key>id</key>
             <string>text_color</string>
             <key>type</key>
@@ -107,6 +240,8 @@
             </array>
         </dict>
         <dict>
+            <key>group</key>
+            <string>Navigation</string>
             <key>id</key>
             <string>background_color</string>
             <key>type</key>
@@ -193,51 +328,17 @@
                 </dict>
             </array>
         </dict>
-        <!--
         <dict>
-            <key>id</key>
-            <string>logo</string>
-            <key>type</key>
-            <string>checkbox</string>
-            <key>default</key>
-            <false/>
-            <key>title</key>
-            <string>Display Logo</string>
-            <key>toolTip</key>
-            <string>Display logo image</string>
-        </dict>
-        <dict>
-            <key>id</key>
-            <string>title</string>
-            <key>type</key>
-            <string>checkbox</string>
-            <key>default</key>
-            <false/>
-            <key>title</key>
-            <string>Display Title</string>
-            <key>toolTip</key>
-            <string>Display title</string>
-        </dict>
-        -->
-        <dict>
-            <key>id</key>
-            <string>custom_title</string>
-            <key>type</key>
-            <string>input</string>
-            <key>default</key>
-            <string>Site Title</string>
-            <key>title</key>
-            <string>Custom Title</string>
-            <key>toolTip</key>
-            <string>Custom title text</string>
-        </dict>
-        <dict>
+            <key>group</key>
+            <string>Navigation</string>
             <key>type</key>
             <string>divider</string>
         </dict>
         <dict>
+            <key>group</key>
+            <string>Navigation</string>
             <key>id</key>
-            <string>toggler-btn</string>
+            <string>toggler_btn</string>
             <key>type</key>
             <string>input</string>
             <key>default</key>
@@ -248,8 +349,10 @@
             <string>Additional toggler button class</string>
         </dict>
         <dict>
+            <key>group</key>
+            <string>Navigation</string>
             <key>id</key>
-            <string>toggler-icon</string>
+            <string>toggler_icon</string>
             <key>type</key>
             <string>input</string>
             <key>default</key>
@@ -260,6 +363,8 @@
             <string>Toggler icon class</string>
         </dict>
         <dict>
+            <key>group</key>
+            <string>Navigation</string>
             <key>id</key>
             <string>toggler</string>
             <key>type</key>
@@ -286,7 +391,9 @@
                 </dict>
             </array>
         </dict>
-<dict>
+        <dict>
+            <key>group</key>
+            <string>Navigation</string>
             <key>id</key>
             <string>expand</string>
             <key>type</key>
@@ -338,8 +445,10 @@
             </array>
         </dict>
         <dict>
+            <key>group</key>
+            <string>Navigation</string>
             <key>id</key>
-            <string>justify-content</string>
+            <string>justify_content</string>
             <key>type</key>
             <string>select</string>
             <key>default</key>
@@ -371,6 +480,63 @@
             </array>
         </dict>
         <dict>
+            <key>group</key>
+            <string>Navigation</string>
+            <key>id</key>
+            <string>content_area</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <false/>
+            <key>title</key>
+            <string>Add. Content Nav Links</string>
+            <key>toolTip</key>
+            <string>Display additional content area at end / below of navigation links</string>
+        </dict>
+        <dict>
+            <key>group</key>
+            <string>Navigation</string>
+            <key>id</key>
+            <string>content_area_html</string>
+            <key>type</key>
+            <string>multi-4</string>
+            <key>default</key>
+            <string></string>
+            <key>title</key>
+            <string>HTML</string>
+            <key>toolTip</key>
+            <string>HTML for additional content area below navigation links</string>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>content_area</string>
+				<key>value</key>
+				<true/>
+			</dict>
+        </dict>
+        <dict>
+            <key>group</key>
+            <string>Navigation</string>
+            <key>type</key>
+            <string>divider</string>
+        </dict>
+        <dict>
+            <key>group</key>
+            <string>Navigation</string>
+            <key>id</key>
+            <string>offcanvas</string>
+            <key>title</key>
+            <string>Sidebar / Offcanvas Nav.</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <false/>
+            <key>toolTip</key>
+            <string>Use a Sidebar or Offcanvas Navigation</string>
+        </dict>
+        <dict>
+            <key>group</key>
+            <string>Navigation</string>
             <key>id</key>
             <string>header</string>
             <key>type</key>
@@ -383,10 +549,8 @@
             <string>Menu header text</string>
         </dict>
         <dict>
-            <key>type</key>
-            <string>divider</string>
-        </dict>
-        <dict>
+            <key>group</key>
+            <string>Navigation</string>
             <key>id</key>
             <string>content_area_navbar</string>
             <key>type</key>
@@ -399,52 +563,107 @@
             <string>Display additional content area in navigation bar</string>
         </dict>
         <dict>
+            <key>group</key>
+            <string>Navigation</string>
             <key>id</key>
-            <string>content_area</string>
+            <string>content_area_navbar_html</string>
+            <key>type</key>
+            <string>multi-4</string>
+            <key>default</key>
+            <string></string>
+            <key>title</key>
+            <string>HTML</string>
+            <key>toolTip</key>
+            <string>HTML for additional content area in navigation bar</string>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>content_area_navbar</string>
+				<key>value</key>
+				<true/>
+			</dict>
+        </dict>
+        <!--
+        <dict>
+            <key>group</key>
+            <string>Footer</string>
+            <key>id</key>
+            <string>footer</string>
+            <key>title</key>
+            <string>Show Theme Footer</string>
+            <key>type</key>
+            <string>checkbox</string>
+            <key>default</key>
+            <false/>
+        </dict>
+        -->
+        <dict>
+            <key>group</key>
+            <string>Scroll Indicator</string>
+            <key>id</key>
+            <string>enable_indicator</string>
             <key>type</key>
             <string>checkbox</string>
             <key>default</key>
             <false/>
             <key>title</key>
-            <string>Add. Content Nav Links</string>
-            <key>toolTip</key>
-            <string>Display additional content area below navigation links</string>
+            <string>Enable Indicator</string>
+            <key>title</key>
+            <string>Enable scroll indicator</string>
         </dict>
-    </array>
-    <key>assets</key>
-    <array>
+        <dict>
+            <key>group</key>
+            <string>Scroll Indicator</string>
+            <key>id</key>
+            <string>indicator_height</string>
+            <key>title</key>
+            <string>Height</string>
+            <key>type</key>
+            <string>number</string>
+            <key>default</key>
+            <integer>2</integer>
+            <key>units</key>
+            <string>px</string>
+            <key>min</key>
+            <integer>1</integer>
+            <key>max</key>
+            <integer>200</integer>
+        </dict>
+        <dict>
+            <key>group</key>
+            <string>Scroll Indicator</string>
+            <key>id</key>
+            <string>indicator_color_default</string>
+            <key>type</key>
+            <string>color</string>
+            <key>default</key>
+            <string>#FFFFFF</string>
+            <key>title</key>
+            <string>Default Color</string>
+            <key>toolTip</key>
+            <string>Default Color</string>
+            <key>allowsOpacity</key>
+            <true/>
+        </dict>
+        <dict>
+            <key>group</key>
+            <string>Scroll Indicator</string>
+            <key>id</key>
+            <string>indicator_color_progress</string>
+            <key>type</key>
+            <string>color</string>
+            <key>default</key>
+            <string>#000000</string>
+            <key>title</key>
+            <string>Progress Color</string>
+            <key>toolTip</key>
+            <string>Progress Color</string>
+            <key>allowsOpacity</key>
+            <true/>
+        </dict>
     </array>
     <key>libraries</key>
     <array>
-    </array>
-    <key>tags</key>
-    <array>
-        <string>Blankstrap 5</string>
-        <string>Bootstrap</string>
-        <string>Navbar</string>
-        <string>B5 Side Navigation Bar</string>
-        <string>Sidebar Navigation</string>
-    </array>
-    <key>templates</key>
-    <array>
-        <dict>
-            <key>type</key>
-            <string>html</string>
-            <key>filename</key>
-            <string>each.html</string>
-        </dict>
-        <dict>
-            <key>type</key>
-            <string>css</string>
-            <key>filename</key>
-            <string>each.css</string>
-        </dict>
-        <dict>
-            <key>type</key>
-            <string>js</string>
-            <key>filename</key>
-            <string>each.js</string>
-        </dict>
     </array>
 </dict>
 </plist>
