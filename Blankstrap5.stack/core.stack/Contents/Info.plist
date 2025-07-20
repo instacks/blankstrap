@@ -28,6 +28,8 @@
     <string>icon</string>
     <key>minAPIVersion</key>
     <integer>11</integer>
+    <key>maxStackAPIVersion</key>
+    <integer>1499</integer>
     <key>preprocessor</key>
     <true/>
     <key>inline</key>

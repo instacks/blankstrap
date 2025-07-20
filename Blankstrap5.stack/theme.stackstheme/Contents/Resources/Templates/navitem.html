@@ -1,11 +1,10 @@
-
---- 
+---
 title:  Navigation Item
 detail: A link to the page along with a list of the sub-pages
         the parameter to this partial should a page object
 id:     navitem
 ---
-:(if @count(navpage.children) < 1 ):
+:(if @count(navpage.children) < 1):
     <li class="nav-item"><a class="nav-link :(if nav_page.current):active:(endif):" :(if nav_page.current):aria-current="page":(endif): href=":(navpage.href):">:(navpage.title):</a></li>
 :(else):
     <li class="nav-item dropdown">

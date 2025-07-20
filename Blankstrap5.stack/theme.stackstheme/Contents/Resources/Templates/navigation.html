@@ -5,18 +5,18 @@ detail: Iterate over the pages and inject a navitem for each
 id: navigation
 ---
 <!-- Navigation-->
-<nav id="blankstrapNavbar" data-blankstrap-nav-fixed=":(fixed):" class="navbar :(expand): :(text_color): :(background_color): :( if fixed != "" ): fixed-top :( endif ):">
+<nav id="blankstrapNavbar" data-blankstrap-nav-fixed=":(fixed):" class="navbar :(expand): :(text_color): :(background_color): :(if fixed != ""): fixed-top :(endif):">
     <div class=":(container):">
-        :( if toggler == "start" ):
-        <button class="navbar-toggler :(toggler_btn):" type="button" :( if offcanvas ):data-bs-toggle="offcanvas":( else ):data-bs-toggle="collapse":( endif ): data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class=":(toggler_icon):"></span></button>
+        :(if toggler == "start"):
+        <button class="navbar-toggler :(toggler_btn):" type="button" :(if offcanvas):data-bs-toggle="offcanvas":(else):data-bs-toggle="collapse":(endif): data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class=":(toggler_icon):"></span></button>
         <a class="navbar-brand text-decoration-none" href=":(site.baseURL):" aria-label=":(site.title):">:(site.title):</a>
-        :( endif ):
-        :(if content_area_navbar )::( content_area_navbar_html )::(endif):
-        :( if toggler == "end" ):
+        :(endif):
+        :(if content_area_navbar)::(content_area_navbar_html)::(endif):
+        :(if toggler == "end"):
         <a class="navbar-brand text-decoration-none" href=":(site.baseURL):" aria-label=":(site.title):">:(site.title):</a>
-        <button class="navbar-toggler :(toggler_btn):" type="button" :( if offcanvas ):data-bs-toggle="offcanvas":( else ):data-bs-toggle="collapse":( endif ): data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class=":(toggler_icon):"></span></button>
-        :( endif ):
-        :( if offcanvas ):
+        <button class="navbar-toggler :(toggler_btn):" type="button" :(if offcanvas):data-bs-toggle="offcanvas":(else):data-bs-toggle="collapse":(endif): data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class=":(toggler_icon):"></span></button>
+        :(endif):
+        :(if offcanvas):
         <div id="navbarSupportedContent" class="offcanvas offcanvas-:(toggler):" tabindex="-1" aria-labelledby="navbarSupportedContentLabel">
             <div class="offcanvas-header">
                 <h5 class="offcanvas-title" id="navbarSupportedContentLabel">:(header):</h5>
@@ -28,18 +28,18 @@ id: navigation
                         :(include navitem):
                     :(end):
                 </ul>
-                :(if content_area )::( content_area_html )::(endif):
+                :(if content_area)::(content_area_html)::(endif):
             </div>
         </div>
-        :( else ):
+        :(else):
         <div id="navbarSupportedContent" class="collapse navbar-collapse :(justify_content):">
             <ul class="navbar-nav">
                 :(for navpage in site.pages.children):
                     :(include navitem):
                 :(end):
             </ul>
-            :(if content_area )::( content_area_html )::(endif):
+            :(if content_area)::(content_area_html)::(endif):
         </div>
-        :( endif ):
+        :(endif):
     </div>
 </nav>

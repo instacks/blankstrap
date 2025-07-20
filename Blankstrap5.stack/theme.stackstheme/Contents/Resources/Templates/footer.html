@@ -1,5 +1,4 @@
-
---- 
+---
 id: footer
 copyright: 2025
 footerLinks:
@@ -33,11 +32,11 @@ footerLinks:
             <div class="col-auto">
                 <div class="small m-0 text-white">
                     Copyright &copy; 
-                    :( if (site.copyright.length) ):
-                        :( site.copyright ):
-                    :( else ):
+                    :(if (site.copyright.length)):
+                        :(site.copyright):
+                    :(else):
                         :(copyright):
-                    :( end ):
+                    :(end):
                 </div>
             </div>
 
@@ -48,7 +47,7 @@ footerLinks:
             -->
             <div class="col-auto">
                 :(for footerLink in footerLinks):
-                    :(if __index > 0 ):
+                    :(if __index > 0):
                         <span class="text-white mx-1">&middot;</span>
                     :(end):
                     <a class="link-light small" href=":(footerLink.link):">:(footerLink.title):</a>
