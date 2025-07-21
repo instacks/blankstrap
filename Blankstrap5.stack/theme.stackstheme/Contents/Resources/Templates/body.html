@@ -1,7 +1,7 @@
 ---
 id: body
 ---
-<body class="d-flex flex-column h-100">
+<body>
     :(content.bodyAbove):
     :(if navigation):
         :(include navigation):
@@ -10,8 +10,10 @@ id: body
         :(include indicator):
     :(endif):
     :(content.body):
+    <!--
     :(if footer):
         :(include footer):
     :(endif):
+    -->
     :(include foot):
 </body>
