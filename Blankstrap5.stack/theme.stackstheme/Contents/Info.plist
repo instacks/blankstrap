@@ -63,7 +63,7 @@
             <key>id</key>
             <string>custom_css_file</string>
             <key>type</key>
-            <string>input</string>
+            <string>link</string>
             <key>default</key>
             <string></string>
             <key>title</key>
