@@ -96,7 +96,7 @@
             <key>group</key>
             <string>Navigation</string>
             <key>id</key>
-            <string>navigation</string>
+            <string>show_navigation</string>
             <key>title</key>
             <string>Show Theme Navigation</string>
             <key>type</key>
