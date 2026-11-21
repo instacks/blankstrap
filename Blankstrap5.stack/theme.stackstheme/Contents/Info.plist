@@ -53,7 +53,7 @@
             <key>default</key>
             <false/>
             <key>title</key>
-            <string>Use Custom Bootstrap CSS File</string>
+            <string>Custom Bootstrap CSS File</string>
             <key>toolTip</key>
             <string>Use Custom Bootstrap CSS File</string>
         </dict>
@@ -63,7 +63,7 @@
             <key>id</key>
             <string>custom_css_file</string>
             <key>type</key>
-            <string>input</string>
+            <string>link</string>
             <key>default</key>
             <string></string>
             <key>title</key>
@@ -633,33 +633,25 @@
             <key>group</key>
             <string>Scroll Indicator</string>
             <key>id</key>
-            <string>indicator_color_default</string>
+            <string>indicator_color</string>
             <key>type</key>
-            <string>color</string>
+            <string>color-2</string>
             <key>default</key>
-            <string>#FFFFFF</string>
+			<array>
+				<string>#FFFFFF</string>
+				<string>#000000</string>
+			</array>
             <key>title</key>
-            <string>Default Color</string>
+            <string>Indicator Colors</string>
             <key>toolTip</key>
-            <string>Default Color</string>
+            <string>Default and Progress Indicator Colors</string>
             <key>allowsOpacity</key>
             <true/>
-        </dict>
-        <dict>
-            <key>group</key>
-            <string>Scroll Indicator</string>
-            <key>id</key>
-            <string>indicator_color_progress</string>
-            <key>type</key>
-            <string>color</string>
-            <key>default</key>
-            <string>#000000</string>
-            <key>title</key>
-            <string>Progress Color</string>
-            <key>toolTip</key>
-            <string>Progress Color</string>
-            <key>allowsOpacity</key>
-            <true/>
+			<key>subtitles</key>
+			<array>
+				<string>Default</string>
+				<string>Progress</string>
+			</array>
         </dict>
     </array>
     <key>libraries</key>

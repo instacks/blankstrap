@@ -29,7 +29,7 @@ id: css
 .page-scroll-indicator {
     width: 100%;
     height: :(indicator_height):px;
-    background: :(indicator_color_default):;
+    background: :(indicator_color[0]):;
     z-index: 9999;
     position: fixed;
     top: 0;
@@ -38,5 +38,5 @@ id: css
 .page-scroll-indicator-progress {
     width: 0%;
     height: :(indicator_height):px;
-    background: :(indicator_color_progress):;
+    background: :(indicator_color[1]):;
 }
